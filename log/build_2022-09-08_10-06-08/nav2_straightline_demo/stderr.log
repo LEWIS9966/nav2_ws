@@ -1,0 +1,7 @@
+[01m[K/home/terra/nav2_ws/src/nav2_straightline_demo/src/straight_line_demo.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kinclude/straight_line_demo.hpp: No such file or directory
+    1 | #include [01;31m[K"include/straight_line_demo.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/straight_line_demo.dir/build.make:63: CMakeFiles/straight_line_demo.dir/src/straight_line_demo.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/straight_line_demo.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

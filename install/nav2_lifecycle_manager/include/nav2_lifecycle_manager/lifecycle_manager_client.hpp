@@ -1,0 +1,1 @@
+/home/terra/nav2_ws/src/nav2_lifecycle_manager/include/nav2_lifecycle_manager/lifecycle_manager_client.hpp

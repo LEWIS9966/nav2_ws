@@ -1,0 +1,10 @@
+In file included from [01m[K/home/terra/nav2_ws/src/navigation2_tutorials/nav2_straightline_planner/src/straight_line_planner.cpp:47[m[K:
+[01m[K/home/terra/nav2_ws/src/navigation2_tutorials/nav2_straightline_planner/include/nav2_straightline_planner/straight_line_planner.hpp:107:32:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Knav2_costmap_2d::Costmap2D* nav2_straightline_planner::StraightLine::costmap_[m[K’
+  107 |   nav2_costmap_2d::Costmap2D * [01;31m[Kcostmap_[m[K;
+      |                                [01;31m[K^~~~~~~~[m[K
+[01m[K/home/terra/nav2_ws/src/navigation2_tutorials/nav2_straightline_planner/include/nav2_straightline_planner/straight_line_planner.hpp:98:32:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Knav2_costmap_2d::Costmap2D* nav2_straightline_planner::StraightLine::costmap_[m[K’
+   98 |   nav2_costmap_2d::Costmap2D * [01;36m[Kcostmap_[m[K; //costmap from ROS
+      |                                [01;36m[K^~~~~~~~[m[K
+make[2]: *** [CMakeFiles/nav2_straightline_planner_plugin.dir/build.make:63: CMakeFiles/nav2_straightline_planner_plugin.dir/src/straight_line_planner.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/nav2_straightline_planner_plugin.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

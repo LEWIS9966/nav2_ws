@@ -1,0 +1,29 @@
+[0.034s] Invoking command in '/home/terra/nav2_ws/build/nav2_straightline_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/terra/nav2_ws/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --build /home/terra/nav2_ws/build/nav2_straightline_demo -- -j8 -l8
+[0.137s] [35m[1mScanning dependencies of target straightline_demo[0m
+[0.234s] [ 50%] [32mBuilding CXX object CMakeFiles/straightline_demo.dir/src/straight_line_demo.cpp.o[0m
+[13.462s] [100%] [32m[1mLinking CXX executable straightline_demo[0m
+[13.824s] [100%] Built target straightline_demo
+[13.848s] Invoked command in '/home/terra/nav2_ws/build/nav2_straightline_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/terra/nav2_ws/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --build /home/terra/nav2_ws/build/nav2_straightline_demo -- -j8 -l8
+[13.933s] Invoking command in '/home/terra/nav2_ws/build/nav2_straightline_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/terra/nav2_ws/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --install /home/terra/nav2_ws/build/nav2_straightline_demo
+[13.949s] -- Install configuration: "RelWithDebInfo"
+[13.950s] -- Execute custom install script
+[13.950s] -- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_straightline_demo/lib/nav2_straightline_demo/straightline_demo
+[13.951s] -- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_straightline_demo/include//nav2_demo/straight_line_demo.hpp
+[13.952s] -- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_straightline_demo/share/ament_index/resource_index/package_run_dependencies/nav2_straightline_demo
+[13.953s] -- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_straightline_demo/share/ament_index/resource_index/parent_prefix_path/nav2_straightline_demo
+[13.953s] -- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_straightline_demo/share/nav2_straightline_demo/environment/ament_prefix_path.sh
+[13.954s] -- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_straightline_demo/share/nav2_straightline_demo/environment/ament_prefix_path.dsv
+[13.954s] -- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_straightline_demo/share/nav2_straightline_demo/environment/path.sh
+[13.955s] -- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_straightline_demo/share/nav2_straightline_demo/environment/path.dsv
+[13.955s] -- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_straightline_demo/share/nav2_straightline_demo/local_setup.bash
+[13.956s] -- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_straightline_demo/share/nav2_straightline_demo/local_setup.sh
+[13.956s] -- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_straightline_demo/share/nav2_straightline_demo/local_setup.zsh
+[13.957s] -- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_straightline_demo/share/nav2_straightline_demo/local_setup.dsv
+[13.957s] -- Symlinking: /home/terra/nav2_ws/install/nav2_straightline_demo/share/nav2_straightline_demo/package.dsv
+[13.978s] -- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_straightline_demo/share/ament_index/resource_index/packages/nav2_straightline_demo
+[13.979s] -- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_straightline_demo/share/nav2_straightline_demo/cmake/ament_cmake_export_include_directories-extras.cmake
+[13.979s] -- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_straightline_demo/share/nav2_straightline_demo/cmake/ament_cmake_export_dependencies-extras.cmake
+[13.980s] -- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_straightline_demo/share/nav2_straightline_demo/cmake/nav2_straightline_demoConfig.cmake
+[13.980s] -- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_straightline_demo/share/nav2_straightline_demo/cmake/nav2_straightline_demoConfig-version.cmake
+[13.981s] -- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_straightline_demo/share/nav2_straightline_demo/package.xml
+[13.985s] Invoked command in '/home/terra/nav2_ws/build/nav2_straightline_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/terra/nav2_ws/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --install /home/terra/nav2_ws/build/nav2_straightline_demo

@@ -1,0 +1,178 @@
+[0.000000] (-) TimerEvent: {}
+[0.000459] (-) JobUnselected: {'identifier': 'costmap_queue'}
+[0.000579] (-) JobUnselected: {'identifier': 'dwb_core'}
+[0.000678] (-) JobUnselected: {'identifier': 'dwb_critics'}
+[0.000761] (-) JobUnselected: {'identifier': 'dwb_msgs'}
+[0.000799] (-) JobUnselected: {'identifier': 'dwb_plugins'}
+[0.000842] (-) JobUnselected: {'identifier': 'nav2_amcl'}
+[0.001456] (-) JobUnselected: {'identifier': 'nav2_behavior_tree'}
+[0.002121] (-) JobUnselected: {'identifier': 'nav2_bringup'}
+[0.002242] (-) JobUnselected: {'identifier': 'nav2_bt_navigator'}
+[0.002325] (-) JobUnselected: {'identifier': 'nav2_common'}
+[0.002406] (-) JobUnselected: {'identifier': 'nav2_controller'}
+[0.002473] (-) JobUnselected: {'identifier': 'nav2_core'}
+[0.002527] (-) JobUnselected: {'identifier': 'nav2_costmap_2d'}
+[0.002591] (-) JobUnselected: {'identifier': 'nav2_costmap_filters_demo'}
+[0.002643] (-) JobUnselected: {'identifier': 'nav2_dwb_controller'}
+[0.002709] (-) JobUnselected: {'identifier': 'nav2_gazebo_spawner'}
+[0.002759] (-) JobUnselected: {'identifier': 'nav2_gradient_costmap_plugin'}
+[0.002809] (-) JobUnselected: {'identifier': 'nav2_lifecycle_manager'}
+[0.002927] (-) JobUnselected: {'identifier': 'nav2_map_server'}
+[0.002997] (-) JobUnselected: {'identifier': 'nav2_msgs'}
+[0.003060] (-) JobUnselected: {'identifier': 'nav2_planner'}
+[0.003104] (-) JobUnselected: {'identifier': 'nav2_recoveries'}
+[0.003144] (-) JobUnselected: {'identifier': 'nav2_regulated_pure_pursuit_controller'}
+[0.003184] (-) JobUnselected: {'identifier': 'nav2_rviz_plugins'}
+[0.003348] (-) JobUnselected: {'identifier': 'nav2_sms_behavior'}
+[0.003415] (-) JobUnselected: {'identifier': 'nav2_straightline_demo'}
+[0.003499] (-) JobUnselected: {'identifier': 'nav2_straightline_planner'}
+[0.003547] (-) JobUnselected: {'identifier': 'nav2_system_tests'}
+[0.003614] (-) JobUnselected: {'identifier': 'nav2_util'}
+[0.003661] (-) JobUnselected: {'identifier': 'nav2_voxel_grid'}
+[0.003755] (-) JobUnselected: {'identifier': 'nav2_waypoint_follower'}
+[0.003821] (-) JobUnselected: {'identifier': 'nav_2d_msgs'}
+[0.003871] (-) JobUnselected: {'identifier': 'nav_2d_utils'}
+[0.003921] (-) JobUnselected: {'identifier': 'navigation2'}
+[0.004027] (-) JobUnselected: {'identifier': 'sam_bot_description'}
+[0.004094] (-) JobUnselected: {'identifier': 'smac_planner'}
+[0.004187] (nav2_navfn_planner) JobQueued: {'identifier': 'nav2_navfn_planner', 'dependencies': OrderedDict([('nav2_common', '/home/terra/nav2_ws/install/nav2_common'), ('nav2_msgs', '/home/terra/nav2_ws/install/nav2_msgs'), ('nav2_voxel_grid', '/home/terra/nav2_ws/install/nav2_voxel_grid'), ('nav2_util', '/home/terra/nav2_ws/install/nav2_util'), ('nav2_costmap_2d', '/home/terra/nav2_ws/install/nav2_costmap_2d'), ('nav2_core', '/home/terra/nav2_ws/install/nav2_core')])}
+[0.004248] (nav2_navfn_planner) JobStarted: {'identifier': 'nav2_navfn_planner'}
+[0.034197] (nav2_navfn_planner) JobProgress: {'identifier': 'nav2_navfn_planner', 'progress': 'cmake'}
+[0.035246] (nav2_navfn_planner) JobProgress: {'identifier': 'nav2_navfn_planner', 'progress': 'build'}
+[0.036346] (nav2_navfn_planner) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/terra/nav2_ws/build/nav2_navfn_planner', '--', '-j8', '-l8'], 'cwd': '/home/terra/nav2_ws/build/nav2_navfn_planner', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'terra'), ('LC_TIME', 'zh_CN.UTF-8'), ('SSH_AGENT_PID', '1740'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/terra/nav2_ws/install/nav2_costmap_2d/lib:/home/terra/nav2_ws/install/nav2_util/lib:/home/terra/nav2_ws/install/nav2_voxel_grid/lib:/home/terra/nav2_ws/install/nav2_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/terra'), ('OLDPWD', '/home/terra'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '1571'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'terra'), ('JOURNAL_STREAM', '8:40672'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'terra'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/opt/ros/foxy/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/terra/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/terra-virtual-machine:@/tmp/.ICE-unix/1777,unix/terra-virtual-machine:/tmp/.ICE-unix/1777'), ('INVOCATION_ID', 'd6a70187facd4bd49aabfba619b7b885'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a595c871_4b29_40ad_813e_89bd7f231f07'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.454'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/terra/nav2_ws/install/nav2_core:/home/terra/nav2_ws/install/nav2_costmap_2d:/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_voxel_grid:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/nav2_common:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/terra/nav2_ws/build/nav2_navfn_planner'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/terra/nav2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/terra/nav2_ws/install/nav2_common/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/terra/nav2_ws/install/nav2_core:/home/terra/nav2_ws/install/nav2_costmap_2d:/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_voxel_grid:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/nav2_common:/opt/ros/foxy')]), 'shell': False}
+[0.098088] (nav2_navfn_planner) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target nav2_navfn_planner\x1b[0m\n'}
+[0.098793] (-) TimerEvent: {}
+[0.165181] (nav2_navfn_planner) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/nav2_navfn_planner.dir/src/navfn_planner.cpp.o\x1b[0m\n'}
+[0.198952] (-) TimerEvent: {}
+[0.299387] (-) TimerEvent: {}
+[0.399728] (-) TimerEvent: {}
+[0.500042] (-) TimerEvent: {}
+[0.600435] (-) TimerEvent: {}
+[0.700783] (-) TimerEvent: {}
+[0.801200] (-) TimerEvent: {}
+[0.901568] (-) TimerEvent: {}
+[1.001978] (-) TimerEvent: {}
+[1.102402] (-) TimerEvent: {}
+[1.202778] (-) TimerEvent: {}
+[1.303192] (-) TimerEvent: {}
+[1.403611] (-) TimerEvent: {}
+[1.503953] (-) TimerEvent: {}
+[1.604401] (-) TimerEvent: {}
+[1.704787] (-) TimerEvent: {}
+[1.805231] (-) TimerEvent: {}
+[1.905648] (-) TimerEvent: {}
+[2.006075] (-) TimerEvent: {}
+[2.106412] (-) TimerEvent: {}
+[2.206761] (-) TimerEvent: {}
+[2.307167] (-) TimerEvent: {}
+[2.407567] (-) TimerEvent: {}
+[2.507907] (-) TimerEvent: {}
+[2.608253] (-) TimerEvent: {}
+[2.708660] (-) TimerEvent: {}
+[2.809110] (-) TimerEvent: {}
+[2.909494] (-) TimerEvent: {}
+[3.009910] (-) TimerEvent: {}
+[3.110346] (-) TimerEvent: {}
+[3.210729] (-) TimerEvent: {}
+[3.311144] (-) TimerEvent: {}
+[3.411617] (-) TimerEvent: {}
+[3.512025] (-) TimerEvent: {}
+[3.612346] (-) TimerEvent: {}
+[3.712738] (-) TimerEvent: {}
+[3.813171] (-) TimerEvent: {}
+[3.913585] (-) TimerEvent: {}
+[4.014001] (-) TimerEvent: {}
+[4.114339] (-) TimerEvent: {}
+[4.214667] (-) TimerEvent: {}
+[4.315007] (-) TimerEvent: {}
+[4.415353] (-) TimerEvent: {}
+[4.515743] (-) TimerEvent: {}
+[4.616084] (-) TimerEvent: {}
+[4.716420] (-) TimerEvent: {}
+[4.816902] (-) TimerEvent: {}
+[4.917253] (-) TimerEvent: {}
+[5.017666] (-) TimerEvent: {}
+[5.118088] (-) TimerEvent: {}
+[5.218521] (-) TimerEvent: {}
+[5.318892] (-) TimerEvent: {}
+[5.419333] (-) TimerEvent: {}
+[5.519667] (-) TimerEvent: {}
+[5.620054] (-) TimerEvent: {}
+[5.720464] (-) TimerEvent: {}
+[5.820892] (-) TimerEvent: {}
+[5.921221] (-) TimerEvent: {}
+[6.021607] (-) TimerEvent: {}
+[6.121963] (-) TimerEvent: {}
+[6.222367] (-) TimerEvent: {}
+[6.322707] (-) TimerEvent: {}
+[6.423029] (-) TimerEvent: {}
+[6.523331] (-) TimerEvent: {}
+[6.623689] (-) TimerEvent: {}
+[6.724008] (-) TimerEvent: {}
+[6.824343] (-) TimerEvent: {}
+[6.924680] (-) TimerEvent: {}
+[7.025045] (-) TimerEvent: {}
+[7.125385] (-) TimerEvent: {}
+[7.225702] (-) TimerEvent: {}
+[7.326135] (-) TimerEvent: {}
+[7.426554] (-) TimerEvent: {}
+[7.526883] (-) TimerEvent: {}
+[7.627270] (-) TimerEvent: {}
+[7.727662] (-) TimerEvent: {}
+[7.828035] (-) TimerEvent: {}
+[7.928430] (-) TimerEvent: {}
+[8.028840] (-) TimerEvent: {}
+[8.129247] (-) TimerEvent: {}
+[8.229622] (-) TimerEvent: {}
+[8.329991] (-) TimerEvent: {}
+[8.430356] (-) TimerEvent: {}
+[8.530734] (-) TimerEvent: {}
+[8.631105] (-) TimerEvent: {}
+[8.731457] (-) TimerEvent: {}
+[8.831796] (-) TimerEvent: {}
+[8.932165] (-) TimerEvent: {}
+[9.032501] (-) TimerEvent: {}
+[9.132835] (-) TimerEvent: {}
+[9.233192] (-) TimerEvent: {}
+[9.328869] (nav2_navfn_planner) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libnav2_navfn_planner.so\x1b[0m\n'}
+[9.333324] (-) TimerEvent: {}
+[9.433656] (-) TimerEvent: {}
+[9.534060] (-) TimerEvent: {}
+[9.617641] (nav2_navfn_planner) StdoutLine: {'line': b'[100%] Built target nav2_navfn_planner\n'}
+[9.633294] (nav2_navfn_planner) CommandEnded: {'returncode': 0}
+[9.635438] (-) TimerEvent: {}
+[9.665988] (nav2_navfn_planner) JobProgress: {'identifier': 'nav2_navfn_planner', 'progress': 'install'}
+[9.680879] (nav2_navfn_planner) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/terra/nav2_ws/build/nav2_navfn_planner'], 'cwd': '/home/terra/nav2_ws/build/nav2_navfn_planner', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'terra'), ('LC_TIME', 'zh_CN.UTF-8'), ('SSH_AGENT_PID', '1740'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/terra/nav2_ws/install/nav2_costmap_2d/lib:/home/terra/nav2_ws/install/nav2_util/lib:/home/terra/nav2_ws/install/nav2_voxel_grid/lib:/home/terra/nav2_ws/install/nav2_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/terra'), ('OLDPWD', '/home/terra'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '1571'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'terra'), ('JOURNAL_STREAM', '8:40672'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'terra'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/opt/ros/foxy/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/terra/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/terra-virtual-machine:@/tmp/.ICE-unix/1777,unix/terra-virtual-machine:/tmp/.ICE-unix/1777'), ('INVOCATION_ID', 'd6a70187facd4bd49aabfba619b7b885'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a595c871_4b29_40ad_813e_89bd7f231f07'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.454'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/terra/nav2_ws/install/nav2_core:/home/terra/nav2_ws/install/nav2_costmap_2d:/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_voxel_grid:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/nav2_common:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/terra/nav2_ws/build/nav2_navfn_planner'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/terra/nav2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/terra/nav2_ws/install/nav2_common/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/terra/nav2_ws/install/nav2_core:/home/terra/nav2_ws/install/nav2_costmap_2d:/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_voxel_grid:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/nav2_common:/opt/ros/foxy')]), 'shell': False}
+[9.691215] (nav2_navfn_planner) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[9.691807] (nav2_navfn_planner) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[9.692210] (nav2_navfn_planner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_navfn_planner/share/nav2_navfn_planner//global_planner_plugin.xml\n'}
+[9.692639] (nav2_navfn_planner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_navfn_planner/lib/libnav2_navfn_planner.so\n'}
+[9.693228] (nav2_navfn_planner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_navfn_planner/include//nav2_navfn_planner/navfn.hpp\n'}
+[9.693445] (nav2_navfn_planner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_navfn_planner/include//nav2_navfn_planner/navfn_planner.hpp\n'}
+[9.693769] (nav2_navfn_planner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_navfn_planner/share/nav2_navfn_planner/global_planner_plugin.xml\n'}
+[9.694101] (nav2_navfn_planner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_navfn_planner/share/nav2_navfn_planner/environment/library_path.sh\n'}
+[9.694421] (nav2_navfn_planner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_navfn_planner/share/nav2_navfn_planner/environment/library_path.dsv\n'}
+[9.694755] (nav2_navfn_planner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_navfn_planner/share/ament_index/resource_index/package_run_dependencies/nav2_navfn_planner\n'}
+[9.695085] (nav2_navfn_planner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_navfn_planner/share/ament_index/resource_index/parent_prefix_path/nav2_navfn_planner\n'}
+[9.695569] (nav2_navfn_planner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_navfn_planner/share/nav2_navfn_planner/environment/ament_prefix_path.sh\n'}
+[9.695941] (nav2_navfn_planner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_navfn_planner/share/nav2_navfn_planner/environment/ament_prefix_path.dsv\n'}
+[9.696206] (nav2_navfn_planner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_navfn_planner/share/nav2_navfn_planner/environment/path.sh\n'}
+[9.696538] (nav2_navfn_planner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_navfn_planner/share/nav2_navfn_planner/environment/path.dsv\n'}
+[9.696881] (nav2_navfn_planner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_navfn_planner/share/nav2_navfn_planner/local_setup.bash\n'}
+[9.697146] (nav2_navfn_planner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_navfn_planner/share/nav2_navfn_planner/local_setup.sh\n'}
+[9.697483] (nav2_navfn_planner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_navfn_planner/share/nav2_navfn_planner/local_setup.zsh\n'}
+[9.697727] (nav2_navfn_planner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_navfn_planner/share/nav2_navfn_planner/local_setup.dsv\n'}
+[9.698019] (nav2_navfn_planner) StdoutLine: {'line': b'-- Symlinking: /home/terra/nav2_ws/install/nav2_navfn_planner/share/nav2_navfn_planner/package.dsv\n'}
+[9.709642] (nav2_navfn_planner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_navfn_planner/share/ament_index/resource_index/packages/nav2_navfn_planner\n'}
+[9.710078] (nav2_navfn_planner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_navfn_planner/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_navfn_planner\n'}
+[9.710518] (nav2_navfn_planner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_navfn_planner/share/nav2_navfn_planner/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[9.710907] (nav2_navfn_planner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_navfn_planner/share/nav2_navfn_planner/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[9.711222] (nav2_navfn_planner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_navfn_planner/share/nav2_navfn_planner/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[9.711669] (nav2_navfn_planner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_navfn_planner/share/nav2_navfn_planner/cmake/ament_cmake_export_definitions-extras.cmake\n'}
+[9.712123] (nav2_navfn_planner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_navfn_planner/share/nav2_navfn_planner/cmake/nav2_navfn_plannerConfig.cmake\n'}
+[9.712392] (nav2_navfn_planner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_navfn_planner/share/nav2_navfn_planner/cmake/nav2_navfn_plannerConfig-version.cmake\n'}
+[9.712796] (nav2_navfn_planner) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_navfn_planner/share/nav2_navfn_planner/package.xml\n'}
+[9.715697] (nav2_navfn_planner) CommandEnded: {'returncode': 0}
+[9.735853] (-) TimerEvent: {}
+[9.795961] (nav2_navfn_planner) JobEnded: {'identifier': 'nav2_navfn_planner', 'rc': 0}
+[9.797159] (-) EventReactorShutdown: {}

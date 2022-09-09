@@ -1,0 +1,14 @@
+[01m[K/home/terra/nav2_ws/src/navigation2_tutorials/nav2_straightline_planner/src/straight_line_planner.cpp:[m[K In member function ‘[01m[Kvirtual nav_msgs::msg::Path nav2_straightline_planner::StraightLine::createPlan(const PoseStamped&, const PoseStamped&)[m[K’:
+[01m[K/home/terra/nav2_ws/src/navigation2_tutorials/nav2_straightline_planner/src/straight_line_planner.cpp:137:30:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K->[m[K’ token
+  137 |   path_pub_ = rclcpp :: Node [01;31m[K->[m[K creat_publisher<nav_msgs::msg::Path>("straightline_planner/path", 10);
+      |                              [01;31m[K^~[m[K
+[01m[K/home/terra/nav2_ws/src/navigation2_tutorials/nav2_straightline_planner/src/straight_line_planner.cpp:137:68:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+  137 | pub_ = rclcpp :: Node -> creat_publisher<nav_msgs::msg::Path[01;31m[K>[m[K("straightline_planner/path", 10);
+      |                                                             [01;31m[K^[m[K
+
+[01m[K/home/terra/nav2_ws/src/navigation2_tutorials/nav2_straightline_planner/src/straight_line_planner.cpp:138:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class rclcpp::Subscription<nav_msgs::msg::Path_<std::allocator<void> > >[m[K’ {aka ‘[01m[Kclass rclcpp::Subscription<nav_msgs::msg::Path_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kpublish[m[K’
+  138 |   path_pub_ ->[01;31m[Kpublish[m[K(global_path);
+      |               [01;31m[K^~~~~~~[m[K
+make[2]: *** [CMakeFiles/nav2_straightline_planner_plugin.dir/build.make:63: CMakeFiles/nav2_straightline_planner_plugin.dir/src/straight_line_planner.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/nav2_straightline_planner_plugin.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

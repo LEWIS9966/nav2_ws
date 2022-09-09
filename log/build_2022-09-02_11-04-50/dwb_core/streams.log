@@ -1,0 +1,119 @@
+[0.122s] Invoking command in '/home/terra/nav2_ws/build/dwb_core': AMENT_PREFIX_PATH=/home/terra/nav2_ws/install/nav2_core:/home/terra/nav2_ws/install/nav2_costmap_2d:/home/terra/nav2_ws/install/nav_2d_utils:/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_voxel_grid:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/dwb_msgs:/home/terra/nav2_ws/install/nav_2d_msgs:/home/terra/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/terra/nav2_ws/install/nav2_core:/home/terra/nav2_ws/install/nav2_costmap_2d:/home/terra/nav2_ws/install/nav_2d_utils:/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_voxel_grid:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/dwb_msgs:/home/terra/nav2_ws/install/nav_2d_msgs:/home/terra/nav2_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/terra/nav2_ws/install/nav2_costmap_2d/lib:/home/terra/nav2_ws/install/nav_2d_utils/lib:/home/terra/nav2_ws/install/nav2_util/lib:/home/terra/nav2_ws/install/nav2_voxel_grid/lib:/home/terra/nav2_ws/install/nav2_msgs/lib:/home/terra/nav2_ws/install/dwb_msgs/lib:/home/terra/nav2_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/terra/nav2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/terra/nav2_ws/install/dwb_msgs/lib/python3.8/site-packages:/home/terra/nav2_ws/install/nav_2d_msgs/lib/python3.8/site-packages:/home/terra/nav2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/terra/nav2_ws/src/nav2_dwb_controller/dwb_core -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/terra/nav2_ws/install/dwb_core
+[0.261s] -- The C compiler identification is GNU 9.4.0
+[0.385s] -- The CXX compiler identification is GNU 9.4.0
+[0.394s] -- Check for working C compiler: /usr/bin/cc
+[0.584s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.586s] -- Detecting C compiler ABI info
+[0.763s] -- Detecting C compiler ABI info - done
+[0.801s] -- Detecting C compile features
+[0.802s] -- Detecting C compile features - done
+[0.808s] -- Check for working CXX compiler: /usr/bin/c++
+[1.014s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.016s] -- Detecting CXX compiler ABI info
+[1.195s] -- Detecting CXX compiler ABI info - done
+[1.217s] -- Detecting CXX compile features
+[1.218s] -- Detecting CXX compile features - done
+[1.232s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.290s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.291s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.738s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.824s] -- Found nav2_common: 0.4.7 (/home/terra/nav2_ws/install/nav2_common/share/nav2_common/cmake)
+[1.829s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.957s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.981s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.179s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.250s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.416s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.552s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.556s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.557s] -- Looking for pthread.h
+[2.740s] -- Looking for pthread.h - found
+[2.740s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.927s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.927s] -- Looking for pthread_create in pthreads
+[3.099s] -- Looking for pthread_create in pthreads - not found
+[3.100s] -- Looking for pthread_create in pthread
+[3.261s] -- Looking for pthread_create in pthread - found
+[3.263s] -- Found Threads: TRUE  
+[3.721s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[3.829s] -- Found nav_2d_msgs: 0.4.7 (/home/terra/nav2_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake)
+[4.063s] -- Found dwb_msgs: 0.4.7 (/home/terra/nav2_ws/install/dwb_msgs/share/dwb_msgs/cmake)
+[4.739s] -- Found nav2_costmap_2d: 0.4.7 (/home/terra/nav2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake)
+[8.231s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[9.489s] -- Found nav_2d_utils: 0.4.7 (/home/terra/nav2_ws/install/nav_2d_utils/share/nav_2d_utils/cmake)
+[10.232s] -- Found nav2_core: 0.4.7 (/home/terra/nav2_ws/install/nav2_core/share/nav2_core/cmake)
+[11.593s] -- Setting build type to Release as none was specified.
+[18.441s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[18.711s] -- Found ament_cmake_gtest: 0.9.9 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[18.737s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[18.758s] -- Check if compiler accepts -pthread
+[19.187s] -- Check if compiler accepts -pthread - yes
+[19.215s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[19.216s] -- Configured cppcheck include dirs: /home/terra/nav2_ws/src/nav2_dwb_controller/dwb_core/include
+[19.216s] -- Configured cppcheck exclude dirs and/or files: 
+[19.219s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[19.219s] -- Configured cpplint exclude dirs and/or files: 
+[19.221s] -- Added test 'lint_cmake' to check CMake code style
+[19.241s] -- Added test 'uncrustify' to check C / C++ code style
+[19.241s] -- Configured uncrustify additional arguments: 
+[19.243s] -- Added test 'xmllint' to check XML markup files
+[19.276s] -- Configuring done
+[19.565s] -- Generating done
+[19.569s] -- Build files have been written to: /home/terra/nav2_ws/build/dwb_core
+[19.595s] Invoked command in '/home/terra/nav2_ws/build/dwb_core' returned '0': AMENT_PREFIX_PATH=/home/terra/nav2_ws/install/nav2_core:/home/terra/nav2_ws/install/nav2_costmap_2d:/home/terra/nav2_ws/install/nav_2d_utils:/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_voxel_grid:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/dwb_msgs:/home/terra/nav2_ws/install/nav_2d_msgs:/home/terra/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/terra/nav2_ws/install/nav2_core:/home/terra/nav2_ws/install/nav2_costmap_2d:/home/terra/nav2_ws/install/nav_2d_utils:/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_voxel_grid:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/dwb_msgs:/home/terra/nav2_ws/install/nav_2d_msgs:/home/terra/nav2_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/terra/nav2_ws/install/nav2_costmap_2d/lib:/home/terra/nav2_ws/install/nav_2d_utils/lib:/home/terra/nav2_ws/install/nav2_util/lib:/home/terra/nav2_ws/install/nav2_voxel_grid/lib:/home/terra/nav2_ws/install/nav2_msgs/lib:/home/terra/nav2_ws/install/dwb_msgs/lib:/home/terra/nav2_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/terra/nav2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/terra/nav2_ws/install/dwb_msgs/lib/python3.8/site-packages:/home/terra/nav2_ws/install/nav_2d_msgs/lib/python3.8/site-packages:/home/terra/nav2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/terra/nav2_ws/src/nav2_dwb_controller/dwb_core -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/terra/nav2_ws/install/dwb_core
+[19.603s] Invoking command in '/home/terra/nav2_ws/build/dwb_core': AMENT_PREFIX_PATH=/home/terra/nav2_ws/install/nav2_core:/home/terra/nav2_ws/install/nav2_costmap_2d:/home/terra/nav2_ws/install/nav_2d_utils:/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_voxel_grid:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/dwb_msgs:/home/terra/nav2_ws/install/nav_2d_msgs:/home/terra/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/terra/nav2_ws/install/nav2_core:/home/terra/nav2_ws/install/nav2_costmap_2d:/home/terra/nav2_ws/install/nav_2d_utils:/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_voxel_grid:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/dwb_msgs:/home/terra/nav2_ws/install/nav_2d_msgs:/home/terra/nav2_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/terra/nav2_ws/install/nav2_costmap_2d/lib:/home/terra/nav2_ws/install/nav_2d_utils/lib:/home/terra/nav2_ws/install/nav2_util/lib:/home/terra/nav2_ws/install/nav2_voxel_grid/lib:/home/terra/nav2_ws/install/nav2_msgs/lib:/home/terra/nav2_ws/install/dwb_msgs/lib:/home/terra/nav2_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/terra/nav2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/terra/nav2_ws/install/dwb_msgs/lib/python3.8/site-packages:/home/terra/nav2_ws/install/nav_2d_msgs/lib/python3.8/site-packages:/home/terra/nav2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/terra/nav2_ws/build/dwb_core -- -j8 -l8
+[26.904s] [35m[1mScanning dependencies of target dwb_core[0m
+[26.905s] [35m[1mScanning dependencies of target gtest[0m
+[26.905s] [35m[1mScanning dependencies of target gtest_main[0m
+[26.905s] [  9%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[26.906s] [ 18%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[26.906s] [ 27%] [32mBuilding CXX object CMakeFiles/dwb_core.dir/src/dwb_local_planner.cpp.o[0m
+[26.906s] [ 36%] [32mBuilding CXX object CMakeFiles/dwb_core.dir/src/publisher.cpp.o[0m
+[26.906s] [ 45%] [32mBuilding CXX object CMakeFiles/dwb_core.dir/src/illegal_trajectory_tracker.cpp.o[0m
+[26.906s] [ 54%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[26.906s] [ 54%] Built target gtest_main
+[40.352s] [ 63%] [32m[1mLinking CXX static library libgtest.a[0m
+[40.508s] [ 63%] Built target gtest
+[47.283s] [ 72%] [32mBuilding CXX object CMakeFiles/dwb_core.dir/src/trajectory_utils.cpp.o[0m
+[49.518s] [ 81%] [32m[1mLinking CXX shared library libdwb_core.so[0m
+[50.031s] [ 81%] Built target dwb_core
+[50.055s] [35m[1mScanning dependencies of target utils_test[0m
+[50.155s] [ 90%] [32mBuilding CXX object test/CMakeFiles/utils_test.dir/utils_test.cpp.o[0m
+[54.193s] [100%] [32m[1mLinking CXX executable utils_test[0m
+[54.722s] [100%] Built target utils_test
+[54.753s] Invoked command in '/home/terra/nav2_ws/build/dwb_core' returned '0': AMENT_PREFIX_PATH=/home/terra/nav2_ws/install/nav2_core:/home/terra/nav2_ws/install/nav2_costmap_2d:/home/terra/nav2_ws/install/nav_2d_utils:/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_voxel_grid:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/dwb_msgs:/home/terra/nav2_ws/install/nav_2d_msgs:/home/terra/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/terra/nav2_ws/install/nav2_core:/home/terra/nav2_ws/install/nav2_costmap_2d:/home/terra/nav2_ws/install/nav_2d_utils:/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_voxel_grid:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/dwb_msgs:/home/terra/nav2_ws/install/nav_2d_msgs:/home/terra/nav2_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/terra/nav2_ws/install/nav2_costmap_2d/lib:/home/terra/nav2_ws/install/nav_2d_utils/lib:/home/terra/nav2_ws/install/nav2_util/lib:/home/terra/nav2_ws/install/nav2_voxel_grid/lib:/home/terra/nav2_ws/install/nav2_msgs/lib:/home/terra/nav2_ws/install/dwb_msgs/lib:/home/terra/nav2_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/terra/nav2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/terra/nav2_ws/install/dwb_msgs/lib/python3.8/site-packages:/home/terra/nav2_ws/install/nav_2d_msgs/lib/python3.8/site-packages:/home/terra/nav2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/terra/nav2_ws/build/dwb_core -- -j8 -l8
+[54.818s] Invoking command in '/home/terra/nav2_ws/build/dwb_core': AMENT_PREFIX_PATH=/home/terra/nav2_ws/install/nav2_core:/home/terra/nav2_ws/install/nav2_costmap_2d:/home/terra/nav2_ws/install/nav_2d_utils:/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_voxel_grid:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/dwb_msgs:/home/terra/nav2_ws/install/nav_2d_msgs:/home/terra/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/terra/nav2_ws/install/nav2_core:/home/terra/nav2_ws/install/nav2_costmap_2d:/home/terra/nav2_ws/install/nav_2d_utils:/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_voxel_grid:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/dwb_msgs:/home/terra/nav2_ws/install/nav_2d_msgs:/home/terra/nav2_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/terra/nav2_ws/install/nav2_costmap_2d/lib:/home/terra/nav2_ws/install/nav_2d_utils/lib:/home/terra/nav2_ws/install/nav2_util/lib:/home/terra/nav2_ws/install/nav2_voxel_grid/lib:/home/terra/nav2_ws/install/nav2_msgs/lib:/home/terra/nav2_ws/install/dwb_msgs/lib:/home/terra/nav2_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/terra/nav2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/terra/nav2_ws/install/dwb_msgs/lib/python3.8/site-packages:/home/terra/nav2_ws/install/nav_2d_msgs/lib/python3.8/site-packages:/home/terra/nav2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/terra/nav2_ws/build/dwb_core
+[54.839s] -- Install configuration: "Release"
+[54.839s] -- Execute custom install script
+[54.839s] -- Symlinking: /home/terra/nav2_ws/install/dwb_core/lib/libdwb_core.so
+[54.854s] -- Symlinking: /home/terra/nav2_ws/install/dwb_core/include//dwb_core/dwb_local_planner.hpp
+[54.877s] -- Symlinking: /home/terra/nav2_ws/install/dwb_core/include//dwb_core/exceptions.hpp
+[54.891s] -- Symlinking: /home/terra/nav2_ws/install/dwb_core/include//dwb_core/illegal_trajectory_tracker.hpp
+[54.907s] -- Symlinking: /home/terra/nav2_ws/install/dwb_core/include//dwb_core/publisher.hpp
+[54.923s] -- Symlinking: /home/terra/nav2_ws/install/dwb_core/include//dwb_core/trajectory_critic.hpp
+[54.941s] -- Symlinking: /home/terra/nav2_ws/install/dwb_core/include//dwb_core/trajectory_generator.hpp
+[54.958s] -- Symlinking: /home/terra/nav2_ws/install/dwb_core/include//dwb_core/trajectory_utils.hpp
+[54.976s] -- Symlinking: /home/terra/nav2_ws/install/dwb_core/share/dwb_core/environment/library_path.sh
+[54.994s] -- Symlinking: /home/terra/nav2_ws/install/dwb_core/share/dwb_core/environment/library_path.dsv
+[55.022s] -- Symlinking: /home/terra/nav2_ws/install/dwb_core/share/dwb_core//local_planner_plugin.xml
+[55.033s] -- Symlinking: /home/terra/nav2_ws/install/dwb_core/share/ament_index/resource_index/package_run_dependencies/dwb_core
+[55.051s] -- Symlinking: /home/terra/nav2_ws/install/dwb_core/share/ament_index/resource_index/parent_prefix_path/dwb_core
+[55.071s] -- Symlinking: /home/terra/nav2_ws/install/dwb_core/share/dwb_core/environment/ament_prefix_path.sh
+[55.089s] -- Symlinking: /home/terra/nav2_ws/install/dwb_core/share/dwb_core/environment/ament_prefix_path.dsv
+[55.107s] -- Symlinking: /home/terra/nav2_ws/install/dwb_core/share/dwb_core/environment/path.sh
+[55.139s] -- Symlinking: /home/terra/nav2_ws/install/dwb_core/share/dwb_core/environment/path.dsv
+[55.146s] -- Symlinking: /home/terra/nav2_ws/install/dwb_core/share/dwb_core/local_setup.bash
+[55.167s] -- Symlinking: /home/terra/nav2_ws/install/dwb_core/share/dwb_core/local_setup.sh
+[55.188s] -- Symlinking: /home/terra/nav2_ws/install/dwb_core/share/dwb_core/local_setup.zsh
+[55.209s] -- Symlinking: /home/terra/nav2_ws/install/dwb_core/share/dwb_core/local_setup.dsv
+[55.239s] -- Symlinking: /home/terra/nav2_ws/install/dwb_core/share/dwb_core/package.dsv
+[55.250s] -- Symlinking: /home/terra/nav2_ws/install/dwb_core/share/ament_index/resource_index/packages/dwb_core
+[55.270s] -- Symlinking: /home/terra/nav2_ws/install/dwb_core/share/ament_index/resource_index/nav2_core__pluginlib__plugin/dwb_core
+[55.289s] -- Symlinking: /home/terra/nav2_ws/install/dwb_core/share/dwb_core/cmake/ament_cmake_export_include_directories-extras.cmake
+[55.307s] -- Symlinking: /home/terra/nav2_ws/install/dwb_core/share/dwb_core/cmake/ament_cmake_export_libraries-extras.cmake
+[55.339s] -- Symlinking: /home/terra/nav2_ws/install/dwb_core/share/dwb_core/cmake/ament_cmake_export_dependencies-extras.cmake
+[55.347s] -- Symlinking: /home/terra/nav2_ws/install/dwb_core/share/dwb_core/cmake/ament_cmake_export_definitions-extras.cmake
+[55.368s] -- Symlinking: /home/terra/nav2_ws/install/dwb_core/share/dwb_core/cmake/dwb_coreConfig.cmake
+[55.388s] -- Symlinking: /home/terra/nav2_ws/install/dwb_core/share/dwb_core/cmake/dwb_coreConfig-version.cmake
+[55.410s] -- Symlinking: /home/terra/nav2_ws/install/dwb_core/share/dwb_core/package.xml
+[55.446s] Invoked command in '/home/terra/nav2_ws/build/dwb_core' returned '0': AMENT_PREFIX_PATH=/home/terra/nav2_ws/install/nav2_core:/home/terra/nav2_ws/install/nav2_costmap_2d:/home/terra/nav2_ws/install/nav_2d_utils:/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_voxel_grid:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/dwb_msgs:/home/terra/nav2_ws/install/nav_2d_msgs:/home/terra/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/terra/nav2_ws/install/nav2_core:/home/terra/nav2_ws/install/nav2_costmap_2d:/home/terra/nav2_ws/install/nav_2d_utils:/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_voxel_grid:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/dwb_msgs:/home/terra/nav2_ws/install/nav_2d_msgs:/home/terra/nav2_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/terra/nav2_ws/install/nav2_costmap_2d/lib:/home/terra/nav2_ws/install/nav_2d_utils/lib:/home/terra/nav2_ws/install/nav2_util/lib:/home/terra/nav2_ws/install/nav2_voxel_grid/lib:/home/terra/nav2_ws/install/nav2_msgs/lib:/home/terra/nav2_ws/install/dwb_msgs/lib:/home/terra/nav2_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/terra/nav2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/terra/nav2_ws/install/dwb_msgs/lib/python3.8/site-packages:/home/terra/nav2_ws/install/nav_2d_msgs/lib/python3.8/site-packages:/home/terra/nav2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/terra/nav2_ws/build/dwb_core

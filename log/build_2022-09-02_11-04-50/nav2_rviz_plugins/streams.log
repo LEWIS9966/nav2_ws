@@ -1,0 +1,137 @@
+[0.202s] Invoking command in '/home/terra/nav2_ws/build/nav2_rviz_plugins': AMENT_PREFIX_PATH=/home/terra/nav2_ws/install/nav2_lifecycle_manager:/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/terra/nav2_ws/install/nav2_lifecycle_manager:/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/terra/nav2_ws/install/nav2_lifecycle_manager/lib:/home/terra/nav2_ws/install/nav2_util/lib:/home/terra/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/terra/nav2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/terra/nav2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/terra/nav2_ws/src/nav2_rviz_plugins -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/terra/nav2_ws/install/nav2_rviz_plugins
+[0.566s] -- The C compiler identification is GNU 9.4.0
+[0.901s] -- The CXX compiler identification is GNU 9.4.0
+[0.911s] -- Check for working C compiler: /usr/bin/cc
+[1.375s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.389s] -- Detecting C compiler ABI info
+[1.795s] -- Detecting C compiler ABI info - done
+[1.835s] -- Detecting C compile features
+[1.835s] -- Detecting C compile features - done
+[1.840s] -- Check for working CXX compiler: /usr/bin/c++
+[2.351s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.354s] -- Detecting CXX compiler ABI info
+[2.836s] -- Detecting CXX compiler ABI info - done
+[2.897s] -- Detecting CXX compile features
+[2.899s] -- Detecting CXX compile features - done
+[2.906s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.024s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.025s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.477s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.552s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[3.630s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.648s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[3.850s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[3.964s] -- Found FastRTPS: /opt/ros/foxy/include  
+[4.264s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.685s] -- Found nav2_util: 0.4.7 (/home/terra/nav2_ws/install/nav2_util/share/nav2_util/cmake)
+[7.025s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[7.048s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.049s] -- Looking for pthread.h
+[7.575s] -- Looking for pthread.h - found
+[7.576s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[8.042s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[8.042s] -- Looking for pthread_create in pthreads
+[8.502s] -- Looking for pthread_create in pthreads - not found
+[8.502s] -- Looking for pthread_create in pthread
+[9.087s] -- Looking for pthread_create in pthread - found
+[9.090s] -- Found Threads: TRUE  
+[11.704s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[11.720s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[12.686s] -- Found nav2_lifecycle_manager: 0.4.7 (/home/terra/nav2_ws/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/cmake)
+[14.140s] -- Found pluginlib: 2.5.4 (/opt/ros/foxy/share/pluginlib/cmake)
+[14.289s] -- Found rviz_common: 8.2.6 (/opt/ros/foxy/share/rviz_common/cmake)
+[14.343s] -- Setting OGRE_DIR to: '/opt/ros/foxy/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[14.361s] -- Found OGRE
+[14.362s] --   static     : OFF
+[14.362s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[14.362s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[14.362s] --   media      : /opt/ros/foxy/opt/rviz_ogre_vendor/share/OGRE/Media
+[14.362s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[14.362s] -- OGRE_LIBRARY_DIRS: /opt/ros/foxy/opt/rviz_ogre_vendor/lib
+[14.363s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[14.363s] -- OGRE_PLUGIN_DIR: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/OGRE
+[14.363s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[14.363s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[14.363s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[14.363s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[14.491s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[14.520s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[15.260s] -- Found X11: /usr/include   
+[15.264s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[15.647s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[15.648s] -- Looking for gethostbyname
+[15.980s] -- Looking for gethostbyname - found
+[15.980s] -- Looking for connect
+[16.268s] -- Looking for connect - found
+[16.269s] -- Looking for remove
+[16.622s] -- Looking for remove - found
+[16.623s] -- Looking for shmat
+[17.020s] -- Looking for shmat - found
+[17.020s] -- Looking for IceConnectionNumber in ICE
+[17.445s] -- Looking for IceConnectionNumber in ICE - found
+[17.451s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND
+[17.451s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND
+[17.850s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[18.351s] -- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+[18.389s] -- Found rviz_default_plugins: 8.2.6 (/opt/ros/foxy/share/rviz_default_plugins/cmake)
+[20.782s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[20.925s] -- Added test 'copyright' to check source files copyright and LICENSE
+[20.927s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[20.928s] -- Configured cppcheck include dirs: /home/terra/nav2_ws/src/nav2_rviz_plugins/include
+[20.928s] -- Configured cppcheck exclude dirs and/or files: 
+[20.930s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[20.930s] -- Configured cpplint exclude dirs and/or files: 
+[20.931s] -- Added test 'lint_cmake' to check CMake code style
+[20.934s] -- Added test 'uncrustify' to check C / C++ code style
+[20.934s] -- Configured uncrustify additional arguments: 
+[20.935s] -- Added test 'xmllint' to check XML markup files
+[20.947s] -- Configuring done
+[21.107s] -- Generating done
+[21.110s] -- Build files have been written to: /home/terra/nav2_ws/build/nav2_rviz_plugins
+[21.130s] Invoked command in '/home/terra/nav2_ws/build/nav2_rviz_plugins' returned '0': AMENT_PREFIX_PATH=/home/terra/nav2_ws/install/nav2_lifecycle_manager:/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/terra/nav2_ws/install/nav2_lifecycle_manager:/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/terra/nav2_ws/install/nav2_lifecycle_manager/lib:/home/terra/nav2_ws/install/nav2_util/lib:/home/terra/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/terra/nav2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/terra/nav2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/terra/nav2_ws/src/nav2_rviz_plugins -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/terra/nav2_ws/install/nav2_rviz_plugins
+[21.134s] Invoking command in '/home/terra/nav2_ws/build/nav2_rviz_plugins': AMENT_PREFIX_PATH=/home/terra/nav2_ws/install/nav2_lifecycle_manager:/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/terra/nav2_ws/install/nav2_lifecycle_manager:/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/terra/nav2_ws/install/nav2_lifecycle_manager/lib:/home/terra/nav2_ws/install/nav2_util/lib:/home/terra/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/terra/nav2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/terra/nav2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/terra/nav2_ws/build/nav2_rviz_plugins -- -j8 -l8
+[21.225s] [35m[1mScanning dependencies of target nav2_rviz_plugins_autogen[0m
+[21.247s] [ 20%] [34m[1mAutomatic MOC for target nav2_rviz_plugins[0m
+[22.254s] [ 20%] Built target nav2_rviz_plugins_autogen
+[22.269s] [35m[1mScanning dependencies of target nav2_rviz_plugins[0m
+[22.492s] [ 40%] [32mBuilding CXX object CMakeFiles/nav2_rviz_plugins.dir/nav2_rviz_plugins_autogen/mocs_compilation.cpp.o[0m
+[27.791s] [ 60%] [32mBuilding CXX object CMakeFiles/nav2_rviz_plugins.dir/src/nav2_panel.cpp.o[0m
+[45.144s] [ 80%] [32mBuilding CXX object CMakeFiles/nav2_rviz_plugins.dir/src/goal_tool.cpp.o[0m
+[47.945s] [100%] [32m[1mLinking CXX shared library libnav2_rviz_plugins.so[0m
+[51.360s] [100%] Built target nav2_rviz_plugins
+[51.375s] Invoked command in '/home/terra/nav2_ws/build/nav2_rviz_plugins' returned '0': AMENT_PREFIX_PATH=/home/terra/nav2_ws/install/nav2_lifecycle_manager:/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/terra/nav2_ws/install/nav2_lifecycle_manager:/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/terra/nav2_ws/install/nav2_lifecycle_manager/lib:/home/terra/nav2_ws/install/nav2_util/lib:/home/terra/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/terra/nav2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/terra/nav2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/terra/nav2_ws/build/nav2_rviz_plugins -- -j8 -l8
+[51.416s] Invoking command in '/home/terra/nav2_ws/build/nav2_rviz_plugins': AMENT_PREFIX_PATH=/home/terra/nav2_ws/install/nav2_lifecycle_manager:/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/terra/nav2_ws/install/nav2_lifecycle_manager:/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/terra/nav2_ws/install/nav2_lifecycle_manager/lib:/home/terra/nav2_ws/install/nav2_util/lib:/home/terra/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/terra/nav2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/terra/nav2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/terra/nav2_ws/build/nav2_rviz_plugins
+[51.428s] -- Install configuration: ""
+[51.428s] -- Execute custom install script
+[51.429s] -- Symlinking: /home/terra/nav2_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins//plugins_description.xml
+[51.442s] -- Symlinking: /home/terra/nav2_ws/install/nav2_rviz_plugins/include//nav2_rviz_plugins/goal_common.hpp
+[51.454s] -- Symlinking: /home/terra/nav2_ws/install/nav2_rviz_plugins/include//nav2_rviz_plugins/goal_pose_updater.hpp
+[51.467s] -- Symlinking: /home/terra/nav2_ws/install/nav2_rviz_plugins/include//nav2_rviz_plugins/goal_tool.hpp
+[51.480s] -- Symlinking: /home/terra/nav2_ws/install/nav2_rviz_plugins/include//nav2_rviz_plugins/nav2_panel.hpp
+[51.492s] -- Symlinking: /home/terra/nav2_ws/install/nav2_rviz_plugins/include//nav2_rviz_plugins/ros_action_qevent.hpp
+[51.505s] -- Symlinking: /home/terra/nav2_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/environment/library_path.sh
+[51.518s] -- Symlinking: /home/terra/nav2_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/environment/library_path.dsv
+[51.531s] -- Symlinking: /home/terra/nav2_ws/install/nav2_rviz_plugins/share/ament_index/resource_index/package_run_dependencies/nav2_rviz_plugins
+[51.544s] -- Symlinking: /home/terra/nav2_ws/install/nav2_rviz_plugins/share/ament_index/resource_index/parent_prefix_path/nav2_rviz_plugins
+[51.557s] -- Symlinking: /home/terra/nav2_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/environment/ament_prefix_path.sh
+[51.570s] -- Symlinking: /home/terra/nav2_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/environment/ament_prefix_path.dsv
+[51.583s] -- Symlinking: /home/terra/nav2_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/environment/path.sh
+[51.595s] -- Symlinking: /home/terra/nav2_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/environment/path.dsv
+[51.608s] -- Symlinking: /home/terra/nav2_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/local_setup.bash
+[51.621s] -- Symlinking: /home/terra/nav2_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/local_setup.sh
+[51.633s] -- Symlinking: /home/terra/nav2_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/local_setup.zsh
+[51.646s] -- Symlinking: /home/terra/nav2_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/local_setup.dsv
+[51.659s] -- Symlinking: /home/terra/nav2_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/package.dsv
+[51.672s] -- Symlinking: /home/terra/nav2_ws/install/nav2_rviz_plugins/share/ament_index/resource_index/packages/nav2_rviz_plugins
+[51.685s] -- Symlinking: /home/terra/nav2_ws/install/nav2_rviz_plugins/share/ament_index/resource_index/rviz_common__pluginlib__plugin/nav2_rviz_plugins
+[51.698s] -- Symlinking: /home/terra/nav2_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/cmake/ament_cmake_export_include_directories-extras.cmake
+[51.711s] -- Symlinking: /home/terra/nav2_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/cmake/ament_cmake_export_targets-extras.cmake
+[51.724s] -- Symlinking: /home/terra/nav2_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/cmake/ament_cmake_export_dependencies-extras.cmake
+[51.736s] -- Symlinking: /home/terra/nav2_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/cmake/nav2_rviz_pluginsConfig.cmake
+[51.749s] -- Symlinking: /home/terra/nav2_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/cmake/nav2_rviz_pluginsConfig-version.cmake
+[51.762s] -- Symlinking: /home/terra/nav2_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/package.xml
+[51.775s] -- Installing: /home/terra/nav2_ws/install/nav2_rviz_plugins/lib/libnav2_rviz_plugins.so
+[51.782s] -- Set runtime path of "/home/terra/nav2_ws/install/nav2_rviz_plugins/lib/libnav2_rviz_plugins.so" to ""
+[51.782s] -- Installing: /home/terra/nav2_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/cmake/nav2_rviz_pluginsExport.cmake
+[51.782s] -- Installing: /home/terra/nav2_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/cmake/nav2_rviz_pluginsExport-noconfig.cmake
+[51.791s] Invoked command in '/home/terra/nav2_ws/build/nav2_rviz_plugins' returned '0': AMENT_PREFIX_PATH=/home/terra/nav2_ws/install/nav2_lifecycle_manager:/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/terra/nav2_ws/install/nav2_lifecycle_manager:/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/terra/nav2_ws/install/nav2_lifecycle_manager/lib:/home/terra/nav2_ws/install/nav2_util/lib:/home/terra/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/terra/nav2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/terra/nav2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/terra/nav2_ws/build/nav2_rviz_plugins

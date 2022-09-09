@@ -1,0 +1,850 @@
+[0.000000] (-) TimerEvent: {}
+[0.000434] (-) JobUnselected: {'identifier': 'costmap_queue'}
+[0.000779] (-) JobUnselected: {'identifier': 'dwb_core'}
+[0.001033] (-) JobUnselected: {'identifier': 'dwb_critics'}
+[0.001423] (-) JobUnselected: {'identifier': 'dwb_msgs'}
+[0.001547] (-) JobUnselected: {'identifier': 'dwb_plugins'}
+[0.001611] (-) JobUnselected: {'identifier': 'nav2_amcl'}
+[0.001684] (-) JobUnselected: {'identifier': 'nav2_behavior_tree'}
+[0.001783] (-) JobUnselected: {'identifier': 'nav2_bringup'}
+[0.001838] (-) JobUnselected: {'identifier': 'nav2_bt_navigator'}
+[0.001888] (-) JobUnselected: {'identifier': 'nav2_common'}
+[0.001924] (-) JobUnselected: {'identifier': 'nav2_controller'}
+[0.001987] (-) JobUnselected: {'identifier': 'nav2_core'}
+[0.002065] (-) JobUnselected: {'identifier': 'nav2_costmap_filters_demo'}
+[0.002145] (-) JobUnselected: {'identifier': 'nav2_demo'}
+[0.002820] (-) JobUnselected: {'identifier': 'nav2_dwb_controller'}
+[0.003885] (-) JobUnselected: {'identifier': 'nav2_gazebo_spawner'}
+[0.003963] (-) JobUnselected: {'identifier': 'nav2_gradient_costmap_plugin'}
+[0.004104] (-) JobUnselected: {'identifier': 'nav2_lifecycle_manager'}
+[0.004175] (-) JobUnselected: {'identifier': 'nav2_map_server'}
+[0.004246] (-) JobUnselected: {'identifier': 'nav2_msgs'}
+[0.004319] (-) JobUnselected: {'identifier': 'nav2_navfn_planner'}
+[0.004406] (-) JobUnselected: {'identifier': 'nav2_planner'}
+[0.004556] (-) JobUnselected: {'identifier': 'nav2_recoveries'}
+[0.004630] (-) JobUnselected: {'identifier': 'nav2_regulated_pure_pursuit_controller'}
+[0.004702] (-) JobUnselected: {'identifier': 'nav2_rviz_plugins'}
+[0.004775] (-) JobUnselected: {'identifier': 'nav2_sms_behavior'}
+[0.004846] (-) JobUnselected: {'identifier': 'nav2_straightline_planner'}
+[0.004918] (-) JobUnselected: {'identifier': 'nav2_system_tests'}
+[0.004985] (-) JobUnselected: {'identifier': 'nav2_util'}
+[0.005056] (-) JobUnselected: {'identifier': 'nav2_voxel_grid'}
+[0.005092] (-) JobUnselected: {'identifier': 'nav2_waypoint_follower'}
+[0.005129] (-) JobUnselected: {'identifier': 'nav_2d_msgs'}
+[0.005164] (-) JobUnselected: {'identifier': 'nav_2d_utils'}
+[0.005229] (-) JobUnselected: {'identifier': 'navigation2'}
+[0.005265] (-) JobUnselected: {'identifier': 'sam_bot_description'}
+[0.005300] (-) JobUnselected: {'identifier': 'smac_planner'}
+[0.005356] (nav2_costmap_2d) JobQueued: {'identifier': 'nav2_costmap_2d', 'dependencies': OrderedDict([('nav2_common', '/home/terra/nav2_ws/install/nav2_common'), ('nav2_msgs', '/home/terra/nav2_ws/install/nav2_msgs'), ('nav2_voxel_grid', '/home/terra/nav2_ws/install/nav2_voxel_grid'), ('nav2_util', '/home/terra/nav2_ws/install/nav2_util'), ('nav2_lifecycle_manager', '/home/terra/nav2_ws/install/nav2_lifecycle_manager'), ('nav2_map_server', '/home/terra/nav2_ws/install/nav2_map_server')])}
+[0.005464] (nav2_costmap_2d) JobStarted: {'identifier': 'nav2_costmap_2d'}
+[0.065006] (nav2_costmap_2d) JobProgress: {'identifier': 'nav2_costmap_2d', 'progress': 'cmake'}
+[0.068729] (nav2_costmap_2d) Command: {'cmd': ['/usr/bin/cmake', '/home/terra/nav2_ws/src/nav2_costmap_2d', '-DCMAKE_INSTALL_PREFIX=/home/terra/nav2_ws/install/nav2_costmap_2d'], 'cwd': '/home/terra/nav2_ws/build/nav2_costmap_2d', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'terra'), ('LC_TIME', 'zh_CN.UTF-8'), ('SSH_AGENT_PID', '1755'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/terra/nav2_ws/install/nav2_map_server/lib:/home/terra/nav2_ws/install/nav2_lifecycle_manager/lib:/home/terra/nav2_ws/install/nav2_util/lib:/home/terra/nav2_ws/install/nav2_voxel_grid/lib:/home/terra/nav2_ws/install/nav2_msgs/lib:/home/terra/nav2_ws/install/smac_planner/lib:/home/terra/nav2_ws/install/nav2_controller/lib:/home/terra/nav2_ws/install/dwb_plugins/lib:/home/terra/nav2_ws/install/dwb_critics/lib:/home/terra/nav2_ws/install/dwb_core/lib:/home/terra/nav2_ws/install/nav_2d_utils/lib:/home/terra/nav2_ws/install/dwb_msgs/lib:/home/terra/nav2_ws/install/nav_2d_msgs/lib:/home/terra/nav2_ws/install/nav2_waypoint_follower/lib:/home/terra/nav2_ws/install/nav2_straightline_planner/lib:/home/terra/nav2_ws/install/nav2_regulated_pure_pursuit_controller/lib:/home/terra/nav2_ws/install/nav2_recoveries/lib:/home/terra/nav2_ws/install/nav2_planner/lib:/home/terra/nav2_ws/install/nav2_navfn_planner/lib:/home/terra/nav2_ws/install/costmap_queue/lib:/home/terra/nav2_ws/install/nav2_costmap_2d/lib:/home/terra/nav2_ws/install/nav2_rviz_plugins/lib:/home/terra/nav2_ws/install/nav2_bt_navigator/lib:/home/terra/nav2_ws/install/nav2_behavior_tree/lib:/home/terra/nav2_ws/install/nav2_amcl/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/terra'), ('OLDPWD', '/home/terra'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '1588'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/terra/nav2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'terra'), ('JOURNAL_STREAM', '8:42752'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'terra'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/opt/ros/foxy/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/terra/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/terra-virtual-machine:@/tmp/.ICE-unix/1792,unix/terra-virtual-machine:/tmp/.ICE-unix/1792'), ('INVOCATION_ID', 'b584257cc1164c44ad76f13d0b9ca674'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4dce7f3c_a08e_4f01_badf_f2f8d88b076c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.109'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/terra/nav2_ws/install/nav2_system_tests:/home/terra/nav2_ws/install/nav2_bringup:/home/terra/nav2_ws/install/navigation2:/home/terra/nav2_ws/install/smac_planner:/home/terra/nav2_ws/install/nav2_dwb_controller:/home/terra/nav2_ws/install/nav2_controller:/home/terra/nav2_ws/install/dwb_plugins:/home/terra/nav2_ws/install/dwb_critics:/home/terra/nav2_ws/install/dwb_core:/home/terra/nav2_ws/install/nav_2d_utils:/home/terra/nav2_ws/install/dwb_msgs:/home/terra/nav2_ws/install/nav_2d_msgs:/home/terra/nav2_ws/install/nav2_waypoint_follower:/home/terra/nav2_ws/install/nav2_straightline_planner:/home/terra/nav2_ws/install/nav2_regulated_pure_pursuit_controller:/home/terra/nav2_ws/install/nav2_recoveries:/home/terra/nav2_ws/install/nav2_planner:/home/terra/nav2_ws/install/nav2_navfn_planner:/home/terra/nav2_ws/install/nav2_core:/home/terra/nav2_ws/install/costmap_queue:/home/terra/nav2_ws/install/nav2_costmap_2d:/home/terra/nav2_ws/install/nav2_voxel_grid:/home/terra/nav2_ws/install/nav2_rviz_plugins:/home/terra/nav2_ws/install/nav2_map_server:/home/terra/nav2_ws/install/nav2_lifecycle_manager:/home/terra/nav2_ws/install/nav2_bt_navigator:/home/terra/nav2_ws/install/nav2_behavior_tree:/home/terra/nav2_ws/install/nav2_amcl:/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/nav2_gazebo_spawner:/home/terra/nav2_ws/install/nav2_common:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/terra/nav2_ws/build/nav2_costmap_2d'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/terra/nav2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/terra/nav2_ws/install/nav2_common/lib/python3.8/site-packages:/home/terra/nav2_ws/install/dwb_msgs/lib/python3.8/site-packages:/home/terra/nav2_ws/install/nav_2d_msgs/lib/python3.8/site-packages:/home/terra/nav2_ws/build/nav2_gazebo_spawner:/home/terra/nav2_ws/install/nav2_gazebo_spawner/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/terra/nav2_ws/install/nav2_map_server:/home/terra/nav2_ws/install/nav2_lifecycle_manager:/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_voxel_grid:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/nav2_common:/home/terra/nav2_ws/install/nav2_system_tests:/home/terra/nav2_ws/install/nav2_bringup:/home/terra/nav2_ws/install/navigation2:/home/terra/nav2_ws/install/smac_planner:/home/terra/nav2_ws/install/nav2_dwb_controller:/home/terra/nav2_ws/install/nav2_controller:/home/terra/nav2_ws/install/dwb_plugins:/home/terra/nav2_ws/install/dwb_critics:/home/terra/nav2_ws/install/dwb_core:/home/terra/nav2_ws/install/nav_2d_utils:/home/terra/nav2_ws/install/dwb_msgs:/home/terra/nav2_ws/install/nav_2d_msgs:/home/terra/nav2_ws/install/nav2_waypoint_follower:/home/terra/nav2_ws/install/nav2_straightline_planner:/home/terra/nav2_ws/install/nav2_regulated_pure_pursuit_controller:/home/terra/nav2_ws/install/nav2_recoveries:/home/terra/nav2_ws/install/nav2_planner:/home/terra/nav2_ws/install/nav2_navfn_planner:/home/terra/nav2_ws/install/nav2_core:/home/terra/nav2_ws/install/costmap_queue:/home/terra/nav2_ws/install/nav2_costmap_2d:/home/terra/nav2_ws/install/nav2_rviz_plugins:/home/terra/nav2_ws/install/nav2_bt_navigator:/home/terra/nav2_ws/install/nav2_behavior_tree:/home/terra/nav2_ws/install/nav2_amcl:/home/terra/nav2_ws/install/nav2_gazebo_spawner:/opt/ros/foxy')]), 'shell': False}
+[0.099805] (-) TimerEvent: {}
+[0.200627] (-) TimerEvent: {}
+[0.289924] (nav2_costmap_2d) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.300723] (-) TimerEvent: {}
+[0.334419] (nav2_costmap_2d) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.400828] (-) TimerEvent: {}
+[0.501185] (-) TimerEvent: {}
+[0.566746] (nav2_costmap_2d) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.599028] (nav2_costmap_2d) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[0.601296] (-) TimerEvent: {}
+[0.648293] (nav2_costmap_2d) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.656028] (nav2_costmap_2d) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.701433] (-) TimerEvent: {}
+[0.801811] (-) TimerEvent: {}
+[0.869775] (nav2_costmap_2d) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.901906] (-) TimerEvent: {}
+[0.996894] (nav2_costmap_2d) StdoutLine: {'line': b'-- Found laser_geometry: 2.2.0 (/opt/ros/foxy/share/laser_geometry/cmake)\n'}
+[1.001971] (-) TimerEvent: {}
+[1.007150] (nav2_costmap_2d) StdoutLine: {'line': b'-- Found map_msgs: 2.0.2 (/opt/ros/foxy/share/map_msgs/cmake)\n'}
+[1.102082] (-) TimerEvent: {}
+[1.202397] (-) TimerEvent: {}
+[1.302760] (-) TimerEvent: {}
+[1.403087] (-) TimerEvent: {}
+[1.423023] (nav2_costmap_2d) StdoutLine: {'line': b'-- Found message_filters: 3.2.5 (/opt/ros/foxy/share/message_filters/cmake)\n'}
+[1.427924] (nav2_costmap_2d) StdoutLine: {'line': b'-- Found nav2_common: 0.4.7 (/home/terra/nav2_ws/install/nav2_common/share/nav2_common/cmake)\n'}
+[1.429705] (nav2_costmap_2d) StdoutLine: {'line': b'-- Found nav2_msgs: 0.4.7 (/home/terra/nav2_ws/install/nav2_msgs/share/nav2_msgs/cmake)\n'}
+[1.503226] (-) TimerEvent: {}
+[1.603582] (-) TimerEvent: {}
+[1.703932] (-) TimerEvent: {}
+[1.769588] (nav2_costmap_2d) StdoutLine: {'line': b'-- Found nav2_util: 0.4.7 (/home/terra/nav2_ws/install/nav2_util/share/nav2_util/cmake)\n'}
+[1.804014] (-) TimerEvent: {}
+[1.883382] (nav2_costmap_2d) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.888487] (nav2_costmap_2d) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.904087] (-) TimerEvent: {}
+[2.004415] (-) TimerEvent: {}
+[2.104777] (-) TimerEvent: {}
+[2.205120] (-) TimerEvent: {}
+[2.305458] (-) TimerEvent: {}
+[2.405815] (-) TimerEvent: {}
+[2.506243] (-) TimerEvent: {}
+[2.606619] (-) TimerEvent: {}
+[2.688857] (nav2_costmap_2d) StdoutLine: {'line': b'-- Found nav2_voxel_grid: 0.4.7 (/home/terra/nav2_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake)\n'}
+[2.695038] (nav2_costmap_2d) StdoutLine: {'line': b'-- Found pluginlib: 2.5.4 (/opt/ros/foxy/share/pluginlib/cmake)\n'}
+[2.706703] (-) TimerEvent: {}
+[2.725294] (nav2_costmap_2d) StdoutLine: {'line': b'-- Found tf2_sensor_msgs: 0.13.13 (/opt/ros/foxy/share/tf2_sensor_msgs/cmake)\n'}
+[2.746172] (nav2_costmap_2d) StdoutLine: {'line': b'-- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)\n'}
+[2.806811] (-) TimerEvent: {}
+[2.836338] (nav2_costmap_2d) StdoutLine: {'line': b'-- Found angles: 1.12.3 (/opt/ros/foxy/share/angles/cmake)\n'}
+[2.906932] (-) TimerEvent: {}
+[3.007341] (-) TimerEvent: {}
+[3.107689] (-) TimerEvent: {}
+[3.208045] (-) TimerEvent: {}
+[3.308501] (-) TimerEvent: {}
+[3.408857] (-) TimerEvent: {}
+[3.509207] (-) TimerEvent: {}
+[3.609548] (-) TimerEvent: {}
+[3.709885] (-) TimerEvent: {}
+[3.810276] (-) TimerEvent: {}
+[3.910679] (-) TimerEvent: {}
+[3.931772] (nav2_costmap_2d) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[4.010837] (-) TimerEvent: {}
+[4.111222] (-) TimerEvent: {}
+[4.211618] (-) TimerEvent: {}
+[4.311990] (-) TimerEvent: {}
+[4.346607] (nav2_costmap_2d) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[4.355547] (nav2_costmap_2d) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[4.412133] (-) TimerEvent: {}
+[4.512528] (-) TimerEvent: {}
+[4.612870] (-) TimerEvent: {}
+[4.713192] (-) TimerEvent: {}
+[4.813516] (-) TimerEvent: {}
+[4.913834] (-) TimerEvent: {}
+[5.014156] (-) TimerEvent: {}
+[5.114487] (-) TimerEvent: {}
+[5.214801] (-) TimerEvent: {}
+[5.315150] (-) TimerEvent: {}
+[5.400992] (nav2_costmap_2d) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[5.401989] (nav2_costmap_2d) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/terra/nav2_ws/src/nav2_costmap_2d/include\n'}
+[5.402137] (nav2_costmap_2d) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[5.403252] (nav2_costmap_2d) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[5.405030] (nav2_costmap_2d) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[5.406446] (nav2_costmap_2d) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[5.411386] (nav2_costmap_2d) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[5.411519] (nav2_costmap_2d) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[5.412730] (nav2_costmap_2d) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[5.415262] (-) TimerEvent: {}
+[5.430219] (nav2_costmap_2d) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.515474] (-) TimerEvent: {}
+[5.616012] (-) TimerEvent: {}
+[5.716292] (-) TimerEvent: {}
+[5.816646] (-) TimerEvent: {}
+[5.917000] (-) TimerEvent: {}
+[6.017370] (-) TimerEvent: {}
+[6.117759] (-) TimerEvent: {}
+[6.218225] (-) TimerEvent: {}
+[6.318571] (-) TimerEvent: {}
+[6.418934] (-) TimerEvent: {}
+[6.438358] (nav2_costmap_2d) StdoutLine: {'line': b'-- Generating done\n'}
+[6.445274] (nav2_costmap_2d) StdoutLine: {'line': b'-- Build files have been written to: /home/terra/nav2_ws/build/nav2_costmap_2d\n'}
+[6.457637] (nav2_costmap_2d) CommandEnded: {'returncode': 0}
+[6.458797] (nav2_costmap_2d) JobProgress: {'identifier': 'nav2_costmap_2d', 'progress': 'build'}
+[6.461298] (nav2_costmap_2d) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/terra/nav2_ws/build/nav2_costmap_2d', '--', '-j8', '-l8'], 'cwd': '/home/terra/nav2_ws/build/nav2_costmap_2d', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'terra'), ('LC_TIME', 'zh_CN.UTF-8'), ('SSH_AGENT_PID', '1755'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/terra/nav2_ws/install/nav2_map_server/lib:/home/terra/nav2_ws/install/nav2_lifecycle_manager/lib:/home/terra/nav2_ws/install/nav2_util/lib:/home/terra/nav2_ws/install/nav2_voxel_grid/lib:/home/terra/nav2_ws/install/nav2_msgs/lib:/home/terra/nav2_ws/install/smac_planner/lib:/home/terra/nav2_ws/install/nav2_controller/lib:/home/terra/nav2_ws/install/dwb_plugins/lib:/home/terra/nav2_ws/install/dwb_critics/lib:/home/terra/nav2_ws/install/dwb_core/lib:/home/terra/nav2_ws/install/nav_2d_utils/lib:/home/terra/nav2_ws/install/dwb_msgs/lib:/home/terra/nav2_ws/install/nav_2d_msgs/lib:/home/terra/nav2_ws/install/nav2_waypoint_follower/lib:/home/terra/nav2_ws/install/nav2_straightline_planner/lib:/home/terra/nav2_ws/install/nav2_regulated_pure_pursuit_controller/lib:/home/terra/nav2_ws/install/nav2_recoveries/lib:/home/terra/nav2_ws/install/nav2_planner/lib:/home/terra/nav2_ws/install/nav2_navfn_planner/lib:/home/terra/nav2_ws/install/costmap_queue/lib:/home/terra/nav2_ws/install/nav2_costmap_2d/lib:/home/terra/nav2_ws/install/nav2_rviz_plugins/lib:/home/terra/nav2_ws/install/nav2_bt_navigator/lib:/home/terra/nav2_ws/install/nav2_behavior_tree/lib:/home/terra/nav2_ws/install/nav2_amcl/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/terra'), ('OLDPWD', '/home/terra'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '1588'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/terra/nav2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'terra'), ('JOURNAL_STREAM', '8:42752'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'terra'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/opt/ros/foxy/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/terra/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/terra-virtual-machine:@/tmp/.ICE-unix/1792,unix/terra-virtual-machine:/tmp/.ICE-unix/1792'), ('INVOCATION_ID', 'b584257cc1164c44ad76f13d0b9ca674'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4dce7f3c_a08e_4f01_badf_f2f8d88b076c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.109'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/terra/nav2_ws/install/nav2_system_tests:/home/terra/nav2_ws/install/nav2_bringup:/home/terra/nav2_ws/install/navigation2:/home/terra/nav2_ws/install/smac_planner:/home/terra/nav2_ws/install/nav2_dwb_controller:/home/terra/nav2_ws/install/nav2_controller:/home/terra/nav2_ws/install/dwb_plugins:/home/terra/nav2_ws/install/dwb_critics:/home/terra/nav2_ws/install/dwb_core:/home/terra/nav2_ws/install/nav_2d_utils:/home/terra/nav2_ws/install/dwb_msgs:/home/terra/nav2_ws/install/nav_2d_msgs:/home/terra/nav2_ws/install/nav2_waypoint_follower:/home/terra/nav2_ws/install/nav2_straightline_planner:/home/terra/nav2_ws/install/nav2_regulated_pure_pursuit_controller:/home/terra/nav2_ws/install/nav2_recoveries:/home/terra/nav2_ws/install/nav2_planner:/home/terra/nav2_ws/install/nav2_navfn_planner:/home/terra/nav2_ws/install/nav2_core:/home/terra/nav2_ws/install/costmap_queue:/home/terra/nav2_ws/install/nav2_costmap_2d:/home/terra/nav2_ws/install/nav2_voxel_grid:/home/terra/nav2_ws/install/nav2_rviz_plugins:/home/terra/nav2_ws/install/nav2_map_server:/home/terra/nav2_ws/install/nav2_lifecycle_manager:/home/terra/nav2_ws/install/nav2_bt_navigator:/home/terra/nav2_ws/install/nav2_behavior_tree:/home/terra/nav2_ws/install/nav2_amcl:/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/nav2_gazebo_spawner:/home/terra/nav2_ws/install/nav2_common:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/terra/nav2_ws/build/nav2_costmap_2d'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/terra/nav2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/terra/nav2_ws/install/nav2_common/lib/python3.8/site-packages:/home/terra/nav2_ws/install/dwb_msgs/lib/python3.8/site-packages:/home/terra/nav2_ws/install/nav_2d_msgs/lib/python3.8/site-packages:/home/terra/nav2_ws/build/nav2_gazebo_spawner:/home/terra/nav2_ws/install/nav2_gazebo_spawner/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/terra/nav2_ws/install/nav2_map_server:/home/terra/nav2_ws/install/nav2_lifecycle_manager:/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_voxel_grid:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/nav2_common:/home/terra/nav2_ws/install/nav2_system_tests:/home/terra/nav2_ws/install/nav2_bringup:/home/terra/nav2_ws/install/navigation2:/home/terra/nav2_ws/install/smac_planner:/home/terra/nav2_ws/install/nav2_dwb_controller:/home/terra/nav2_ws/install/nav2_controller:/home/terra/nav2_ws/install/dwb_plugins:/home/terra/nav2_ws/install/dwb_critics:/home/terra/nav2_ws/install/dwb_core:/home/terra/nav2_ws/install/nav_2d_utils:/home/terra/nav2_ws/install/dwb_msgs:/home/terra/nav2_ws/install/nav_2d_msgs:/home/terra/nav2_ws/install/nav2_waypoint_follower:/home/terra/nav2_ws/install/nav2_straightline_planner:/home/terra/nav2_ws/install/nav2_regulated_pure_pursuit_controller:/home/terra/nav2_ws/install/nav2_recoveries:/home/terra/nav2_ws/install/nav2_planner:/home/terra/nav2_ws/install/nav2_navfn_planner:/home/terra/nav2_ws/install/nav2_core:/home/terra/nav2_ws/install/costmap_queue:/home/terra/nav2_ws/install/nav2_costmap_2d:/home/terra/nav2_ws/install/nav2_rviz_plugins:/home/terra/nav2_ws/install/nav2_bt_navigator:/home/terra/nav2_ws/install/nav2_behavior_tree:/home/terra/nav2_ws/install/nav2_amcl:/home/terra/nav2_ws/install/nav2_gazebo_spawner:/opt/ros/foxy')]), 'shell': False}
+[6.519075] (-) TimerEvent: {}
+[6.565158] (nav2_costmap_2d) StdoutLine: {'line': b'[  4%] Built target gtest_main\n'}
+[6.568217] (nav2_costmap_2d) StdoutLine: {'line': b'[  8%] Built target gtest\n'}
+[6.577053] (nav2_costmap_2d) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target nav2_costmap_2d_core\x1b[0m\n'}
+[6.619212] (-) TimerEvent: {}
+[6.646364] (nav2_costmap_2d) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/array_parser.cpp.o\x1b[0m\n'}
+[6.648634] (nav2_costmap_2d) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/costmap_2d.cpp.o\x1b[0m\n'}
+[6.653399] (nav2_costmap_2d) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/layered_costmap.cpp.o\x1b[0m\n'}
+[6.653846] (nav2_costmap_2d) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/layer.cpp.o\x1b[0m\n'}
+[6.655742] (nav2_costmap_2d) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/costmap_2d_ros.cpp.o\x1b[0m\n'}
+[6.659202] (nav2_costmap_2d) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/costmap_math.cpp.o\x1b[0m\n'}
+[6.659481] (nav2_costmap_2d) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/costmap_2d_publisher.cpp.o\x1b[0m\n'}
+[6.665539] (nav2_costmap_2d) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/footprint.cpp.o\x1b[0m\n'}
+[6.719324] (-) TimerEvent: {}
+[6.819675] (-) TimerEvent: {}
+[6.920032] (-) TimerEvent: {}
+[7.020603] (-) TimerEvent: {}
+[7.120975] (-) TimerEvent: {}
+[7.221401] (-) TimerEvent: {}
+[7.321770] (-) TimerEvent: {}
+[7.422126] (-) TimerEvent: {}
+[7.522773] (-) TimerEvent: {}
+[7.527101] (nav2_costmap_2d) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/costmap_layer.cpp.o\x1b[0m\n'}
+[7.623063] (-) TimerEvent: {}
+[7.668549] (nav2_costmap_2d) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/observation_buffer.cpp.o\x1b[0m\n'}
+[7.723192] (-) TimerEvent: {}
+[7.823678] (-) TimerEvent: {}
+[7.917487] (nav2_costmap_2d) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/clear_costmap_service.cpp.o\x1b[0m\n'}
+[7.923789] (-) TimerEvent: {}
+[8.024197] (-) TimerEvent: {}
+[8.124574] (-) TimerEvent: {}
+[8.224954] (-) TimerEvent: {}
+[8.325352] (-) TimerEvent: {}
+[8.425771] (-) TimerEvent: {}
+[8.526367] (-) TimerEvent: {}
+[8.626834] (-) TimerEvent: {}
+[8.727335] (-) TimerEvent: {}
+[8.827801] (-) TimerEvent: {}
+[8.928276] (-) TimerEvent: {}
+[9.028807] (-) TimerEvent: {}
+[9.129299] (-) TimerEvent: {}
+[9.229782] (-) TimerEvent: {}
+[9.330268] (-) TimerEvent: {}
+[9.430745] (-) TimerEvent: {}
+[9.531227] (-) TimerEvent: {}
+[9.631689] (-) TimerEvent: {}
+[9.732160] (-) TimerEvent: {}
+[9.832630] (-) TimerEvent: {}
+[9.933098] (-) TimerEvent: {}
+[10.033570] (-) TimerEvent: {}
+[10.134063] (-) TimerEvent: {}
+[10.234668] (-) TimerEvent: {}
+[10.335154] (-) TimerEvent: {}
+[10.435642] (-) TimerEvent: {}
+[10.536141] (-) TimerEvent: {}
+[10.636670] (-) TimerEvent: {}
+[10.737285] (-) TimerEvent: {}
+[10.805456] (nav2_costmap_2d) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/nav2_costmap_2d_core.dir/src/footprint_collision_checker.cpp.o\x1b[0m\n'}
+[10.837403] (-) TimerEvent: {}
+[10.937964] (-) TimerEvent: {}
+[11.038530] (-) TimerEvent: {}
+[11.139037] (-) TimerEvent: {}
+[11.239604] (-) TimerEvent: {}
+[11.340173] (-) TimerEvent: {}
+[11.440724] (-) TimerEvent: {}
+[11.541106] (-) TimerEvent: {}
+[11.641477] (-) TimerEvent: {}
+[11.741851] (-) TimerEvent: {}
+[11.842228] (-) TimerEvent: {}
+[11.942709] (-) TimerEvent: {}
+[12.043179] (-) TimerEvent: {}
+[12.143603] (-) TimerEvent: {}
+[12.244009] (-) TimerEvent: {}
+[12.344395] (-) TimerEvent: {}
+[12.444793] (-) TimerEvent: {}
+[12.545175] (-) TimerEvent: {}
+[12.645536] (-) TimerEvent: {}
+[12.745908] (-) TimerEvent: {}
+[12.846272] (-) TimerEvent: {}
+[12.946630] (-) TimerEvent: {}
+[13.047010] (-) TimerEvent: {}
+[13.147381] (-) TimerEvent: {}
+[13.247772] (-) TimerEvent: {}
+[13.348160] (-) TimerEvent: {}
+[13.448545] (-) TimerEvent: {}
+[13.548973] (-) TimerEvent: {}
+[13.649390] (-) TimerEvent: {}
+[13.749821] (-) TimerEvent: {}
+[13.850183] (-) TimerEvent: {}
+[13.950563] (-) TimerEvent: {}
+[14.050924] (-) TimerEvent: {}
+[14.151292] (-) TimerEvent: {}
+[14.251681] (-) TimerEvent: {}
+[14.352050] (-) TimerEvent: {}
+[14.452481] (-) TimerEvent: {}
+[14.552843] (-) TimerEvent: {}
+[14.653216] (-) TimerEvent: {}
+[14.753634] (-) TimerEvent: {}
+[14.854103] (-) TimerEvent: {}
+[14.954495] (-) TimerEvent: {}
+[15.054880] (-) TimerEvent: {}
+[15.155238] (-) TimerEvent: {}
+[15.255598] (-) TimerEvent: {}
+[15.355960] (-) TimerEvent: {}
+[15.456339] (-) TimerEvent: {}
+[15.556697] (-) TimerEvent: {}
+[15.657042] (-) TimerEvent: {}
+[15.757393] (-) TimerEvent: {}
+[15.857794] (-) TimerEvent: {}
+[15.958145] (-) TimerEvent: {}
+[16.058475] (-) TimerEvent: {}
+[16.158792] (-) TimerEvent: {}
+[16.259138] (-) TimerEvent: {}
+[16.359481] (-) TimerEvent: {}
+[16.459837] (-) TimerEvent: {}
+[16.560198] (-) TimerEvent: {}
+[16.660533] (-) TimerEvent: {}
+[16.760851] (-) TimerEvent: {}
+[16.861210] (-) TimerEvent: {}
+[16.961533] (-) TimerEvent: {}
+[17.061845] (-) TimerEvent: {}
+[17.162155] (-) TimerEvent: {}
+[17.262482] (-) TimerEvent: {}
+[17.362808] (-) TimerEvent: {}
+[17.463146] (-) TimerEvent: {}
+[17.563466] (-) TimerEvent: {}
+[17.663792] (-) TimerEvent: {}
+[17.764130] (-) TimerEvent: {}
+[17.864505] (-) TimerEvent: {}
+[17.964847] (-) TimerEvent: {}
+[18.065206] (-) TimerEvent: {}
+[18.165546] (-) TimerEvent: {}
+[18.265888] (-) TimerEvent: {}
+[18.366232] (-) TimerEvent: {}
+[18.466574] (-) TimerEvent: {}
+[18.566927] (-) TimerEvent: {}
+[18.667300] (-) TimerEvent: {}
+[18.767683] (-) TimerEvent: {}
+[18.868041] (-) TimerEvent: {}
+[18.968418] (-) TimerEvent: {}
+[19.068804] (-) TimerEvent: {}
+[19.169162] (-) TimerEvent: {}
+[19.269535] (-) TimerEvent: {}
+[19.369929] (-) TimerEvent: {}
+[19.470284] (-) TimerEvent: {}
+[19.570644] (-) TimerEvent: {}
+[19.671002] (-) TimerEvent: {}
+[19.771366] (-) TimerEvent: {}
+[19.871733] (-) TimerEvent: {}
+[19.972105] (-) TimerEvent: {}
+[20.072490] (-) TimerEvent: {}
+[20.172933] (-) TimerEvent: {}
+[20.273264] (-) TimerEvent: {}
+[20.373635] (-) TimerEvent: {}
+[20.473965] (-) TimerEvent: {}
+[20.574339] (-) TimerEvent: {}
+[20.674677] (-) TimerEvent: {}
+[20.775003] (-) TimerEvent: {}
+[20.875364] (-) TimerEvent: {}
+[20.975739] (-) TimerEvent: {}
+[21.076096] (-) TimerEvent: {}
+[21.176499] (-) TimerEvent: {}
+[21.276866] (-) TimerEvent: {}
+[21.377247] (-) TimerEvent: {}
+[21.477605] (-) TimerEvent: {}
+[21.577977] (-) TimerEvent: {}
+[21.678366] (-) TimerEvent: {}
+[21.778726] (-) TimerEvent: {}
+[21.879083] (-) TimerEvent: {}
+[21.979458] (-) TimerEvent: {}
+[22.079811] (-) TimerEvent: {}
+[22.180165] (-) TimerEvent: {}
+[22.280534] (-) TimerEvent: {}
+[22.380893] (-) TimerEvent: {}
+[22.481249] (-) TimerEvent: {}
+[22.581637] (-) TimerEvent: {}
+[22.681993] (-) TimerEvent: {}
+[22.782375] (-) TimerEvent: {}
+[22.882782] (-) TimerEvent: {}
+[22.983161] (-) TimerEvent: {}
+[23.083569] (-) TimerEvent: {}
+[23.183956] (-) TimerEvent: {}
+[23.284340] (-) TimerEvent: {}
+[23.384754] (-) TimerEvent: {}
+[23.485113] (-) TimerEvent: {}
+[23.585458] (-) TimerEvent: {}
+[23.685843] (-) TimerEvent: {}
+[23.786252] (-) TimerEvent: {}
+[23.886629] (-) TimerEvent: {}
+[23.986994] (-) TimerEvent: {}
+[24.087383] (-) TimerEvent: {}
+[24.187722] (-) TimerEvent: {}
+[24.288054] (-) TimerEvent: {}
+[24.388401] (-) TimerEvent: {}
+[24.488783] (-) TimerEvent: {}
+[24.542068] (nav2_costmap_2d) StdoutLine: {'line': b'[ 35%] \x1b[32m\x1b[1mLinking CXX shared library libnav2_costmap_2d_core.so\x1b[0m\n'}
+[24.588972] (-) TimerEvent: {}
+[24.689315] (-) TimerEvent: {}
+[24.789730] (-) TimerEvent: {}
+[24.890217] (-) TimerEvent: {}
+[24.990580] (-) TimerEvent: {}
+[25.090876] (-) TimerEvent: {}
+[25.102903] (nav2_costmap_2d) StdoutLine: {'line': b'[ 35%] Built target nav2_costmap_2d_core\n'}
+[25.149686] (nav2_costmap_2d) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target array_parser_test\x1b[0m\n'}
+[25.152218] (nav2_costmap_2d) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target nav2_costmap_2d_cloud\x1b[0m\n'}
+[25.160205] (nav2_costmap_2d) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target nav2_costmap_2d_markers\x1b[0m\n'}
+[25.161756] (nav2_costmap_2d) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target nav2_costmap_2d_client\x1b[0m\n'}
+[25.162571] (nav2_costmap_2d) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target collision_footprint_test\x1b[0m\n'}
+[25.177872] (nav2_costmap_2d) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object test/unit/CMakeFiles/array_parser_test.dir/array_parser_test.cpp.o\x1b[0m\n'}
+[25.181808] (nav2_costmap_2d) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target layers\x1b[0m\n'}
+[25.190999] (-) TimerEvent: {}
+[25.196026] (nav2_costmap_2d) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/nav2_costmap_2d_cloud.dir/src/costmap_2d_cloud.cpp.o\x1b[0m\n'}
+[25.209807] (nav2_costmap_2d) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/nav2_costmap_2d_markers.dir/src/costmap_2d_markers.cpp.o\x1b[0m\n'}
+[25.218257] (nav2_costmap_2d) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object test/unit/CMakeFiles/collision_footprint_test.dir/footprint_collision_checker_test.cpp.o\x1b[0m\n'}
+[25.228242] (nav2_costmap_2d) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/nav2_costmap_2d_client.dir/src/costmap_topic_collision_checker.cpp.o\x1b[0m\n'}
+[25.239862] (nav2_costmap_2d) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/nav2_costmap_2d_client.dir/src/footprint_subscriber.cpp.o\x1b[0m\n'}
+[25.242852] (nav2_costmap_2d) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/nav2_costmap_2d_client.dir/src/costmap_subscriber.cpp.o\x1b[0m\n'}
+[25.291108] (-) TimerEvent: {}
+[25.351143] (nav2_costmap_2d) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/layers.dir/plugins/inflation_layer.cpp.o\x1b[0m\n'}
+[25.391226] (-) TimerEvent: {}
+[25.491568] (-) TimerEvent: {}
+[25.591935] (-) TimerEvent: {}
+[25.692285] (-) TimerEvent: {}
+[25.792647] (-) TimerEvent: {}
+[25.893024] (-) TimerEvent: {}
+[25.993459] (-) TimerEvent: {}
+[26.093895] (-) TimerEvent: {}
+[26.194386] (-) TimerEvent: {}
+[26.294821] (-) TimerEvent: {}
+[26.395259] (-) TimerEvent: {}
+[26.495747] (-) TimerEvent: {}
+[26.596188] (-) TimerEvent: {}
+[26.696665] (-) TimerEvent: {}
+[26.797124] (-) TimerEvent: {}
+[26.897578] (-) TimerEvent: {}
+[26.998015] (-) TimerEvent: {}
+[27.098456] (-) TimerEvent: {}
+[27.198913] (-) TimerEvent: {}
+[27.299363] (-) TimerEvent: {}
+[27.399830] (-) TimerEvent: {}
+[27.500285] (-) TimerEvent: {}
+[27.600758] (-) TimerEvent: {}
+[27.643139] (nav2_costmap_2d) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX executable array_parser_test\x1b[0m\n'}
+[27.700886] (-) TimerEvent: {}
+[27.801288] (-) TimerEvent: {}
+[27.901698] (-) TimerEvent: {}
+[28.002129] (-) TimerEvent: {}
+[28.102556] (-) TimerEvent: {}
+[28.203009] (-) TimerEvent: {}
+[28.203851] (nav2_costmap_2d) StdoutLine: {'line': b'[ 54%] Built target array_parser_test\n'}
+[28.238065] (nav2_costmap_2d) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/layers.dir/plugins/static_layer.cpp.o\x1b[0m\n'}
+[28.303120] (-) TimerEvent: {}
+[28.403554] (-) TimerEvent: {}
+[28.503993] (-) TimerEvent: {}
+[28.604448] (-) TimerEvent: {}
+[28.704900] (-) TimerEvent: {}
+[28.805347] (-) TimerEvent: {}
+[28.905819] (-) TimerEvent: {}
+[29.006306] (-) TimerEvent: {}
+[29.106815] (-) TimerEvent: {}
+[29.207280] (-) TimerEvent: {}
+[29.307786] (-) TimerEvent: {}
+[29.408263] (-) TimerEvent: {}
+[29.508807] (-) TimerEvent: {}
+[29.609311] (-) TimerEvent: {}
+[29.709808] (-) TimerEvent: {}
+[29.810344] (-) TimerEvent: {}
+[29.910868] (-) TimerEvent: {}
+[30.011452] (-) TimerEvent: {}
+[30.111916] (-) TimerEvent: {}
+[30.212359] (-) TimerEvent: {}
+[30.312835] (-) TimerEvent: {}
+[30.413304] (-) TimerEvent: {}
+[30.414132] (nav2_costmap_2d) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/layers.dir/plugins/obstacle_layer.cpp.o\x1b[0m\n'}
+[30.513428] (-) TimerEvent: {}
+[30.613924] (-) TimerEvent: {}
+[30.714424] (-) TimerEvent: {}
+[30.815688] (-) TimerEvent: {}
+[30.891705] (nav2_costmap_2d) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX executable collision_footprint_test\x1b[0m\n'}
+[30.915813] (-) TimerEvent: {}
+[31.017494] (-) TimerEvent: {}
+[31.117984] (-) TimerEvent: {}
+[31.218506] (-) TimerEvent: {}
+[31.319033] (-) TimerEvent: {}
+[31.419537] (-) TimerEvent: {}
+[31.500887] (nav2_costmap_2d) StdoutLine: {'line': b'[ 60%] Built target collision_footprint_test\n'}
+[31.519665] (-) TimerEvent: {}
+[31.525807] (nav2_costmap_2d) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/layers.dir/src/observation_buffer.cpp.o\x1b[0m\n'}
+[31.619774] (-) TimerEvent: {}
+[31.720232] (-) TimerEvent: {}
+[31.820708] (-) TimerEvent: {}
+[31.922666] (-) TimerEvent: {}
+[32.023188] (-) TimerEvent: {}
+[32.123674] (-) TimerEvent: {}
+[32.224176] (-) TimerEvent: {}
+[32.281569] (nav2_costmap_2d) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/layers.dir/plugins/voxel_layer.cpp.o\x1b[0m\n'}
+[32.324293] (-) TimerEvent: {}
+[32.424717] (-) TimerEvent: {}
+[32.525148] (-) TimerEvent: {}
+[32.625578] (-) TimerEvent: {}
+[32.726028] (-) TimerEvent: {}
+[32.826487] (-) TimerEvent: {}
+[32.926976] (-) TimerEvent: {}
+[33.027461] (-) TimerEvent: {}
+[33.127933] (-) TimerEvent: {}
+[33.228385] (-) TimerEvent: {}
+[33.328852] (-) TimerEvent: {}
+[33.429283] (-) TimerEvent: {}
+[33.529708] (-) TimerEvent: {}
+[33.630128] (-) TimerEvent: {}
+[33.730527] (-) TimerEvent: {}
+[33.830921] (-) TimerEvent: {}
+[33.931342] (-) TimerEvent: {}
+[34.031757] (-) TimerEvent: {}
+[34.132166] (-) TimerEvent: {}
+[34.232612] (-) TimerEvent: {}
+[34.333062] (-) TimerEvent: {}
+[34.433454] (-) TimerEvent: {}
+[34.533862] (-) TimerEvent: {}
+[34.634259] (-) TimerEvent: {}
+[34.734679] (-) TimerEvent: {}
+[34.835080] (-) TimerEvent: {}
+[34.935530] (-) TimerEvent: {}
+[35.035959] (-) TimerEvent: {}
+[35.136392] (-) TimerEvent: {}
+[35.236818] (-) TimerEvent: {}
+[35.337222] (-) TimerEvent: {}
+[35.437673] (-) TimerEvent: {}
+[35.538140] (-) TimerEvent: {}
+[35.638603] (-) TimerEvent: {}
+[35.739052] (-) TimerEvent: {}
+[35.839571] (-) TimerEvent: {}
+[35.940096] (-) TimerEvent: {}
+[36.040527] (-) TimerEvent: {}
+[36.140973] (-) TimerEvent: {}
+[36.241424] (-) TimerEvent: {}
+[36.341872] (-) TimerEvent: {}
+[36.442335] (-) TimerEvent: {}
+[36.542773] (-) TimerEvent: {}
+[36.643189] (-) TimerEvent: {}
+[36.743594] (-) TimerEvent: {}
+[36.844074] (-) TimerEvent: {}
+[36.944548] (-) TimerEvent: {}
+[37.044948] (-) TimerEvent: {}
+[37.145338] (-) TimerEvent: {}
+[37.156371] (nav2_costmap_2d) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/layers.dir/plugins/range_sensor_layer.cpp.o\x1b[0m\n'}
+[37.245456] (-) TimerEvent: {}
+[37.272885] (nav2_costmap_2d) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX shared library libnav2_costmap_2d_client.so\x1b[0m\n'}
+[37.345576] (-) TimerEvent: {}
+[37.446091] (-) TimerEvent: {}
+[37.546662] (-) TimerEvent: {}
+[37.647181] (-) TimerEvent: {}
+[37.747682] (-) TimerEvent: {}
+[37.848170] (-) TimerEvent: {}
+[37.948700] (-) TimerEvent: {}
+[38.049113] (-) TimerEvent: {}
+[38.071073] (nav2_costmap_2d) StdoutLine: {'line': b'[ 68%] Built target nav2_costmap_2d_client\n'}
+[38.149237] (-) TimerEvent: {}
+[38.249627] (-) TimerEvent: {}
+[38.350152] (-) TimerEvent: {}
+[38.450908] (-) TimerEvent: {}
+[38.551462] (-) TimerEvent: {}
+[38.651887] (-) TimerEvent: {}
+[38.752294] (-) TimerEvent: {}
+[38.852673] (-) TimerEvent: {}
+[38.953096] (-) TimerEvent: {}
+[39.053515] (-) TimerEvent: {}
+[39.153952] (-) TimerEvent: {}
+[39.207395] (nav2_costmap_2d) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX executable nav2_costmap_2d_cloud\x1b[0m\n'}
+[39.254131] (-) TimerEvent: {}
+[39.354722] (-) TimerEvent: {}
+[39.455516] (-) TimerEvent: {}
+[39.556018] (-) TimerEvent: {}
+[39.635985] (nav2_costmap_2d) StdoutLine: {'line': b'[ 70%] Built target nav2_costmap_2d_cloud\n'}
+[39.656144] (-) TimerEvent: {}
+[39.756531] (-) TimerEvent: {}
+[39.856874] (-) TimerEvent: {}
+[39.957199] (-) TimerEvent: {}
+[40.057563] (-) TimerEvent: {}
+[40.157911] (-) TimerEvent: {}
+[40.258277] (-) TimerEvent: {}
+[40.358650] (-) TimerEvent: {}
+[40.459039] (-) TimerEvent: {}
+[40.559413] (-) TimerEvent: {}
+[40.659815] (-) TimerEvent: {}
+[40.760230] (-) TimerEvent: {}
+[40.860630] (-) TimerEvent: {}
+[40.916755] (nav2_costmap_2d) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking CXX executable nav2_costmap_2d_markers\x1b[0m\n'}
+[40.960968] (-) TimerEvent: {}
+[41.061358] (-) TimerEvent: {}
+[41.161811] (-) TimerEvent: {}
+[41.262327] (-) TimerEvent: {}
+[41.340072] (nav2_costmap_2d) StdoutLine: {'line': b'[ 72%] Built target nav2_costmap_2d_markers\n'}
+[41.362449] (-) TimerEvent: {}
+[41.462844] (-) TimerEvent: {}
+[41.563226] (-) TimerEvent: {}
+[41.663609] (-) TimerEvent: {}
+[41.763989] (-) TimerEvent: {}
+[41.864345] (-) TimerEvent: {}
+[41.964756] (-) TimerEvent: {}
+[42.065160] (-) TimerEvent: {}
+[42.165537] (-) TimerEvent: {}
+[42.265905] (-) TimerEvent: {}
+[42.366279] (-) TimerEvent: {}
+[42.466629] (-) TimerEvent: {}
+[42.566983] (-) TimerEvent: {}
+[42.667339] (-) TimerEvent: {}
+[42.767697] (-) TimerEvent: {}
+[42.868055] (-) TimerEvent: {}
+[42.968421] (-) TimerEvent: {}
+[43.072525] (-) TimerEvent: {}
+[43.172893] (-) TimerEvent: {}
+[43.273246] (-) TimerEvent: {}
+[43.373594] (-) TimerEvent: {}
+[43.473964] (-) TimerEvent: {}
+[43.574347] (-) TimerEvent: {}
+[43.674762] (-) TimerEvent: {}
+[43.775064] (-) TimerEvent: {}
+[43.875392] (-) TimerEvent: {}
+[43.975733] (-) TimerEvent: {}
+[44.076050] (-) TimerEvent: {}
+[44.176373] (-) TimerEvent: {}
+[44.276725] (-) TimerEvent: {}
+[44.377060] (-) TimerEvent: {}
+[44.477438] (-) TimerEvent: {}
+[44.577800] (-) TimerEvent: {}
+[44.678161] (-) TimerEvent: {}
+[44.778539] (-) TimerEvent: {}
+[44.878906] (-) TimerEvent: {}
+[44.979261] (-) TimerEvent: {}
+[45.079633] (-) TimerEvent: {}
+[45.180004] (-) TimerEvent: {}
+[45.280377] (-) TimerEvent: {}
+[45.380748] (-) TimerEvent: {}
+[45.481121] (-) TimerEvent: {}
+[45.581471] (-) TimerEvent: {}
+[45.681845] (-) TimerEvent: {}
+[45.782202] (-) TimerEvent: {}
+[45.882586] (-) TimerEvent: {}
+[45.982955] (-) TimerEvent: {}
+[46.083321] (-) TimerEvent: {}
+[46.183682] (-) TimerEvent: {}
+[46.284106] (-) TimerEvent: {}
+[46.384426] (-) TimerEvent: {}
+[46.484812] (-) TimerEvent: {}
+[46.585138] (-) TimerEvent: {}
+[46.685465] (-) TimerEvent: {}
+[46.785819] (-) TimerEvent: {}
+[46.886119] (-) TimerEvent: {}
+[46.986557] (-) TimerEvent: {}
+[47.086917] (-) TimerEvent: {}
+[47.187268] (-) TimerEvent: {}
+[47.287603] (-) TimerEvent: {}
+[47.387957] (-) TimerEvent: {}
+[47.488280] (-) TimerEvent: {}
+[47.588575] (-) TimerEvent: {}
+[47.688887] (-) TimerEvent: {}
+[47.789222] (-) TimerEvent: {}
+[47.889561] (-) TimerEvent: {}
+[47.989895] (-) TimerEvent: {}
+[48.090225] (-) TimerEvent: {}
+[48.190554] (-) TimerEvent: {}
+[48.290901] (-) TimerEvent: {}
+[48.391264] (-) TimerEvent: {}
+[48.491637] (-) TimerEvent: {}
+[48.592019] (-) TimerEvent: {}
+[48.692372] (-) TimerEvent: {}
+[48.792737] (-) TimerEvent: {}
+[48.893136] (-) TimerEvent: {}
+[48.993502] (-) TimerEvent: {}
+[49.093893] (-) TimerEvent: {}
+[49.194285] (-) TimerEvent: {}
+[49.294657] (-) TimerEvent: {}
+[49.395025] (-) TimerEvent: {}
+[49.495387] (-) TimerEvent: {}
+[49.595758] (-) TimerEvent: {}
+[49.696149] (-) TimerEvent: {}
+[49.796562] (-) TimerEvent: {}
+[49.896931] (-) TimerEvent: {}
+[49.997303] (-) TimerEvent: {}
+[50.097659] (-) TimerEvent: {}
+[50.198036] (-) TimerEvent: {}
+[50.298442] (-) TimerEvent: {}
+[50.398818] (-) TimerEvent: {}
+[50.499220] (-) TimerEvent: {}
+[50.599583] (-) TimerEvent: {}
+[50.699963] (-) TimerEvent: {}
+[50.800330] (-) TimerEvent: {}
+[50.900738] (-) TimerEvent: {}
+[51.001070] (-) TimerEvent: {}
+[51.101475] (-) TimerEvent: {}
+[51.201830] (-) TimerEvent: {}
+[51.302229] (-) TimerEvent: {}
+[51.378661] (nav2_costmap_2d) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library liblayers.so\x1b[0m\n'}
+[51.402367] (-) TimerEvent: {}
+[51.502725] (-) TimerEvent: {}
+[51.603085] (-) TimerEvent: {}
+[51.703474] (-) TimerEvent: {}
+[51.803924] (-) TimerEvent: {}
+[51.873670] (nav2_costmap_2d) StdoutLine: {'line': b'[ 75%] Built target layers\n'}
+[51.904030] (-) TimerEvent: {}
+[51.907241] (nav2_costmap_2d) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target range_tests_exec\x1b[0m\n'}
+[51.907708] (nav2_costmap_2d) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target nav2_costmap_2d\x1b[0m\n'}
+[51.912347] (nav2_costmap_2d) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target footprint_tests_exec\x1b[0m\n'}
+[51.921940] (nav2_costmap_2d) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target inflation_tests_exec\x1b[0m\n'}
+[51.924220] (nav2_costmap_2d) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target obstacle_tests_exec\x1b[0m\n'}
+[51.930758] (nav2_costmap_2d) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target test_collision_checker_exec\x1b[0m\n'}
+[51.971883] (nav2_costmap_2d) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/nav2_costmap_2d.dir/src/costmap_2d_node.cpp.o\x1b[0m\n'}
+[51.973987] (nav2_costmap_2d) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object test/integration/CMakeFiles/range_tests_exec.dir/range_tests.cpp.o\x1b[0m\n'}
+[51.987364] (nav2_costmap_2d) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object test/integration/CMakeFiles/footprint_tests_exec.dir/footprint_tests.cpp.o\x1b[0m\n'}
+[52.004146] (-) TimerEvent: {}
+[52.004724] (nav2_costmap_2d) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object test/integration/CMakeFiles/inflation_tests_exec.dir/inflation_tests.cpp.o\x1b[0m\n'}
+[52.019177] (nav2_costmap_2d) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object test/integration/CMakeFiles/test_collision_checker_exec.dir/test_costmap_topic_collision_checker.cpp.o\x1b[0m\n'}
+[52.019637] (nav2_costmap_2d) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object test/integration/CMakeFiles/obstacle_tests_exec.dir/obstacle_tests.cpp.o\x1b[0m\n'}
+[52.104273] (-) TimerEvent: {}
+[52.204700] (-) TimerEvent: {}
+[52.305189] (-) TimerEvent: {}
+[52.405564] (-) TimerEvent: {}
+[52.506051] (-) TimerEvent: {}
+[52.606490] (-) TimerEvent: {}
+[52.706879] (-) TimerEvent: {}
+[52.807232] (-) TimerEvent: {}
+[52.907616] (-) TimerEvent: {}
+[53.008005] (-) TimerEvent: {}
+[53.108383] (-) TimerEvent: {}
+[53.208779] (-) TimerEvent: {}
+[53.309138] (-) TimerEvent: {}
+[53.409548] (-) TimerEvent: {}
+[53.509916] (-) TimerEvent: {}
+[53.610276] (-) TimerEvent: {}
+[53.710643] (-) TimerEvent: {}
+[53.811025] (-) TimerEvent: {}
+[53.911512] (-) TimerEvent: {}
+[54.011882] (-) TimerEvent: {}
+[54.112272] (-) TimerEvent: {}
+[54.212753] (-) TimerEvent: {}
+[54.313146] (-) TimerEvent: {}
+[54.413927] (-) TimerEvent: {}
+[54.514535] (-) TimerEvent: {}
+[54.614952] (-) TimerEvent: {}
+[54.715377] (-) TimerEvent: {}
+[54.815787] (-) TimerEvent: {}
+[54.916238] (-) TimerEvent: {}
+[55.016688] (-) TimerEvent: {}
+[55.117261] (-) TimerEvent: {}
+[55.217617] (-) TimerEvent: {}
+[55.317996] (-) TimerEvent: {}
+[55.418492] (-) TimerEvent: {}
+[55.519071] (-) TimerEvent: {}
+[55.619645] (-) TimerEvent: {}
+[55.719997] (-) TimerEvent: {}
+[55.820373] (-) TimerEvent: {}
+[55.920779] (-) TimerEvent: {}
+[56.022584] (-) TimerEvent: {}
+[56.135337] (-) TimerEvent: {}
+[56.235738] (-) TimerEvent: {}
+[56.336241] (-) TimerEvent: {}
+[56.436638] (-) TimerEvent: {}
+[56.537049] (-) TimerEvent: {}
+[56.637530] (-) TimerEvent: {}
+[56.737899] (-) TimerEvent: {}
+[56.838303] (-) TimerEvent: {}
+[56.938748] (-) TimerEvent: {}
+[57.039219] (-) TimerEvent: {}
+[57.139746] (-) TimerEvent: {}
+[57.240161] (-) TimerEvent: {}
+[57.340528] (-) TimerEvent: {}
+[57.440971] (-) TimerEvent: {}
+[57.541540] (-) TimerEvent: {}
+[57.641950] (-) TimerEvent: {}
+[57.742450] (-) TimerEvent: {}
+[57.791928] (nav2_costmap_2d) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking CXX executable nav2_costmap_2d\x1b[0m\n'}
+[57.842600] (-) TimerEvent: {}
+[57.943085] (-) TimerEvent: {}
+[58.043576] (-) TimerEvent: {}
+[58.144008] (-) TimerEvent: {}
+[58.157402] (nav2_costmap_2d) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking CXX executable footprint_tests_exec\x1b[0m\n'}
+[58.244140] (-) TimerEvent: {}
+[58.344653] (-) TimerEvent: {}
+[58.377633] (nav2_costmap_2d) StdoutLine: {'line': b'[ 91%] Built target nav2_costmap_2d\n'}
+[58.444797] (-) TimerEvent: {}
+[58.545233] (-) TimerEvent: {}
+[58.645626] (-) TimerEvent: {}
+[58.719203] (nav2_costmap_2d) StdoutLine: {'line': b'[ 91%] Built target footprint_tests_exec\n'}
+[58.745745] (-) TimerEvent: {}
+[58.846140] (-) TimerEvent: {}
+[58.946547] (-) TimerEvent: {}
+[59.046941] (-) TimerEvent: {}
+[59.147343] (-) TimerEvent: {}
+[59.247740] (-) TimerEvent: {}
+[59.348151] (-) TimerEvent: {}
+[59.448524] (-) TimerEvent: {}
+[59.548919] (-) TimerEvent: {}
+[59.649367] (-) TimerEvent: {}
+[59.749790] (-) TimerEvent: {}
+[59.850152] (-) TimerEvent: {}
+[59.915591] (nav2_costmap_2d) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking CXX executable obstacle_tests_exec\x1b[0m\n'}
+[59.950273] (-) TimerEvent: {}
+[60.050681] (-) TimerEvent: {}
+[60.151085] (-) TimerEvent: {}
+[60.237538] (nav2_costmap_2d) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking CXX executable range_tests_exec\x1b[0m\n'}
+[60.251227] (-) TimerEvent: {}
+[60.351683] (-) TimerEvent: {}
+[60.452083] (-) TimerEvent: {}
+[60.486396] (nav2_costmap_2d) StdoutLine: {'line': b'[ 95%] Built target obstacle_tests_exec\n'}
+[60.552219] (-) TimerEvent: {}
+[60.652557] (-) TimerEvent: {}
+[60.752911] (-) TimerEvent: {}
+[60.810647] (nav2_costmap_2d) StdoutLine: {'line': b'[ 95%] Built target range_tests_exec\n'}
+[60.853050] (-) TimerEvent: {}
+[60.953412] (-) TimerEvent: {}
+[61.053784] (-) TimerEvent: {}
+[61.154123] (-) TimerEvent: {}
+[61.254486] (-) TimerEvent: {}
+[61.354854] (-) TimerEvent: {}
+[61.455240] (-) TimerEvent: {}
+[61.555623] (-) TimerEvent: {}
+[61.656048] (-) TimerEvent: {}
+[61.756430] (-) TimerEvent: {}
+[61.856809] (-) TimerEvent: {}
+[61.934627] (nav2_costmap_2d) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking CXX executable inflation_tests_exec\x1b[0m\n'}
+[61.956929] (-) TimerEvent: {}
+[62.057331] (-) TimerEvent: {}
+[62.157683] (-) TimerEvent: {}
+[62.258053] (-) TimerEvent: {}
+[62.358456] (-) TimerEvent: {}
+[62.362784] (nav2_costmap_2d) StdoutLine: {'line': b'[ 97%] Built target inflation_tests_exec\n'}
+[62.458615] (-) TimerEvent: {}
+[62.559005] (-) TimerEvent: {}
+[62.659372] (-) TimerEvent: {}
+[62.759744] (-) TimerEvent: {}
+[62.860132] (-) TimerEvent: {}
+[62.960528] (-) TimerEvent: {}
+[63.060904] (-) TimerEvent: {}
+[63.161324] (-) TimerEvent: {}
+[63.172493] (nav2_costmap_2d) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable test_collision_checker_exec\x1b[0m\n'}
+[63.261466] (-) TimerEvent: {}
+[63.361840] (-) TimerEvent: {}
+[63.462199] (-) TimerEvent: {}
+[63.562568] (-) TimerEvent: {}
+[63.633506] (nav2_costmap_2d) StdoutLine: {'line': b'[100%] Built target test_collision_checker_exec\n'}
+[63.652725] (nav2_costmap_2d) CommandEnded: {'returncode': 0}
+[63.662738] (-) TimerEvent: {}
+[63.763178] (-) TimerEvent: {}
+[63.832373] (nav2_costmap_2d) JobProgress: {'identifier': 'nav2_costmap_2d', 'progress': 'install'}
+[63.851046] (nav2_costmap_2d) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/terra/nav2_ws/build/nav2_costmap_2d'], 'cwd': '/home/terra/nav2_ws/build/nav2_costmap_2d', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'terra'), ('LC_TIME', 'zh_CN.UTF-8'), ('SSH_AGENT_PID', '1755'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/terra/nav2_ws/install/nav2_map_server/lib:/home/terra/nav2_ws/install/nav2_lifecycle_manager/lib:/home/terra/nav2_ws/install/nav2_util/lib:/home/terra/nav2_ws/install/nav2_voxel_grid/lib:/home/terra/nav2_ws/install/nav2_msgs/lib:/home/terra/nav2_ws/install/smac_planner/lib:/home/terra/nav2_ws/install/nav2_controller/lib:/home/terra/nav2_ws/install/dwb_plugins/lib:/home/terra/nav2_ws/install/dwb_critics/lib:/home/terra/nav2_ws/install/dwb_core/lib:/home/terra/nav2_ws/install/nav_2d_utils/lib:/home/terra/nav2_ws/install/dwb_msgs/lib:/home/terra/nav2_ws/install/nav_2d_msgs/lib:/home/terra/nav2_ws/install/nav2_waypoint_follower/lib:/home/terra/nav2_ws/install/nav2_straightline_planner/lib:/home/terra/nav2_ws/install/nav2_regulated_pure_pursuit_controller/lib:/home/terra/nav2_ws/install/nav2_recoveries/lib:/home/terra/nav2_ws/install/nav2_planner/lib:/home/terra/nav2_ws/install/nav2_navfn_planner/lib:/home/terra/nav2_ws/install/costmap_queue/lib:/home/terra/nav2_ws/install/nav2_costmap_2d/lib:/home/terra/nav2_ws/install/nav2_rviz_plugins/lib:/home/terra/nav2_ws/install/nav2_bt_navigator/lib:/home/terra/nav2_ws/install/nav2_behavior_tree/lib:/home/terra/nav2_ws/install/nav2_amcl/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/terra'), ('OLDPWD', '/home/terra'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '1588'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/terra/nav2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'terra'), ('JOURNAL_STREAM', '8:42752'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'terra'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/opt/ros/foxy/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/terra/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/terra-virtual-machine:@/tmp/.ICE-unix/1792,unix/terra-virtual-machine:/tmp/.ICE-unix/1792'), ('INVOCATION_ID', 'b584257cc1164c44ad76f13d0b9ca674'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4dce7f3c_a08e_4f01_badf_f2f8d88b076c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.109'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/terra/nav2_ws/install/nav2_system_tests:/home/terra/nav2_ws/install/nav2_bringup:/home/terra/nav2_ws/install/navigation2:/home/terra/nav2_ws/install/smac_planner:/home/terra/nav2_ws/install/nav2_dwb_controller:/home/terra/nav2_ws/install/nav2_controller:/home/terra/nav2_ws/install/dwb_plugins:/home/terra/nav2_ws/install/dwb_critics:/home/terra/nav2_ws/install/dwb_core:/home/terra/nav2_ws/install/nav_2d_utils:/home/terra/nav2_ws/install/dwb_msgs:/home/terra/nav2_ws/install/nav_2d_msgs:/home/terra/nav2_ws/install/nav2_waypoint_follower:/home/terra/nav2_ws/install/nav2_straightline_planner:/home/terra/nav2_ws/install/nav2_regulated_pure_pursuit_controller:/home/terra/nav2_ws/install/nav2_recoveries:/home/terra/nav2_ws/install/nav2_planner:/home/terra/nav2_ws/install/nav2_navfn_planner:/home/terra/nav2_ws/install/nav2_core:/home/terra/nav2_ws/install/costmap_queue:/home/terra/nav2_ws/install/nav2_costmap_2d:/home/terra/nav2_ws/install/nav2_voxel_grid:/home/terra/nav2_ws/install/nav2_rviz_plugins:/home/terra/nav2_ws/install/nav2_map_server:/home/terra/nav2_ws/install/nav2_lifecycle_manager:/home/terra/nav2_ws/install/nav2_bt_navigator:/home/terra/nav2_ws/install/nav2_behavior_tree:/home/terra/nav2_ws/install/nav2_amcl:/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/nav2_gazebo_spawner:/home/terra/nav2_ws/install/nav2_common:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/terra/nav2_ws/build/nav2_costmap_2d'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/terra/nav2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/terra/nav2_ws/install/nav2_common/lib/python3.8/site-packages:/home/terra/nav2_ws/install/dwb_msgs/lib/python3.8/site-packages:/home/terra/nav2_ws/install/nav_2d_msgs/lib/python3.8/site-packages:/home/terra/nav2_ws/build/nav2_gazebo_spawner:/home/terra/nav2_ws/install/nav2_gazebo_spawner/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/terra/nav2_ws/install/nav2_map_server:/home/terra/nav2_ws/install/nav2_lifecycle_manager:/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_voxel_grid:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/nav2_common:/home/terra/nav2_ws/install/nav2_system_tests:/home/terra/nav2_ws/install/nav2_bringup:/home/terra/nav2_ws/install/navigation2:/home/terra/nav2_ws/install/smac_planner:/home/terra/nav2_ws/install/nav2_dwb_controller:/home/terra/nav2_ws/install/nav2_controller:/home/terra/nav2_ws/install/dwb_plugins:/home/terra/nav2_ws/install/dwb_critics:/home/terra/nav2_ws/install/dwb_core:/home/terra/nav2_ws/install/nav_2d_utils:/home/terra/nav2_ws/install/dwb_msgs:/home/terra/nav2_ws/install/nav_2d_msgs:/home/terra/nav2_ws/install/nav2_waypoint_follower:/home/terra/nav2_ws/install/nav2_straightline_planner:/home/terra/nav2_ws/install/nav2_regulated_pure_pursuit_controller:/home/terra/nav2_ws/install/nav2_recoveries:/home/terra/nav2_ws/install/nav2_planner:/home/terra/nav2_ws/install/nav2_navfn_planner:/home/terra/nav2_ws/install/nav2_core:/home/terra/nav2_ws/install/costmap_queue:/home/terra/nav2_ws/install/nav2_costmap_2d:/home/terra/nav2_ws/install/nav2_rviz_plugins:/home/terra/nav2_ws/install/nav2_bt_navigator:/home/terra/nav2_ws/install/nav2_behavior_tree:/home/terra/nav2_ws/install/nav2_amcl:/home/terra/nav2_ws/install/nav2_gazebo_spawner:/opt/ros/foxy')]), 'shell': False}
+[63.863299] (-) TimerEvent: {}
+[63.865058] (nav2_costmap_2d) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[63.865739] (nav2_costmap_2d) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[63.866391] (nav2_costmap_2d) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_costmap_2d/lib/libnav2_costmap_2d_core.so\n'}
+[63.866821] (nav2_costmap_2d) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_costmap_2d/lib/liblayers.so\n'}
+[63.867280] (nav2_costmap_2d) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_costmap_2d/lib/libnav2_costmap_2d_client.so\n'}
+[63.868023] (nav2_costmap_2d) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_costmap_2d/lib/nav2_costmap_2d/nav2_costmap_2d\n'}
+[63.868523] (nav2_costmap_2d) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_costmap_2d/lib/nav2_costmap_2d/nav2_costmap_2d_markers\n'}
+[63.869013] (nav2_costmap_2d) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_costmap_2d/lib/nav2_costmap_2d/nav2_costmap_2d_cloud\n'}
+[63.869518] (nav2_costmap_2d) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/costmap_plugins.xml\n'}
+[63.870692] (nav2_costmap_2d) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/array_parser.hpp\n'}
+[63.871073] (nav2_costmap_2d) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/clear_costmap_service.hpp\n'}
+[63.871465] (nav2_costmap_2d) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/cost_values.hpp\n'}
+[63.871820] (nav2_costmap_2d) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_2d.hpp\n'}
+[63.872190] (nav2_costmap_2d) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_2d_publisher.hpp\n'}
+[63.872569] (nav2_costmap_2d) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_2d_ros.hpp\n'}
+[63.872990] (nav2_costmap_2d) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_layer.hpp\n'}
+[63.873382] (nav2_costmap_2d) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_math.hpp\n'}
+[63.873782] (nav2_costmap_2d) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_subscriber.hpp\n'}
+[63.874187] (nav2_costmap_2d) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/costmap_topic_collision_checker.hpp\n'}
+[63.874547] (nav2_costmap_2d) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/exceptions.hpp\n'}
+[63.874951] (nav2_costmap_2d) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/footprint.hpp\n'}
+[63.875261] (nav2_costmap_2d) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/footprint_collision_checker.hpp\n'}
+[63.875707] (nav2_costmap_2d) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/footprint_subscriber.hpp\n'}
+[63.876028] (nav2_costmap_2d) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/inflation_layer.hpp\n'}
+[63.876329] (nav2_costmap_2d) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/layer.hpp\n'}
+[63.876741] (nav2_costmap_2d) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/layered_costmap.hpp\n'}
+[63.877099] (nav2_costmap_2d) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/observation.hpp\n'}
+[63.877458] (nav2_costmap_2d) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/observation_buffer.hpp\n'}
+[63.877787] (nav2_costmap_2d) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/obstacle_layer.hpp\n'}
+[63.878160] (nav2_costmap_2d) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/range_sensor_layer.hpp\n'}
+[63.878533] (nav2_costmap_2d) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/static_layer.hpp\n'}
+[63.878920] (nav2_costmap_2d) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_costmap_2d/include//nav2_costmap_2d/voxel_layer.hpp\n'}
+[63.879454] (nav2_costmap_2d) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/library_path.sh\n'}
+[63.879998] (nav2_costmap_2d) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/library_path.dsv\n'}
+[63.880551] (nav2_costmap_2d) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d//costmap_plugins.xml\n'}
+[63.881110] (nav2_costmap_2d) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_costmap_2d/share/ament_index/resource_index/package_run_dependencies/nav2_costmap_2d\n'}
+[63.881631] (nav2_costmap_2d) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_costmap_2d/share/ament_index/resource_index/parent_prefix_path/nav2_costmap_2d\n'}
+[63.882184] (nav2_costmap_2d) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/ament_prefix_path.sh\n'}
+[63.882723] (nav2_costmap_2d) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/ament_prefix_path.dsv\n'}
+[63.883272] (nav2_costmap_2d) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/path.sh\n'}
+[63.883838] (nav2_costmap_2d) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/path.dsv\n'}
+[63.884297] (nav2_costmap_2d) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/local_setup.bash\n'}
+[63.884937] (nav2_costmap_2d) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/local_setup.sh\n'}
+[63.885410] (nav2_costmap_2d) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/local_setup.zsh\n'}
+[63.885938] (nav2_costmap_2d) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/local_setup.dsv\n'}
+[63.886395] (nav2_costmap_2d) StdoutLine: {'line': b'-- Symlinking: /home/terra/nav2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/package.dsv\n'}
+[63.902597] (nav2_costmap_2d) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_costmap_2d/share/ament_index/resource_index/packages/nav2_costmap_2d\n'}
+[63.903176] (nav2_costmap_2d) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_costmap_2d/share/ament_index/resource_index/nav2_costmap_2d__pluginlib__plugin/nav2_costmap_2d\n'}
+[63.903634] (nav2_costmap_2d) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[63.904127] (nav2_costmap_2d) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[63.904624] (nav2_costmap_2d) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[63.904993] (nav2_costmap_2d) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/ament_cmake_export_definitions-extras.cmake\n'}
+[63.905374] (nav2_costmap_2d) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/nav2_costmap_2dConfig.cmake\n'}
+[63.905649] (nav2_costmap_2d) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/nav2_costmap_2dConfig-version.cmake\n'}
+[63.906151] (nav2_costmap_2d) StdoutLine: {'line': b'-- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/package.xml\n'}
+[63.909601] (nav2_costmap_2d) CommandEnded: {'returncode': 0}
+[63.963514] (-) TimerEvent: {}
+[64.063948] (-) TimerEvent: {}
+[64.151959] (nav2_costmap_2d) JobEnded: {'identifier': 'nav2_costmap_2d', 'rc': 0}
+[64.153053] (-) EventReactorShutdown: {}

@@ -1,0 +1,69 @@
+[0.056s] Invoking command in '/home/terra/nav2_ws/build/nav2_navfn_planner': AMENT_PREFIX_PATH=/home/terra/nav2_ws/install/nav2_core:/home/terra/nav2_ws/install/nav2_costmap_2d:/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_voxel_grid:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/terra/nav2_ws/install/nav2_core:/home/terra/nav2_ws/install/nav2_costmap_2d:/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_voxel_grid:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/terra/nav2_ws/install/nav2_costmap_2d/lib:/home/terra/nav2_ws/install/nav2_util/lib:/home/terra/nav2_ws/install/nav2_voxel_grid/lib:/home/terra/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/terra/nav2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/terra/nav2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/terra/nav2_ws/src/nav2_navfn_planner -DCMAKE_INSTALL_PREFIX=/home/terra/nav2_ws/install/nav2_navfn_planner
+[0.296s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.356s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.561s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.597s] -- Found nav2_common: 0.4.7 (/home/terra/nav2_ws/install/nav2_common/share/nav2_common/cmake)
+[0.600s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.676s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.684s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.874s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.959s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.964s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.170s] -- Found rclcpp_action: 2.4.1 (/opt/ros/foxy/share/rclcpp_action/cmake)
+[1.286s] -- Found rclcpp_lifecycle: 2.4.1 (/opt/ros/foxy/share/rclcpp_lifecycle/cmake)
+[1.336s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[1.488s] -- Found nav2_util: 0.4.7 (/home/terra/nav2_ws/install/nav2_util/share/nav2_util/cmake)
+[2.290s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[2.467s] -- Found nav2_core: 0.4.7 (/home/terra/nav2_ws/install/nav2_core/share/nav2_core/cmake)
+[6.409s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[6.512s] -- Added test 'copyright' to check source files copyright and LICENSE
+[6.513s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.513s] -- Configured cppcheck include dirs: /home/terra/nav2_ws/src/nav2_navfn_planner/include
+[6.514s] -- Configured cppcheck exclude dirs and/or files: 
+[6.515s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[6.515s] -- Configured cpplint exclude dirs and/or files: 
+[6.516s] -- Added test 'lint_cmake' to check CMake code style
+[6.518s] -- Added test 'uncrustify' to check C / C++ code style
+[6.518s] -- Configured uncrustify additional arguments: 
+[6.519s] -- Added test 'xmllint' to check XML markup files
+[6.535s] -- Configuring done
+[6.869s] -- Generating done
+[6.872s] -- Build files have been written to: /home/terra/nav2_ws/build/nav2_navfn_planner
+[6.883s] Invoked command in '/home/terra/nav2_ws/build/nav2_navfn_planner' returned '0': AMENT_PREFIX_PATH=/home/terra/nav2_ws/install/nav2_core:/home/terra/nav2_ws/install/nav2_costmap_2d:/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_voxel_grid:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/terra/nav2_ws/install/nav2_core:/home/terra/nav2_ws/install/nav2_costmap_2d:/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_voxel_grid:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/terra/nav2_ws/install/nav2_costmap_2d/lib:/home/terra/nav2_ws/install/nav2_util/lib:/home/terra/nav2_ws/install/nav2_voxel_grid/lib:/home/terra/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/terra/nav2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/terra/nav2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/terra/nav2_ws/src/nav2_navfn_planner -DCMAKE_INSTALL_PREFIX=/home/terra/nav2_ws/install/nav2_navfn_planner
+[6.887s] Invoking command in '/home/terra/nav2_ws/build/nav2_navfn_planner': AMENT_PREFIX_PATH=/home/terra/nav2_ws/install/nav2_core:/home/terra/nav2_ws/install/nav2_costmap_2d:/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_voxel_grid:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/terra/nav2_ws/install/nav2_core:/home/terra/nav2_ws/install/nav2_costmap_2d:/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_voxel_grid:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/terra/nav2_ws/install/nav2_costmap_2d/lib:/home/terra/nav2_ws/install/nav2_util/lib:/home/terra/nav2_ws/install/nav2_voxel_grid/lib:/home/terra/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/terra/nav2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/terra/nav2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/terra/nav2_ws/build/nav2_navfn_planner -- -j8 -l8
+[6.970s] [35m[1mScanning dependencies of target nav2_navfn_planner[0m
+[7.041s] [ 33%] [32mBuilding CXX object CMakeFiles/nav2_navfn_planner.dir/src/navfn_planner.cpp.o[0m
+[16.079s] [ 66%] [32m[1mLinking CXX shared library libnav2_navfn_planner.so[0m
+[16.595s] [100%] Built target nav2_navfn_planner
+[16.609s] Invoked command in '/home/terra/nav2_ws/build/nav2_navfn_planner' returned '0': AMENT_PREFIX_PATH=/home/terra/nav2_ws/install/nav2_core:/home/terra/nav2_ws/install/nav2_costmap_2d:/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_voxel_grid:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/terra/nav2_ws/install/nav2_core:/home/terra/nav2_ws/install/nav2_costmap_2d:/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_voxel_grid:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/terra/nav2_ws/install/nav2_costmap_2d/lib:/home/terra/nav2_ws/install/nav2_util/lib:/home/terra/nav2_ws/install/nav2_voxel_grid/lib:/home/terra/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/terra/nav2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/terra/nav2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/terra/nav2_ws/build/nav2_navfn_planner -- -j8 -l8
+[16.657s] Invoking command in '/home/terra/nav2_ws/build/nav2_navfn_planner': AMENT_PREFIX_PATH=/home/terra/nav2_ws/install/nav2_core:/home/terra/nav2_ws/install/nav2_costmap_2d:/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_voxel_grid:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/terra/nav2_ws/install/nav2_core:/home/terra/nav2_ws/install/nav2_costmap_2d:/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_voxel_grid:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/terra/nav2_ws/install/nav2_costmap_2d/lib:/home/terra/nav2_ws/install/nav2_util/lib:/home/terra/nav2_ws/install/nav2_voxel_grid/lib:/home/terra/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/terra/nav2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/terra/nav2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/terra/nav2_ws/build/nav2_navfn_planner
+[16.666s] -- Install configuration: "Release"
+[16.667s] -- Execute custom install script
+[16.668s] -- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_navfn_planner/share/nav2_navfn_planner//global_planner_plugin.xml
+[16.669s] -- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_navfn_planner/lib/libnav2_navfn_planner.so
+[16.670s] -- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_navfn_planner/include//nav2_navfn_planner/navfn.hpp
+[16.670s] -- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_navfn_planner/include//nav2_navfn_planner/navfn_planner.hpp
+[16.671s] -- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_navfn_planner/share/nav2_navfn_planner/global_planner_plugin.xml
+[16.672s] -- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_navfn_planner/share/nav2_navfn_planner/environment/library_path.sh
+[16.672s] -- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_navfn_planner/share/nav2_navfn_planner/environment/library_path.dsv
+[16.673s] -- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_navfn_planner/share/ament_index/resource_index/package_run_dependencies/nav2_navfn_planner
+[16.674s] -- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_navfn_planner/share/ament_index/resource_index/parent_prefix_path/nav2_navfn_planner
+[16.675s] -- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_navfn_planner/share/nav2_navfn_planner/environment/ament_prefix_path.sh
+[16.675s] -- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_navfn_planner/share/nav2_navfn_planner/environment/ament_prefix_path.dsv
+[16.676s] -- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_navfn_planner/share/nav2_navfn_planner/environment/path.sh
+[16.676s] -- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_navfn_planner/share/nav2_navfn_planner/environment/path.dsv
+[16.677s] -- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_navfn_planner/share/nav2_navfn_planner/local_setup.bash
+[16.677s] -- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_navfn_planner/share/nav2_navfn_planner/local_setup.sh
+[16.678s] -- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_navfn_planner/share/nav2_navfn_planner/local_setup.zsh
+[16.678s] -- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_navfn_planner/share/nav2_navfn_planner/local_setup.dsv
+[16.679s] -- Symlinking: /home/terra/nav2_ws/install/nav2_navfn_planner/share/nav2_navfn_planner/package.dsv
+[16.692s] -- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_navfn_planner/share/ament_index/resource_index/packages/nav2_navfn_planner
+[16.692s] -- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_navfn_planner/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_navfn_planner
+[16.693s] -- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_navfn_planner/share/nav2_navfn_planner/cmake/ament_cmake_export_include_directories-extras.cmake
+[16.694s] -- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_navfn_planner/share/nav2_navfn_planner/cmake/ament_cmake_export_libraries-extras.cmake
+[16.694s] -- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_navfn_planner/share/nav2_navfn_planner/cmake/ament_cmake_export_dependencies-extras.cmake
+[16.695s] -- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_navfn_planner/share/nav2_navfn_planner/cmake/ament_cmake_export_definitions-extras.cmake
+[16.696s] -- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_navfn_planner/share/nav2_navfn_planner/cmake/nav2_navfn_plannerConfig.cmake
+[16.696s] -- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_navfn_planner/share/nav2_navfn_planner/cmake/nav2_navfn_plannerConfig-version.cmake
+[16.696s] -- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_navfn_planner/share/nav2_navfn_planner/package.xml
+[16.699s] Invoked command in '/home/terra/nav2_ws/build/nav2_navfn_planner' returned '0': AMENT_PREFIX_PATH=/home/terra/nav2_ws/install/nav2_core:/home/terra/nav2_ws/install/nav2_costmap_2d:/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_voxel_grid:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/terra/nav2_ws/install/nav2_core:/home/terra/nav2_ws/install/nav2_costmap_2d:/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_voxel_grid:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/terra/nav2_ws/install/nav2_costmap_2d/lib:/home/terra/nav2_ws/install/nav2_util/lib:/home/terra/nav2_ws/install/nav2_voxel_grid/lib:/home/terra/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/terra/nav2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/terra/nav2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/terra/nav2_ws/build/nav2_navfn_planner

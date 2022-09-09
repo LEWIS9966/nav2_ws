@@ -1,0 +1,31 @@
+[35m[1mScanning dependencies of target nav2_straightline_planner_plugin[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/nav2_straightline_planner_plugin.dir/src/straight_line_planner.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libnav2_straightline_planner_plugin.so[0m
+[100%] Built target nav2_straightline_planner_plugin
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/terra/nav2_ws/install/nav2_straightline_planner/share/nav2_straightline_planner//global_planner_plugin.xml
+-- Symlinking: /home/terra/nav2_ws/install/nav2_straightline_planner/lib/libnav2_straightline_planner_plugin.so
+-- Symlinking: /home/terra/nav2_ws/install/nav2_straightline_planner/include//nav2_straightline_planner/straight_line_planner.hpp
+-- Up-to-date symlink: /home/terra/nav2_ws/install/nav2_straightline_planner/share/nav2_straightline_planner/global_planner_plugin.xml
+-- Symlinking: /home/terra/nav2_ws/install/nav2_straightline_planner/share/nav2_straightline_planner/environment/library_path.sh
+-- Symlinking: /home/terra/nav2_ws/install/nav2_straightline_planner/share/nav2_straightline_planner/environment/library_path.dsv
+-- Symlinking: /home/terra/nav2_ws/install/nav2_straightline_planner/share/ament_index/resource_index/package_run_dependencies/nav2_straightline_planner
+-- Symlinking: /home/terra/nav2_ws/install/nav2_straightline_planner/share/ament_index/resource_index/parent_prefix_path/nav2_straightline_planner
+-- Symlinking: /home/terra/nav2_ws/install/nav2_straightline_planner/share/nav2_straightline_planner/environment/ament_prefix_path.sh
+-- Symlinking: /home/terra/nav2_ws/install/nav2_straightline_planner/share/nav2_straightline_planner/environment/ament_prefix_path.dsv
+-- Symlinking: /home/terra/nav2_ws/install/nav2_straightline_planner/share/nav2_straightline_planner/environment/path.sh
+-- Symlinking: /home/terra/nav2_ws/install/nav2_straightline_planner/share/nav2_straightline_planner/environment/path.dsv
+-- Symlinking: /home/terra/nav2_ws/install/nav2_straightline_planner/share/nav2_straightline_planner/local_setup.bash
+-- Symlinking: /home/terra/nav2_ws/install/nav2_straightline_planner/share/nav2_straightline_planner/local_setup.sh
+-- Symlinking: /home/terra/nav2_ws/install/nav2_straightline_planner/share/nav2_straightline_planner/local_setup.zsh
+-- Symlinking: /home/terra/nav2_ws/install/nav2_straightline_planner/share/nav2_straightline_planner/local_setup.dsv
+-- Symlinking: /home/terra/nav2_ws/install/nav2_straightline_planner/share/nav2_straightline_planner/package.dsv
+-- Symlinking: /home/terra/nav2_ws/install/nav2_straightline_planner/share/ament_index/resource_index/packages/nav2_straightline_planner
+-- Symlinking: /home/terra/nav2_ws/install/nav2_straightline_planner/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_straightline_planner
+-- Symlinking: /home/terra/nav2_ws/install/nav2_straightline_planner/share/nav2_straightline_planner/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/terra/nav2_ws/install/nav2_straightline_planner/share/nav2_straightline_planner/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/terra/nav2_ws/install/nav2_straightline_planner/share/nav2_straightline_planner/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/terra/nav2_ws/install/nav2_straightline_planner/share/nav2_straightline_planner/cmake/nav2_straightline_plannerConfig.cmake
+-- Symlinking: /home/terra/nav2_ws/install/nav2_straightline_planner/share/nav2_straightline_planner/cmake/nav2_straightline_plannerConfig-version.cmake
+-- Symlinking: /home/terra/nav2_ws/install/nav2_straightline_planner/share/nav2_straightline_planner/package.xml

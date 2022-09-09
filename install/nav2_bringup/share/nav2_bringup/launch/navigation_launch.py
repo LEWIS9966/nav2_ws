@@ -1,0 +1,1 @@
+/home/terra/nav2_ws/src/nav2_bringup/bringup/launch/navigation_launch.py

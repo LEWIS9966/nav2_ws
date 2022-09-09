@@ -1,0 +1,27 @@
+[35m[1mScanning dependencies of target straight_line_demo[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/straight_line_demo.dir/src/straight_line_demo.cpp.o[0m
+[100%] [32m[1mLinking CXX executable straight_line_demo[0m
+[100%] Built target straight_line_demo
+-- Install configuration: ""
+-- Installing: /home/terra/nav2_ws/install/nav2_straightline_demo/lib/nav2_straightline_demo/straight_line_demo
+-- Set runtime path of "/home/terra/nav2_ws/install/nav2_straightline_demo/lib/nav2_straightline_demo/straight_line_demo" to ""
+-- Installing: /home/terra/nav2_ws/install/nav2_straightline_demo/include/
+-- Installing: /home/terra/nav2_ws/install/nav2_straightline_demo/include//nav2_demo
+-- Installing: /home/terra/nav2_ws/install/nav2_straightline_demo/include//nav2_demo/straight_line_demo.hpp
+-- Installing: /home/terra/nav2_ws/install/nav2_straightline_demo/share/ament_index/resource_index/package_run_dependencies/nav2_straightline_demo
+-- Installing: /home/terra/nav2_ws/install/nav2_straightline_demo/share/ament_index/resource_index/parent_prefix_path/nav2_straightline_demo
+-- Installing: /home/terra/nav2_ws/install/nav2_straightline_demo/share/nav2_straightline_demo/environment/ament_prefix_path.sh
+-- Installing: /home/terra/nav2_ws/install/nav2_straightline_demo/share/nav2_straightline_demo/environment/ament_prefix_path.dsv
+-- Installing: /home/terra/nav2_ws/install/nav2_straightline_demo/share/nav2_straightline_demo/environment/path.sh
+-- Installing: /home/terra/nav2_ws/install/nav2_straightline_demo/share/nav2_straightline_demo/environment/path.dsv
+-- Installing: /home/terra/nav2_ws/install/nav2_straightline_demo/share/nav2_straightline_demo/local_setup.bash
+-- Installing: /home/terra/nav2_ws/install/nav2_straightline_demo/share/nav2_straightline_demo/local_setup.sh
+-- Installing: /home/terra/nav2_ws/install/nav2_straightline_demo/share/nav2_straightline_demo/local_setup.zsh
+-- Installing: /home/terra/nav2_ws/install/nav2_straightline_demo/share/nav2_straightline_demo/local_setup.dsv
+-- Installing: /home/terra/nav2_ws/install/nav2_straightline_demo/share/nav2_straightline_demo/package.dsv
+-- Installing: /home/terra/nav2_ws/install/nav2_straightline_demo/share/ament_index/resource_index/packages/nav2_straightline_demo
+-- Installing: /home/terra/nav2_ws/install/nav2_straightline_demo/share/nav2_straightline_demo/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/terra/nav2_ws/install/nav2_straightline_demo/share/nav2_straightline_demo/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/terra/nav2_ws/install/nav2_straightline_demo/share/nav2_straightline_demo/cmake/nav2_straightline_demoConfig.cmake
+-- Installing: /home/terra/nav2_ws/install/nav2_straightline_demo/share/nav2_straightline_demo/cmake/nav2_straightline_demoConfig-version.cmake
+-- Installing: /home/terra/nav2_ws/install/nav2_straightline_demo/share/nav2_straightline_demo/package.xml

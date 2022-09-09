@@ -1,0 +1,1 @@
+/home/terra/nav2_ws/src/nav2_rviz_plugins/include/nav2_rviz_plugins/nav2_panel.hpp

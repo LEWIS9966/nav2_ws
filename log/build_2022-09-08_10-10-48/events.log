@@ -1,0 +1,187 @@
+[0.000000] (-) TimerEvent: {}
+[0.000221] (-) JobUnselected: {'identifier': 'costmap_queue'}
+[0.000334] (-) JobUnselected: {'identifier': 'dwb_core'}
+[0.001625] (-) JobUnselected: {'identifier': 'dwb_critics'}
+[0.001770] (-) JobUnselected: {'identifier': 'dwb_msgs'}
+[0.001819] (-) JobUnselected: {'identifier': 'dwb_plugins'}
+[0.001886] (-) JobUnselected: {'identifier': 'nav2_amcl'}
+[0.001990] (-) JobUnselected: {'identifier': 'nav2_behavior_tree'}
+[0.002080] (-) JobUnselected: {'identifier': 'nav2_bringup'}
+[0.002124] (-) JobUnselected: {'identifier': 'nav2_bt_navigator'}
+[0.002178] (-) JobUnselected: {'identifier': 'nav2_common'}
+[0.002223] (-) JobUnselected: {'identifier': 'nav2_controller'}
+[0.002268] (-) JobUnselected: {'identifier': 'nav2_core'}
+[0.002381] (-) JobUnselected: {'identifier': 'nav2_costmap_2d'}
+[0.002464] (-) JobUnselected: {'identifier': 'nav2_costmap_filters_demo'}
+[0.002529] (-) JobUnselected: {'identifier': 'nav2_dwb_controller'}
+[0.002588] (-) JobUnselected: {'identifier': 'nav2_gazebo_spawner'}
+[0.002634] (-) JobUnselected: {'identifier': 'nav2_gradient_costmap_plugin'}
+[0.002727] (-) JobUnselected: {'identifier': 'nav2_lifecycle_manager'}
+[0.002807] (-) JobUnselected: {'identifier': 'nav2_map_server'}
+[0.002866] (-) JobUnselected: {'identifier': 'nav2_msgs'}
+[0.002913] (-) JobUnselected: {'identifier': 'nav2_navfn_planner'}
+[0.002973] (-) JobUnselected: {'identifier': 'nav2_planner'}
+[0.003032] (-) JobUnselected: {'identifier': 'nav2_recoveries'}
+[0.003078] (-) JobUnselected: {'identifier': 'nav2_regulated_pure_pursuit_controller'}
+[0.003138] (-) JobUnselected: {'identifier': 'nav2_rviz_plugins'}
+[0.003233] (-) JobUnselected: {'identifier': 'nav2_sms_behavior'}
+[0.003308] (-) JobUnselected: {'identifier': 'nav2_straightline_planner'}
+[0.003385] (-) JobUnselected: {'identifier': 'nav2_system_tests'}
+[0.003431] (-) JobUnselected: {'identifier': 'nav2_util'}
+[0.003517] (-) JobUnselected: {'identifier': 'nav2_voxel_grid'}
+[0.003601] (-) JobUnselected: {'identifier': 'nav2_waypoint_follower'}
+[0.003734] (-) JobUnselected: {'identifier': 'nav_2d_msgs'}
+[0.003799] (-) JobUnselected: {'identifier': 'nav_2d_utils'}
+[0.003859] (-) JobUnselected: {'identifier': 'navigation2'}
+[0.003931] (-) JobUnselected: {'identifier': 'sam_bot_description'}
+[0.003990] (-) JobUnselected: {'identifier': 'smac_planner'}
+[0.004038] (nav2_straightline_demo) JobQueued: {'identifier': 'nav2_straightline_demo', 'dependencies': OrderedDict()}
+[0.004106] (nav2_straightline_demo) JobStarted: {'identifier': 'nav2_straightline_demo'}
+[0.020236] (nav2_straightline_demo) JobProgress: {'identifier': 'nav2_straightline_demo', 'progress': 'cmake'}
+[0.021384] (nav2_straightline_demo) JobProgress: {'identifier': 'nav2_straightline_demo', 'progress': 'build'}
+[0.022218] (nav2_straightline_demo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/terra/nav2_ws/build/nav2_straightline_demo', '--', '-j8', '-l8'], 'cwd': '/home/terra/nav2_ws/build/nav2_straightline_demo', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'terra'), ('LC_TIME', 'zh_CN.UTF-8'), ('SSH_AGENT_PID', '1719'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/terra'), ('OLDPWD', '/home/terra'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '1549'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'terra'), ('JOURNAL_STREAM', '8:41270'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'terra'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/terra/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/terra-virtual-machine:@/tmp/.ICE-unix/1756,unix/terra-virtual-machine:/tmp/.ICE-unix/1756'), ('INVOCATION_ID', '9ece619a82f046f4b25df0add9d93bce'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/761c8075_ca71_40c9_a7ef_d52f0835eadd'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.248'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/terra/nav2_ws/build/nav2_straightline_demo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.086373] (nav2_straightline_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target straight_line_demo\x1b[0m\n'}
+[0.098622] (-) TimerEvent: {}
+[0.167773] (nav2_straightline_demo) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/straight_line_demo.dir/src/straight_line_demo.cpp.o\x1b[0m\n'}
+[0.198727] (-) TimerEvent: {}
+[0.299197] (-) TimerEvent: {}
+[0.399628] (-) TimerEvent: {}
+[0.499962] (-) TimerEvent: {}
+[0.600336] (-) TimerEvent: {}
+[0.700788] (-) TimerEvent: {}
+[0.801149] (-) TimerEvent: {}
+[0.901539] (-) TimerEvent: {}
+[1.001895] (-) TimerEvent: {}
+[1.102280] (-) TimerEvent: {}
+[1.202665] (-) TimerEvent: {}
+[1.303029] (-) TimerEvent: {}
+[1.403347] (-) TimerEvent: {}
+[1.503755] (-) TimerEvent: {}
+[1.604172] (-) TimerEvent: {}
+[1.704640] (-) TimerEvent: {}
+[1.804965] (-) TimerEvent: {}
+[1.905310] (-) TimerEvent: {}
+[2.005695] (-) TimerEvent: {}
+[2.106021] (-) TimerEvent: {}
+[2.206381] (-) TimerEvent: {}
+[2.306804] (-) TimerEvent: {}
+[2.407317] (-) TimerEvent: {}
+[2.507833] (-) TimerEvent: {}
+[2.608158] (-) TimerEvent: {}
+[2.708501] (-) TimerEvent: {}
+[2.808813] (-) TimerEvent: {}
+[2.909153] (-) TimerEvent: {}
+[3.009440] (-) TimerEvent: {}
+[3.109778] (-) TimerEvent: {}
+[3.210133] (-) TimerEvent: {}
+[3.217153] (nav2_straightline_demo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/terra/nav2_ws/src/nav2_straightline_demo/src/straight_line_demo.cpp:1\x1b[m\x1b[K:\n'}
+[3.217457] (nav2_straightline_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/terra/nav2_ws/src/nav2_straightline_demo/include/nav2_demo/straight_line_demo.hpp:13:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for call to \xe2\x80\x98\x1b[01m\x1b[K(rclcpp::Node) ()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.217597] (nav2_straightline_demo) StderrLine: {'line': b'   13 |         ObstacleAvoidance : Node ("ObstacleAvoidance")(\x1b[01;31m\x1b[K)\x1b[m\x1b[K{\n'}
+[3.217693] (nav2_straightline_demo) StderrLine: {'line': b'      |                                                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.217796] (nav2_straightline_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/terra/nav2_ws/src/nav2_straightline_demo/include/nav2_demo/straight_line_demo.hpp:13:57:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kdefault member initializer for unnamed bit-field\n'}
+[3.217886] (nav2_straightline_demo) StderrLine: {'line': b'   13 |         ObstacleAvoidance : Node ("ObstacleAvoidance")()\x1b[01;31m\x1b[K{\x1b[m\x1b[K\n'}
+[3.217960] (nav2_straightline_demo) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.218033] (nav2_straightline_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/terra/nav2_ws/src/nav2_straightline_demo/include/nav2_demo/straight_line_demo.hpp:16:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kname \xe2\x80\x98\x1b[01m\x1b[Kobstacle_avoidance::ObstacleAvoidance\x1b[m\x1b[K\xe2\x80\x99 has incomplete type\n'}
+[3.218107] (nav2_straightline_demo) StderrLine: {'line': b'   16 |         \x1b[01;31m\x1b[K}\x1b[m\x1b[K;\n'}
+[3.218180] (nav2_straightline_demo) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.310271] (-) TimerEvent: {}
+[3.391373] (nav2_straightline_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/terra/nav2_ws/src/nav2_straightline_demo/src/straight_line_demo.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid obstacle_avoidance::ObstacleAvoidance::getPlannerPath()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.391911] (nav2_straightline_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/terra/nav2_ws/src/nav2_straightline_demo/src/straight_line_demo.cpp:12:96:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator=\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Subscription<nav_msgs::msg::Path_<std::allocator<void> > >::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Subscription<nav_msgs::msg::Path_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Publisher<nav_msgs::msg::Path_<std::allocator<void> >, std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[3.392103] (nav2_straightline_demo) StderrLine: {'line': b'   12 | er<nav_msgs::msg::Path>("/ObstacleAvoidance/planner_path", 10\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[3.392233] (nav2_straightline_demo) StderrLine: {'line': b'      |                                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.392378] (nav2_straightline_demo) StderrLine: {'line': b'\n'}
+[3.392519] (nav2_straightline_demo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/memory:81\x1b[m\x1b[K,\n'}
+[3.392660] (nav2_straightline_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:82\x1b[m\x1b[K,\n'}
+[3.392798] (nav2_straightline_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/terra/nav2_ws/src/nav2_straightline_demo/include/nav2_demo/straight_line_demo.hpp:1\x1b[m\x1b[K,\n'}
+[3.392949] (nav2_straightline_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/terra/nav2_ws/src/nav2_straightline_demo/src/straight_line_demo.cpp:1\x1b[m\x1b[K:\n'}
+[3.393096] (nav2_straightline_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:309:19:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Tp>&) [with _Tp = rclcpp::Subscription<nav_msgs::msg::Path_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.393243] (nav2_straightline_demo) StderrLine: {'line': b'  309 |       shared_ptr& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const shared_ptr&) noexcept = default;\n'}
+[3.393398] (nav2_straightline_demo) StderrLine: {'line': b'      |                   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.393550] (nav2_straightline_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:309:29:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Publisher<nav_msgs::msg::Path_<std::allocator<void> >, std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<rclcpp::Subscription<nav_msgs::msg::Path_<std::allocator<void> > > >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.393696] (nav2_straightline_demo) StderrLine: {'line': b'  309 |       shared_ptr& operator=(\x1b[01;36m\x1b[Kconst shared_ptr&\x1b[m\x1b[K) noexcept = default;\n'}
+[3.393836] (nav2_straightline_demo) StderrLine: {'line': b'      |                             \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.393976] (nav2_straightline_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:313:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<const std::shared_ptr<_Yp>&> std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Yp>&) [with _Yp = _Yp; _Tp = rclcpp::Subscription<nav_msgs::msg::Path_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.394122] (nav2_straightline_demo) StderrLine: {'line': b'  313 |  \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const shared_ptr<_Yp>& __r) noexcept\n'}
+[3.394258] (nav2_straightline_demo) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.394394] (nav2_straightline_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:313:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.394531] (nav2_straightline_demo) StderrLine: {'line': b'/usr/include/c++/9/bits/shared_ptr.h: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> template<class _Arg> using _Assignable = typename std::enable_if<std::is_assignable<std::__shared_ptr<_Tp>&, _Arg>::value, std::shared_ptr<_Tp>&>::type [with _Arg = const std::shared_ptr<rclcpp::Publisher<nav_msgs::msg::Path_<std::allocator<void> >, std::allocator<void> > >&; _Tp = rclcpp::Subscription<nav_msgs::msg::Path_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.394680] (nav2_straightline_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:313:2:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<rclcpp::Subscription<nav_msgs::msg::Path_<std::allocator<void> > > >::_Assignable<const std::shared_ptr<_Tp>&> std::shared_ptr<rclcpp::Subscription<nav_msgs::msg::Path_<std::allocator<void> > > >::operator=<_Yp>(const std::shared_ptr<_Tp>&) [with _Yp = rclcpp::Publisher<nav_msgs::msg::Path_<std::allocator<void> >, std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.394826] (nav2_straightline_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/terra/nav2_ws/src/nav2_straightline_demo/src/straight_line_demo.cpp:12:96:\x1b[m\x1b[K   required from here\n'}
+[3.394971] (nav2_straightline_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:111:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, std::shared_ptr<rclcpp::Subscription<nav_msgs::msg::Path_<std::allocator<void> > > >&>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.395113] (nav2_straightline_demo) StderrLine: {'line': b'  111 |  using \x1b[01;31m\x1b[K_Assignable\x1b[m\x1b[K = typename enable_if<\n'}
+[3.395252] (nav2_straightline_demo) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.395420] (nav2_straightline_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:324:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::auto_ptr<_Up> > std::shared_ptr<_Tp>::operator=(std::auto_ptr<_Up>&&) [with _Yp = _Yp; _Tp = rclcpp::Subscription<nav_msgs::msg::Path_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.395619] (nav2_straightline_demo) StderrLine: {'line': b'  324 |  \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(auto_ptr<_Yp>&& __r)\n'}
+[3.395799] (nav2_straightline_demo) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.395977] (nav2_straightline_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:324:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.396145] (nav2_straightline_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/terra/nav2_ws/src/nav2_straightline_demo/src/straight_line_demo.cpp:12:96:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Publisher<nav_msgs::msg::Path_<std::allocator<void> >, std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::auto_ptr<_Up>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.396316] (nav2_straightline_demo) StderrLine: {'line': b'   12 | er<nav_msgs::msg::Path>("/ObstacleAvoidance/planner_path", 10\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[3.396468] (nav2_straightline_demo) StderrLine: {'line': b'      |                                                              \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[3.396629] (nav2_straightline_demo) StderrLine: {'line': b'\n'}
+[3.396825] (nav2_straightline_demo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/memory:81\x1b[m\x1b[K,\n'}
+[3.396983] (nav2_straightline_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:82\x1b[m\x1b[K,\n'}
+[3.397137] (nav2_straightline_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/terra/nav2_ws/src/nav2_straightline_demo/include/nav2_demo/straight_line_demo.hpp:1\x1b[m\x1b[K,\n'}
+[3.397292] (nav2_straightline_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/terra/nav2_ws/src/nav2_straightline_demo/src/straight_line_demo.cpp:1\x1b[m\x1b[K:\n'}
+[3.397445] (nav2_straightline_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:333:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Tp>&&) [with _Tp = rclcpp::Subscription<nav_msgs::msg::Path_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.397602] (nav2_straightline_demo) StderrLine: {'line': b'  333 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(shared_ptr&& __r) noexcept\n'}
+[3.397754] (nav2_straightline_demo) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.397904] (nav2_straightline_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:333:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Publisher<nav_msgs::msg::Path_<std::allocator<void> >, std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Subscription<nav_msgs::msg::Path_<std::allocator<void> > > >&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.398076] (nav2_straightline_demo) StderrLine: {'line': b'  333 |       operator=(\x1b[01;36m\x1b[Kshared_ptr&& __r\x1b[m\x1b[K) noexcept\n'}
+[3.398230] (nav2_straightline_demo) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[3.398380] (nav2_straightline_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:341:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::shared_ptr<_Yp> > std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Yp>&&) [with _Yp = _Yp; _Tp = rclcpp::Subscription<nav_msgs::msg::Path_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.398534] (nav2_straightline_demo) StderrLine: {'line': b'  341 |  \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(shared_ptr<_Yp>&& __r) noexcept\n'}
+[3.398693] (nav2_straightline_demo) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.398846] (nav2_straightline_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:341:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.399005] (nav2_straightline_demo) StderrLine: {'line': b'/usr/include/c++/9/bits/shared_ptr.h: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> template<class _Arg> using _Assignable = typename std::enable_if<std::is_assignable<std::__shared_ptr<_Tp>&, _Arg>::value, std::shared_ptr<_Tp>&>::type [with _Arg = std::shared_ptr<rclcpp::Publisher<nav_msgs::msg::Path_<std::allocator<void> >, std::allocator<void> > >; _Tp = rclcpp::Subscription<nav_msgs::msg::Path_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.399170] (nav2_straightline_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:341:2:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<rclcpp::Subscription<nav_msgs::msg::Path_<std::allocator<void> > > >::_Assignable<std::shared_ptr<_Tp> > std::shared_ptr<rclcpp::Subscription<nav_msgs::msg::Path_<std::allocator<void> > > >::operator=<_Yp>(std::shared_ptr<_Tp>&&) [with _Yp = rclcpp::Publisher<nav_msgs::msg::Path_<std::allocator<void> >, std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.399328] (nav2_straightline_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/terra/nav2_ws/src/nav2_straightline_demo/src/straight_line_demo.cpp:12:96:\x1b[m\x1b[K   required from here\n'}
+[3.399482] (nav2_straightline_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:111:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, std::shared_ptr<rclcpp::Subscription<nav_msgs::msg::Path_<std::allocator<void> > > >&>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.399637] (nav2_straightline_demo) StderrLine: {'line': b'  111 |  using \x1b[01;31m\x1b[K_Assignable\x1b[m\x1b[K = typename enable_if<\n'}
+[3.399791] (nav2_straightline_demo) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.399957] (nav2_straightline_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:349:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp, class _Del> std::shared_ptr<_Tp>::_Assignable<std::unique_ptr<_Up, _Ep> > std::shared_ptr<_Tp>::operator=(std::unique_ptr<_Up, _Ep>&&) [with _Yp = _Yp; _Del = _Del; _Tp = rclcpp::Subscription<nav_msgs::msg::Path_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.400112] (nav2_straightline_demo) StderrLine: {'line': b'  349 |  \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(unique_ptr<_Yp, _Del>&& __r)\n'}
+[3.400264] (nav2_straightline_demo) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.400473] (nav2_straightline_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:349:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.400659] (nav2_straightline_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/terra/nav2_ws/src/nav2_straightline_demo/src/straight_line_demo.cpp:12:96:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Publisher<nav_msgs::msg::Path_<std::allocator<void> >, std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<_Tp, _Dp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.400821] (nav2_straightline_demo) StderrLine: {'line': b'   12 | er<nav_msgs::msg::Path>("/ObstacleAvoidance/planner_path", 10\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[3.400976] (nav2_straightline_demo) StderrLine: {'line': b'      |                                                              \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[3.401191] (nav2_straightline_demo) StderrLine: {'line': b'\n'}
+[3.401343] (nav2_straightline_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/terra/nav2_ws/src/nav2_straightline_demo/src/straight_line_demo.cpp:13:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = class rclcpp::Subscription<nav_msgs::msg::Path_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass rclcpp::Subscription<nav_msgs::msg::Path_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kpublish\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.401529] (nav2_straightline_demo) StderrLine: {'line': b'   13 |   path_pub_ -> \x1b[01;31m\x1b[Kpublish\x1b[m\x1b[K(path);\n'}
+[3.401758] (nav2_straightline_demo) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.410412] (-) TimerEvent: {}
+[3.510772] (-) TimerEvent: {}
+[3.611135] (-) TimerEvent: {}
+[3.711461] (-) TimerEvent: {}
+[3.811789] (-) TimerEvent: {}
+[3.912108] (-) TimerEvent: {}
+[4.012517] (-) TimerEvent: {}
+[4.112840] (-) TimerEvent: {}
+[4.213209] (-) TimerEvent: {}
+[4.313647] (-) TimerEvent: {}
+[4.413977] (-) TimerEvent: {}
+[4.514288] (-) TimerEvent: {}
+[4.614586] (-) TimerEvent: {}
+[4.714911] (-) TimerEvent: {}
+[4.815421] (-) TimerEvent: {}
+[4.915778] (-) TimerEvent: {}
+[5.016068] (-) TimerEvent: {}
+[5.116366] (-) TimerEvent: {}
+[5.216700] (-) TimerEvent: {}
+[5.317003] (-) TimerEvent: {}
+[5.417379] (-) TimerEvent: {}
+[5.517711] (-) TimerEvent: {}
+[5.618056] (-) TimerEvent: {}
+[5.718393] (-) TimerEvent: {}
+[5.818723] (-) TimerEvent: {}
+[5.919077] (-) TimerEvent: {}
+[6.019371] (-) TimerEvent: {}
+[6.119727] (-) TimerEvent: {}
+[6.220090] (-) TimerEvent: {}
+[6.271574] (nav2_straightline_demo) StderrLine: {'line': b'make[2]: *** [CMakeFiles/straight_line_demo.dir/build.make:63: CMakeFiles/straight_line_demo.dir/src/straight_line_demo.cpp.o] Error 1\n'}
+[6.272289] (nav2_straightline_demo) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/straight_line_demo.dir/all] Error 2\n'}
+[6.272624] (nav2_straightline_demo) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[6.276088] (nav2_straightline_demo) CommandEnded: {'returncode': 2}
+[6.320235] (-) TimerEvent: {}
+[6.337396] (nav2_straightline_demo) JobEnded: {'identifier': 'nav2_straightline_demo', 'rc': 2}
+[6.348332] (-) EventReactorShutdown: {}

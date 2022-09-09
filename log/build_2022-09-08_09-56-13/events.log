@@ -1,0 +1,130 @@
+[0.000000] (-) TimerEvent: {}
+[0.000547] (-) JobUnselected: {'identifier': 'costmap_queue'}
+[0.000827] (-) JobUnselected: {'identifier': 'dwb_core'}
+[0.000893] (-) JobUnselected: {'identifier': 'dwb_critics'}
+[0.001147] (-) JobUnselected: {'identifier': 'dwb_msgs'}
+[0.001404] (-) JobUnselected: {'identifier': 'dwb_plugins'}
+[0.001465] (-) JobUnselected: {'identifier': 'nav2_amcl'}
+[0.001513] (-) JobUnselected: {'identifier': 'nav2_behavior_tree'}
+[0.001568] (-) JobUnselected: {'identifier': 'nav2_bringup'}
+[0.001668] (-) JobUnselected: {'identifier': 'nav2_bt_navigator'}
+[0.001708] (-) JobUnselected: {'identifier': 'nav2_common'}
+[0.002807] (-) JobUnselected: {'identifier': 'nav2_controller'}
+[0.002888] (-) JobUnselected: {'identifier': 'nav2_core'}
+[0.002958] (-) JobUnselected: {'identifier': 'nav2_costmap_2d'}
+[0.003025] (-) JobUnselected: {'identifier': 'nav2_costmap_filters_demo'}
+[0.003189] (-) JobUnselected: {'identifier': 'nav2_dwb_controller'}
+[0.003281] (-) JobUnselected: {'identifier': 'nav2_gazebo_spawner'}
+[0.003333] (-) JobUnselected: {'identifier': 'nav2_gradient_costmap_plugin'}
+[0.003382] (-) JobUnselected: {'identifier': 'nav2_lifecycle_manager'}
+[0.003427] (-) JobUnselected: {'identifier': 'nav2_map_server'}
+[0.003612] (-) JobUnselected: {'identifier': 'nav2_msgs'}
+[0.003672] (-) JobUnselected: {'identifier': 'nav2_navfn_planner'}
+[0.003717] (-) JobUnselected: {'identifier': 'nav2_planner'}
+[0.003756] (-) JobUnselected: {'identifier': 'nav2_recoveries'}
+[0.003779] (-) JobUnselected: {'identifier': 'nav2_regulated_pure_pursuit_controller'}
+[0.003830] (-) JobUnselected: {'identifier': 'nav2_rviz_plugins'}
+[0.003866] (-) JobUnselected: {'identifier': 'nav2_sms_behavior'}
+[0.003929] (-) JobUnselected: {'identifier': 'nav2_straightline_planner'}
+[0.003983] (-) JobUnselected: {'identifier': 'nav2_system_tests'}
+[0.004050] (-) JobUnselected: {'identifier': 'nav2_util'}
+[0.004124] (-) JobUnselected: {'identifier': 'nav2_voxel_grid'}
+[0.004164] (-) JobUnselected: {'identifier': 'nav2_waypoint_follower'}
+[0.004192] (-) JobUnselected: {'identifier': 'nav_2d_msgs'}
+[0.004259] (-) JobUnselected: {'identifier': 'nav_2d_utils'}
+[0.004395] (-) JobUnselected: {'identifier': 'navigation2'}
+[0.004435] (-) JobUnselected: {'identifier': 'sam_bot_description'}
+[0.004489] (-) JobUnselected: {'identifier': 'smac_planner'}
+[0.004520] (nav2_demo) JobQueued: {'identifier': 'nav2_demo', 'dependencies': OrderedDict()}
+[0.004616] (nav2_demo) JobStarted: {'identifier': 'nav2_demo'}
+[0.018609] (nav2_demo) JobProgress: {'identifier': 'nav2_demo', 'progress': 'cmake'}
+[0.019913] (nav2_demo) Command: {'cmd': ['/usr/bin/cmake', '/home/terra/nav2_ws/src/nav2_demo', '-DCMAKE_INSTALL_PREFIX=/home/terra/nav2_ws/install/nav2_demo'], 'cwd': '/home/terra/nav2_ws/build/nav2_demo', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'terra'), ('LC_TIME', 'zh_CN.UTF-8'), ('SSH_AGENT_PID', '1719'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/terra'), ('OLDPWD', '/home/terra'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '1549'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'terra'), ('JOURNAL_STREAM', '8:41270'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'terra'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/terra/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/terra-virtual-machine:@/tmp/.ICE-unix/1756,unix/terra-virtual-machine:/tmp/.ICE-unix/1756'), ('INVOCATION_ID', '9ece619a82f046f4b25df0add9d93bce'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/761c8075_ca71_40c9_a7ef_d52f0835eadd'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.248'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/terra/nav2_ws/build/nav2_demo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.041736] (nav2_demo) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.065398] (nav2_demo) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.099600] (-) TimerEvent: {}
+[0.200005] (-) TimerEvent: {}
+[0.296846] (nav2_demo) StdoutLine: {'line': b'-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.300072] (-) TimerEvent: {}
+[0.338532] (nav2_demo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.343059] (nav2_demo) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.400212] (-) TimerEvent: {}
+[0.498777] (nav2_demo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.500301] (-) TimerEvent: {}
+[0.565197] (nav2_demo) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.566850] (nav2_demo) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.600441] (-) TimerEvent: {}
+[0.700808] (-) TimerEvent: {}
+[0.734606] (nav2_demo) StdoutLine: {'line': b'-- Found rclcpp_action: 2.4.1 (/opt/ros/foxy/share/rclcpp_action/cmake)\n'}
+[0.800945] (-) TimerEvent: {}
+[0.817699] (nav2_demo) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 2.4.1 (/opt/ros/foxy/share/rclcpp_lifecycle/cmake)\n'}
+[0.849375] (nav2_demo) StdoutLine: {'line': b'-- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)\n'}
+[0.901069] (-) TimerEvent: {}
+[0.982497] (nav2_demo) StdoutLine: {'line': b'-- Found nav2_util: 0.4.7 (/opt/ros/foxy/share/nav2_util/cmake)\n'}
+[1.001183] (-) TimerEvent: {}
+[1.101479] (-) TimerEvent: {}
+[1.201800] (-) TimerEvent: {}
+[1.302104] (-) TimerEvent: {}
+[1.402436] (-) TimerEvent: {}
+[1.502785] (-) TimerEvent: {}
+[1.603096] (-) TimerEvent: {}
+[1.681234] (nav2_demo) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)\n'}
+[1.703209] (-) TimerEvent: {}
+[1.803502] (-) TimerEvent: {}
+[1.842266] (nav2_demo) StdoutLine: {'line': b'-- Found nav2_costmap_2d: 0.4.7 (/opt/ros/foxy/share/nav2_costmap_2d/cmake)\n'}
+[1.903640] (-) TimerEvent: {}
+[2.004034] (-) TimerEvent: {}
+[2.104382] (-) TimerEvent: {}
+[2.204702] (-) TimerEvent: {}
+[2.305065] (-) TimerEvent: {}
+[2.405408] (-) TimerEvent: {}
+[2.505750] (-) TimerEvent: {}
+[2.574711] (nav2_demo) StdoutLine: {'line': b'-- Found nav2_core: 0.4.7 (/opt/ros/foxy/share/nav2_core/cmake)\n'}
+[2.605866] (-) TimerEvent: {}
+[2.706169] (-) TimerEvent: {}
+[2.806486] (-) TimerEvent: {}
+[2.906828] (-) TimerEvent: {}
+[3.007151] (-) TimerEvent: {}
+[3.107503] (-) TimerEvent: {}
+[3.207830] (-) TimerEvent: {}
+[3.308250] (-) TimerEvent: {}
+[3.408600] (-) TimerEvent: {}
+[3.508932] (-) TimerEvent: {}
+[3.609292] (-) TimerEvent: {}
+[3.709605] (-) TimerEvent: {}
+[3.809948] (-) TimerEvent: {}
+[3.910256] (-) TimerEvent: {}
+[4.010597] (-) TimerEvent: {}
+[4.110915] (-) TimerEvent: {}
+[4.211239] (-) TimerEvent: {}
+[4.311560] (-) TimerEvent: {}
+[4.411888] (-) TimerEvent: {}
+[4.512298] (-) TimerEvent: {}
+[4.612631] (-) TimerEvent: {}
+[4.712968] (-) TimerEvent: {}
+[4.813295] (-) TimerEvent: {}
+[4.913606] (-) TimerEvent: {}
+[5.013946] (-) TimerEvent: {}
+[5.114315] (-) TimerEvent: {}
+[5.214644] (-) TimerEvent: {}
+[5.315007] (-) TimerEvent: {}
+[5.415317] (-) TimerEvent: {}
+[5.515704] (-) TimerEvent: {}
+[5.616017] (-) TimerEvent: {}
+[5.716334] (-) TimerEvent: {}
+[5.716776] (nav2_demo) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[5.777623] (nav2_demo) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:53 (message):\n'}
+[5.777875] (nav2_demo) StderrLine: {'line': b"  ament_package_xml() package name 'nav2_demo' in '/package.xml' does not\n"}
+[5.778020] (nav2_demo) StderrLine: {'line': b"  match current PROJECT_NAME 'nav2_straightline_planner'.  You must call\n"}
+[5.778154] (nav2_demo) StderrLine: {'line': b'  project() with the same package name before.\n'}
+[5.778227] (nav2_demo) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[5.778368] (nav2_demo) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)\n'}
+[5.778467] (nav2_demo) StderrLine: {'line': b'  CMakeLists.txt:73 (ament_lint_auto_find_test_dependencies)\n'}
+[5.778550] (nav2_demo) StderrLine: {'line': b'\n'}
+[5.778644] (nav2_demo) StderrLine: {'line': b'\n'}
+[5.782345] (nav2_demo) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[5.782494] (nav2_demo) StdoutLine: {'line': b'See also "/home/terra/nav2_ws/build/nav2_demo/CMakeFiles/CMakeOutput.log".\n'}
+[5.782603] (nav2_demo) StdoutLine: {'line': b'See also "/home/terra/nav2_ws/build/nav2_demo/CMakeFiles/CMakeError.log".\n'}
+[5.792378] (nav2_demo) CommandEnded: {'returncode': 1}
+[5.816660] (-) TimerEvent: {}
+[5.824897] (nav2_demo) JobEnded: {'identifier': 'nav2_demo', 'rc': 1}
+[5.835553] (-) EventReactorShutdown: {}

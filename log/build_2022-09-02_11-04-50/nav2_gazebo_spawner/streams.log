@@ -1,0 +1,25 @@
+[0.737s] Invoking command in '/home/terra/nav2_ws/build/nav2_gazebo_spawner': PYTHONPATH=/home/terra/nav2_ws/install/nav2_gazebo_spawner/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/terra/nav2_ws/install/nav2_gazebo_spawner --editable --build-directory /home/terra/nav2_ws/build/nav2_gazebo_spawner/build --no-deps install_data --install-dir /home/terra/nav2_ws/install/nav2_gazebo_spawner
+[1.010s] running develop
+[1.173s] running egg_info
+[1.174s] creating nav2_gazebo_spawner.egg-info
+[1.174s] writing nav2_gazebo_spawner.egg-info/PKG-INFO
+[1.174s] writing dependency_links to nav2_gazebo_spawner.egg-info/dependency_links.txt
+[1.174s] writing entry points to nav2_gazebo_spawner.egg-info/entry_points.txt
+[1.174s] writing requirements to nav2_gazebo_spawner.egg-info/requires.txt
+[1.175s] writing top-level names to nav2_gazebo_spawner.egg-info/top_level.txt
+[1.178s] writing manifest file 'nav2_gazebo_spawner.egg-info/SOURCES.txt'
+[1.223s] reading manifest file 'nav2_gazebo_spawner.egg-info/SOURCES.txt'
+[1.223s] writing manifest file 'nav2_gazebo_spawner.egg-info/SOURCES.txt'
+[1.262s] running build_ext
+[1.263s] Creating /home/terra/nav2_ws/install/nav2_gazebo_spawner/lib/python3.8/site-packages/site.py
+[1.265s] Creating /home/terra/nav2_ws/install/nav2_gazebo_spawner/lib/python3.8/site-packages/nav2-gazebo-spawner.egg-link (link to .)
+[1.266s] Installing nav2_gazebo_spawner script to /home/terra/nav2_ws/install/nav2_gazebo_spawner/lib/nav2_gazebo_spawner
+[1.266s] 
+[1.266s] Installed /home/terra/nav2_ws/build/nav2_gazebo_spawner
+[1.266s] running install_data
+[1.266s] creating /home/terra/nav2_ws/install/nav2_gazebo_spawner/share/ament_index
+[1.267s] creating /home/terra/nav2_ws/install/nav2_gazebo_spawner/share/ament_index/resource_index
+[1.267s] creating /home/terra/nav2_ws/install/nav2_gazebo_spawner/share/ament_index/resource_index/packages
+[1.267s] copying resource/nav2_gazebo_spawner -> /home/terra/nav2_ws/install/nav2_gazebo_spawner/share/ament_index/resource_index/packages
+[1.267s] copying package.xml -> /home/terra/nav2_ws/install/nav2_gazebo_spawner/share/nav2_gazebo_spawner
+[1.302s] Invoked command in '/home/terra/nav2_ws/build/nav2_gazebo_spawner' returned '0': PYTHONPATH=/home/terra/nav2_ws/install/nav2_gazebo_spawner/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/terra/nav2_ws/install/nav2_gazebo_spawner --editable --build-directory /home/terra/nav2_ws/build/nav2_gazebo_spawner/build --no-deps install_data --install-dir /home/terra/nav2_ws/install/nav2_gazebo_spawner

@@ -1,0 +1,17 @@
+[35m[1mScanning dependencies of target straightline_demo[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/straightline_demo.dir/src/straight_line_demo.cpp.o[0m
+In file included from [01m[K/home/terra/nav2_ws/src/nav2_straightline_demo/src/straight_line_demo.cpp:1[m[K:
+[01m[K/home/terra/nav2_ws/src/nav2_straightline_demo/include/nav2_demo/straight_line_demo.hpp:[m[K In lambda function:
+[01m[K/home/terra/nav2_ws/src/nav2_straightline_demo/include/nav2_demo/straight_line_demo.hpp:18:60:[m[K [01;31m[Kerror: [m[Kpassing ‘[01m[Kconst Path[m[K’ {aka ‘[01m[Kconst nav_msgs::msg::Path_<std::allocator<void> >[m[K’} as ‘[01m[Kthis[m[K’ argument discards qualifiers [[01;31m[K-fpermissive[m[K]
+   18 |                 path = action_server_->get_current_goal()->[01;31m[Kpath[m[K;
+      |                                                            [01;31m[K^~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/nav_msgs/msg/path.hpp:7[m[K,
+                 from [01m[K/opt/ros/foxy/include/nav2_core/controller.hpp:49[m[K,
+                 from [01m[K/home/terra/nav2_ws/src/nav2_straightline_demo/include/nav2_demo/straight_line_demo.hpp:2[m[K,
+                 from [01m[K/home/terra/nav2_ws/src/nav2_straightline_demo/src/straight_line_demo.cpp:1[m[K:
+[01m[K/opt/ros/foxy/include/nav_msgs/msg/detail/path__struct.hpp:37:8:[m[K [01;36m[Knote: [m[K  in call to ‘[01m[Knav_msgs::msg::Path_<std::allocator<void> >& nav_msgs::msg::Path_<std::allocator<void> >::operator=(const nav_msgs::msg::Path_<std::allocator<void> >&)[m[K’
+   37 | struct [01;36m[KPath_[m[K
+      |        [01;36m[K^~~~~[m[K
+make[2]: *** [CMakeFiles/straightline_demo.dir/build.make:63: CMakeFiles/straightline_demo.dir/src/straight_line_demo.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/straightline_demo.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

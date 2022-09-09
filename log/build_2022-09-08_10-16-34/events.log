@@ -1,0 +1,151 @@
+[0.000000] (-) TimerEvent: {}
+[0.000730] (-) JobUnselected: {'identifier': 'costmap_queue'}
+[0.000974] (-) JobUnselected: {'identifier': 'dwb_core'}
+[0.001006] (-) JobUnselected: {'identifier': 'dwb_critics'}
+[0.001337] (-) JobUnselected: {'identifier': 'dwb_msgs'}
+[0.001399] (-) JobUnselected: {'identifier': 'dwb_plugins'}
+[0.001459] (-) JobUnselected: {'identifier': 'nav2_amcl'}
+[0.001485] (-) JobUnselected: {'identifier': 'nav2_behavior_tree'}
+[0.001522] (-) JobUnselected: {'identifier': 'nav2_bringup'}
+[0.001570] (-) JobUnselected: {'identifier': 'nav2_bt_navigator'}
+[0.003347] (-) JobUnselected: {'identifier': 'nav2_common'}
+[0.003484] (-) JobUnselected: {'identifier': 'nav2_controller'}
+[0.003527] (-) JobUnselected: {'identifier': 'nav2_core'}
+[0.003563] (-) JobUnselected: {'identifier': 'nav2_costmap_2d'}
+[0.003602] (-) JobUnselected: {'identifier': 'nav2_costmap_filters_demo'}
+[0.003637] (-) JobUnselected: {'identifier': 'nav2_dwb_controller'}
+[0.003679] (-) JobUnselected: {'identifier': 'nav2_gazebo_spawner'}
+[0.003804] (-) JobUnselected: {'identifier': 'nav2_gradient_costmap_plugin'}
+[0.003885] (-) JobUnselected: {'identifier': 'nav2_lifecycle_manager'}
+[0.003927] (-) JobUnselected: {'identifier': 'nav2_map_server'}
+[0.003971] (-) JobUnselected: {'identifier': 'nav2_msgs'}
+[0.004017] (-) JobUnselected: {'identifier': 'nav2_navfn_planner'}
+[0.004062] (-) JobUnselected: {'identifier': 'nav2_planner'}
+[0.004106] (-) JobUnselected: {'identifier': 'nav2_recoveries'}
+[0.004150] (-) JobUnselected: {'identifier': 'nav2_regulated_pure_pursuit_controller'}
+[0.004246] (-) JobUnselected: {'identifier': 'nav2_rviz_plugins'}
+[0.004287] (-) JobUnselected: {'identifier': 'nav2_sms_behavior'}
+[0.004337] (-) JobUnselected: {'identifier': 'nav2_straightline_planner'}
+[0.004371] (-) JobUnselected: {'identifier': 'nav2_system_tests'}
+[0.004395] (-) JobUnselected: {'identifier': 'nav2_util'}
+[0.004418] (-) JobUnselected: {'identifier': 'nav2_voxel_grid'}
+[0.004451] (-) JobUnselected: {'identifier': 'nav2_waypoint_follower'}
+[0.004491] (-) JobUnselected: {'identifier': 'nav_2d_msgs'}
+[0.004530] (-) JobUnselected: {'identifier': 'nav_2d_utils'}
+[0.004567] (-) JobUnselected: {'identifier': 'navigation2'}
+[0.004603] (-) JobUnselected: {'identifier': 'sam_bot_description'}
+[0.004688] (-) JobUnselected: {'identifier': 'smac_planner'}
+[0.004734] (nav2_straightline_demo) JobQueued: {'identifier': 'nav2_straightline_demo', 'dependencies': OrderedDict()}
+[0.004786] (nav2_straightline_demo) JobStarted: {'identifier': 'nav2_straightline_demo'}
+[0.023662] (nav2_straightline_demo) JobProgress: {'identifier': 'nav2_straightline_demo', 'progress': 'cmake'}
+[0.024967] (nav2_straightline_demo) JobProgress: {'identifier': 'nav2_straightline_demo', 'progress': 'build'}
+[0.026132] (nav2_straightline_demo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/terra/nav2_ws/build/nav2_straightline_demo', '--', '-j8', '-l8'], 'cwd': '/home/terra/nav2_ws/build/nav2_straightline_demo', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'terra'), ('LC_TIME', 'zh_CN.UTF-8'), ('SSH_AGENT_PID', '1719'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/terra'), ('OLDPWD', '/home/terra'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '1549'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'terra'), ('JOURNAL_STREAM', '8:41270'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'terra'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/terra/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/terra-virtual-machine:@/tmp/.ICE-unix/1756,unix/terra-virtual-machine:/tmp/.ICE-unix/1756'), ('INVOCATION_ID', '9ece619a82f046f4b25df0add9d93bce'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/761c8075_ca71_40c9_a7ef_d52f0835eadd'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.248'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/terra/nav2_ws/build/nav2_straightline_demo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.099173] (nav2_straightline_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target straight_line_demo\x1b[0m\n'}
+[0.099706] (-) TimerEvent: {}
+[0.175950] (nav2_straightline_demo) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/straight_line_demo.dir/src/straight_line_demo.cpp.o\x1b[0m\n'}
+[0.199846] (-) TimerEvent: {}
+[0.300222] (-) TimerEvent: {}
+[0.400534] (-) TimerEvent: {}
+[0.501033] (-) TimerEvent: {}
+[0.601334] (-) TimerEvent: {}
+[0.701720] (-) TimerEvent: {}
+[0.802055] (-) TimerEvent: {}
+[0.902438] (-) TimerEvent: {}
+[1.002884] (-) TimerEvent: {}
+[1.103240] (-) TimerEvent: {}
+[1.203640] (-) TimerEvent: {}
+[1.304052] (-) TimerEvent: {}
+[1.404402] (-) TimerEvent: {}
+[1.504839] (-) TimerEvent: {}
+[1.605106] (-) TimerEvent: {}
+[1.705487] (-) TimerEvent: {}
+[1.805797] (-) TimerEvent: {}
+[1.906248] (-) TimerEvent: {}
+[2.006607] (-) TimerEvent: {}
+[2.106958] (-) TimerEvent: {}
+[2.207372] (-) TimerEvent: {}
+[2.307746] (-) TimerEvent: {}
+[2.408178] (-) TimerEvent: {}
+[2.508536] (-) TimerEvent: {}
+[2.609047] (-) TimerEvent: {}
+[2.709409] (-) TimerEvent: {}
+[2.809696] (-) TimerEvent: {}
+[2.910103] (-) TimerEvent: {}
+[3.010421] (-) TimerEvent: {}
+[3.110816] (-) TimerEvent: {}
+[3.211141] (-) TimerEvent: {}
+[3.311503] (-) TimerEvent: {}
+[3.411834] (-) TimerEvent: {}
+[3.512168] (-) TimerEvent: {}
+[3.612487] (-) TimerEvent: {}
+[3.712989] (-) TimerEvent: {}
+[3.813294] (-) TimerEvent: {}
+[3.913637] (-) TimerEvent: {}
+[4.014074] (-) TimerEvent: {}
+[4.114521] (-) TimerEvent: {}
+[4.214839] (-) TimerEvent: {}
+[4.315276] (-) TimerEvent: {}
+[4.415673] (-) TimerEvent: {}
+[4.516005] (-) TimerEvent: {}
+[4.616325] (-) TimerEvent: {}
+[4.716651] (-) TimerEvent: {}
+[4.817080] (-) TimerEvent: {}
+[4.917415] (-) TimerEvent: {}
+[5.017790] (-) TimerEvent: {}
+[5.118089] (-) TimerEvent: {}
+[5.218490] (-) TimerEvent: {}
+[5.318790] (-) TimerEvent: {}
+[5.419216] (-) TimerEvent: {}
+[5.519666] (-) TimerEvent: {}
+[5.620071] (-) TimerEvent: {}
+[5.720393] (-) TimerEvent: {}
+[5.820849] (-) TimerEvent: {}
+[5.921180] (-) TimerEvent: {}
+[6.021521] (-) TimerEvent: {}
+[6.121869] (-) TimerEvent: {}
+[6.222178] (-) TimerEvent: {}
+[6.322586] (-) TimerEvent: {}
+[6.422924] (-) TimerEvent: {}
+[6.523239] (-) TimerEvent: {}
+[6.623602] (-) TimerEvent: {}
+[6.723949] (-) TimerEvent: {}
+[6.824249] (-) TimerEvent: {}
+[6.924729] (-) TimerEvent: {}
+[7.025168] (-) TimerEvent: {}
+[7.101225] (nav2_straightline_demo) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable straight_line_demo\x1b[0m\n'}
+[7.125254] (-) TimerEvent: {}
+[7.225528] (-) TimerEvent: {}
+[7.325884] (-) TimerEvent: {}
+[7.426265] (-) TimerEvent: {}
+[7.480561] (nav2_straightline_demo) StdoutLine: {'line': b'[100%] Built target straight_line_demo\n'}
+[7.494869] (nav2_straightline_demo) CommandEnded: {'returncode': 0}
+[7.526428] (-) TimerEvent: {}
+[7.528880] (nav2_straightline_demo) JobProgress: {'identifier': 'nav2_straightline_demo', 'progress': 'install'}
+[7.544650] (nav2_straightline_demo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/terra/nav2_ws/build/nav2_straightline_demo'], 'cwd': '/home/terra/nav2_ws/build/nav2_straightline_demo', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'terra'), ('LC_TIME', 'zh_CN.UTF-8'), ('SSH_AGENT_PID', '1719'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/terra'), ('OLDPWD', '/home/terra'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '1549'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'terra'), ('JOURNAL_STREAM', '8:41270'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'terra'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/terra/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/terra-virtual-machine:@/tmp/.ICE-unix/1756,unix/terra-virtual-machine:/tmp/.ICE-unix/1756'), ('INVOCATION_ID', '9ece619a82f046f4b25df0add9d93bce'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/761c8075_ca71_40c9_a7ef_d52f0835eadd'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.248'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/terra/nav2_ws/build/nav2_straightline_demo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[7.561070] (nav2_straightline_demo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.561439] (nav2_straightline_demo) StdoutLine: {'line': b'-- Installing: /home/terra/nav2_ws/install/nav2_straightline_demo/lib/nav2_straightline_demo/straight_line_demo\n'}
+[7.562256] (nav2_straightline_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/terra/nav2_ws/install/nav2_straightline_demo/lib/nav2_straightline_demo/straight_line_demo" to ""\n'}
+[7.562529] (nav2_straightline_demo) StdoutLine: {'line': b'-- Installing: /home/terra/nav2_ws/install/nav2_straightline_demo/include/\n'}
+[7.562763] (nav2_straightline_demo) StdoutLine: {'line': b'-- Installing: /home/terra/nav2_ws/install/nav2_straightline_demo/include//nav2_demo\n'}
+[7.562969] (nav2_straightline_demo) StdoutLine: {'line': b'-- Installing: /home/terra/nav2_ws/install/nav2_straightline_demo/include//nav2_demo/straight_line_demo.hpp\n'}
+[7.563152] (nav2_straightline_demo) StdoutLine: {'line': b'-- Installing: /home/terra/nav2_ws/install/nav2_straightline_demo/share/ament_index/resource_index/package_run_dependencies/nav2_straightline_demo\n'}
+[7.563390] (nav2_straightline_demo) StdoutLine: {'line': b'-- Installing: /home/terra/nav2_ws/install/nav2_straightline_demo/share/ament_index/resource_index/parent_prefix_path/nav2_straightline_demo\n'}
+[7.563679] (nav2_straightline_demo) StdoutLine: {'line': b'-- Installing: /home/terra/nav2_ws/install/nav2_straightline_demo/share/nav2_straightline_demo/environment/ament_prefix_path.sh\n'}
+[7.563891] (nav2_straightline_demo) StdoutLine: {'line': b'-- Installing: /home/terra/nav2_ws/install/nav2_straightline_demo/share/nav2_straightline_demo/environment/ament_prefix_path.dsv\n'}
+[7.564139] (nav2_straightline_demo) StdoutLine: {'line': b'-- Installing: /home/terra/nav2_ws/install/nav2_straightline_demo/share/nav2_straightline_demo/environment/path.sh\n'}
+[7.564956] (nav2_straightline_demo) StdoutLine: {'line': b'-- Installing: /home/terra/nav2_ws/install/nav2_straightline_demo/share/nav2_straightline_demo/environment/path.dsv\n'}
+[7.565174] (nav2_straightline_demo) StdoutLine: {'line': b'-- Installing: /home/terra/nav2_ws/install/nav2_straightline_demo/share/nav2_straightline_demo/local_setup.bash\n'}
+[7.565303] (nav2_straightline_demo) StdoutLine: {'line': b'-- Installing: /home/terra/nav2_ws/install/nav2_straightline_demo/share/nav2_straightline_demo/local_setup.sh\n'}
+[7.565622] (nav2_straightline_demo) StdoutLine: {'line': b'-- Installing: /home/terra/nav2_ws/install/nav2_straightline_demo/share/nav2_straightline_demo/local_setup.zsh\n'}
+[7.565864] (nav2_straightline_demo) StdoutLine: {'line': b'-- Installing: /home/terra/nav2_ws/install/nav2_straightline_demo/share/nav2_straightline_demo/local_setup.dsv\n'}
+[7.566118] (nav2_straightline_demo) StdoutLine: {'line': b'-- Installing: /home/terra/nav2_ws/install/nav2_straightline_demo/share/nav2_straightline_demo/package.dsv\n'}
+[7.566280] (nav2_straightline_demo) StdoutLine: {'line': b'-- Installing: /home/terra/nav2_ws/install/nav2_straightline_demo/share/ament_index/resource_index/packages/nav2_straightline_demo\n'}
+[7.566559] (nav2_straightline_demo) StdoutLine: {'line': b'-- Installing: /home/terra/nav2_ws/install/nav2_straightline_demo/share/nav2_straightline_demo/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[7.566739] (nav2_straightline_demo) StdoutLine: {'line': b'-- Installing: /home/terra/nav2_ws/install/nav2_straightline_demo/share/nav2_straightline_demo/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[7.567040] (nav2_straightline_demo) StdoutLine: {'line': b'-- Installing: /home/terra/nav2_ws/install/nav2_straightline_demo/share/nav2_straightline_demo/cmake/nav2_straightline_demoConfig.cmake\n'}
+[7.567213] (nav2_straightline_demo) StdoutLine: {'line': b'-- Installing: /home/terra/nav2_ws/install/nav2_straightline_demo/share/nav2_straightline_demo/cmake/nav2_straightline_demoConfig-version.cmake\n'}
+[7.567363] (nav2_straightline_demo) StdoutLine: {'line': b'-- Installing: /home/terra/nav2_ws/install/nav2_straightline_demo/share/nav2_straightline_demo/package.xml\n'}
+[7.569759] (nav2_straightline_demo) CommandEnded: {'returncode': 0}
+[7.626575] (-) TimerEvent: {}
+[7.668239] (nav2_straightline_demo) JobEnded: {'identifier': 'nav2_straightline_demo', 'rc': 0}
+[7.669667] (-) EventReactorShutdown: {}

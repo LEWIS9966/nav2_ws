@@ -1,0 +1,1 @@
+/home/terra/nav2_ws/src/nav2_dwb_controller/nav_2d_msgs/msg/Pose2D32.msg

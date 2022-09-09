@@ -1,0 +1,104 @@
+[0.020s] Invoking command in '/home/terra/nav2_ws/build/nav2_bt_navigator': AMENT_PREFIX_PATH=/home/terra/nav2_ws/install/nav2_behavior_tree:/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/terra/nav2_ws/install/nav2_behavior_tree:/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/terra/nav2_ws/install/nav2_behavior_tree/lib:/home/terra/nav2_ws/install/nav2_util/lib:/home/terra/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/terra/nav2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/terra/nav2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/terra/nav2_ws/src/nav2_bt_navigator -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/terra/nav2_ws/install/nav2_bt_navigator
+[0.092s] -- The C compiler identification is GNU 9.4.0
+[0.167s] -- The CXX compiler identification is GNU 9.4.0
+[0.173s] -- Check for working C compiler: /usr/bin/cc
+[0.259s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.260s] -- Detecting C compiler ABI info
+[0.345s] -- Detecting C compiler ABI info - done
+[0.358s] -- Detecting C compile features
+[0.358s] -- Detecting C compile features - done
+[0.361s] -- Check for working CXX compiler: /usr/bin/c++
+[0.458s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.460s] -- Detecting CXX compiler ABI info
+[0.566s] -- Detecting CXX compiler ABI info - done
+[0.583s] -- Detecting CXX compile features
+[0.583s] -- Detecting CXX compile features - done
+[0.586s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.615s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.615s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.813s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.853s] -- Found nav2_common: 0.4.7 (/home/terra/nav2_ws/install/nav2_common/share/nav2_common/cmake)
+[0.856s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.919s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.929s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.044s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.082s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.181s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.263s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.265s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.267s] -- Looking for pthread.h
+[1.367s] -- Looking for pthread.h - found
+[1.367s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.464s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.464s] -- Looking for pthread_create in pthreads
+[1.538s] -- Looking for pthread_create in pthreads - not found
+[1.538s] -- Looking for pthread_create in pthread
+[1.635s] -- Looking for pthread_create in pthread - found
+[1.636s] -- Found Threads: TRUE  
+[1.833s] -- Found rclcpp_action: 2.4.1 (/opt/ros/foxy/share/rclcpp_action/cmake)
+[1.926s] -- Found rclcpp_lifecycle: 2.4.1 (/opt/ros/foxy/share/rclcpp_lifecycle/cmake)
+[1.964s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[2.004s] -- Found nav2_behavior_tree: 0.4.7 (/home/terra/nav2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake)
+[2.925s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[2.929s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[3.417s] -- Setting build type to Release as none was specified.
+[5.035s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[5.139s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.142s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.142s] -- Configured cppcheck include dirs: /home/terra/nav2_ws/src/nav2_bt_navigator/include
+[5.142s] -- Configured cppcheck exclude dirs and/or files: 
+[5.145s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[5.145s] -- Configured cpplint exclude dirs and/or files: 
+[5.146s] -- Added test 'lint_cmake' to check CMake code style
+[5.149s] -- Added test 'uncrustify' to check C / C++ code style
+[5.149s] -- Configured uncrustify additional arguments: 
+[5.150s] -- Added test 'xmllint' to check XML markup files
+[5.159s] -- Configuring done
+[5.342s] -- Generating done
+[5.344s] -- Build files have been written to: /home/terra/nav2_ws/build/nav2_bt_navigator
+[5.357s] Invoked command in '/home/terra/nav2_ws/build/nav2_bt_navigator' returned '0': AMENT_PREFIX_PATH=/home/terra/nav2_ws/install/nav2_behavior_tree:/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/terra/nav2_ws/install/nav2_behavior_tree:/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/terra/nav2_ws/install/nav2_behavior_tree/lib:/home/terra/nav2_ws/install/nav2_util/lib:/home/terra/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/terra/nav2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/terra/nav2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/terra/nav2_ws/src/nav2_bt_navigator -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/terra/nav2_ws/install/nav2_bt_navigator
+[5.361s] Invoking command in '/home/terra/nav2_ws/build/nav2_bt_navigator': AMENT_PREFIX_PATH=/home/terra/nav2_ws/install/nav2_behavior_tree:/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/terra/nav2_ws/install/nav2_behavior_tree:/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/terra/nav2_ws/install/nav2_behavior_tree/lib:/home/terra/nav2_ws/install/nav2_util/lib:/home/terra/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/terra/nav2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/terra/nav2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/terra/nav2_ws/build/nav2_bt_navigator -- -j8 -l8
+[5.415s] [35m[1mScanning dependencies of target bt_navigator_core[0m
+[5.499s] [ 20%] [32mBuilding CXX object CMakeFiles/bt_navigator_core.dir/src/bt_navigator.cpp.o[0m
+[5.504s] [ 40%] [32mBuilding CXX object CMakeFiles/bt_navigator_core.dir/src/ros_topic_logger.cpp.o[0m
+[37.605s] [ 60%] [32m[1mLinking CXX shared library libbt_navigator_core.so[0m
+[38.407s] [ 60%] Built target bt_navigator_core
+[38.505s] [35m[1mScanning dependencies of target bt_navigator[0m
+[38.688s] [ 80%] [32mBuilding CXX object CMakeFiles/bt_navigator.dir/src/main.cpp.o[0m
+[46.424s] [100%] [32m[1mLinking CXX executable bt_navigator[0m
+[47.563s] [100%] Built target bt_navigator
+[47.610s] Invoked command in '/home/terra/nav2_ws/build/nav2_bt_navigator' returned '0': AMENT_PREFIX_PATH=/home/terra/nav2_ws/install/nav2_behavior_tree:/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/terra/nav2_ws/install/nav2_behavior_tree:/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/terra/nav2_ws/install/nav2_behavior_tree/lib:/home/terra/nav2_ws/install/nav2_util/lib:/home/terra/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/terra/nav2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/terra/nav2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/terra/nav2_ws/build/nav2_bt_navigator -- -j8 -l8
+[48.106s] Invoking command in '/home/terra/nav2_ws/build/nav2_bt_navigator': AMENT_PREFIX_PATH=/home/terra/nav2_ws/install/nav2_behavior_tree:/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/terra/nav2_ws/install/nav2_behavior_tree:/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/terra/nav2_ws/install/nav2_behavior_tree/lib:/home/terra/nav2_ws/install/nav2_util/lib:/home/terra/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/terra/nav2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/terra/nav2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/terra/nav2_ws/build/nav2_bt_navigator
+[50.961s] -- Install configuration: "Release"
+[50.961s] -- Execute custom install script
+[50.961s] -- Symlinking: /home/terra/nav2_ws/install/nav2_bt_navigator/lib/libbt_navigator_core.so
+[50.961s] -- Symlinking: /home/terra/nav2_ws/install/nav2_bt_navigator/lib/nav2_bt_navigator/bt_navigator
+[50.961s] -- Symlinking: /home/terra/nav2_ws/install/nav2_bt_navigator/include//nav2_bt_navigator/bt_navigator.hpp
+[50.962s] -- Symlinking: /home/terra/nav2_ws/install/nav2_bt_navigator/include//nav2_bt_navigator/ros_topic_logger.hpp
+[50.962s] -- Symlinking: /home/terra/nav2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/behavior_trees/follow_point.xml
+[50.962s] -- Symlinking: /home/terra/nav2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/behavior_trees/navigate_w_replanning_and_recovery.xml
+[50.962s] -- Symlinking: /home/terra/nav2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/behavior_trees/navigate_w_replanning_and_round_robin_recovery.xml
+[50.962s] -- Symlinking: /home/terra/nav2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/behavior_trees/navigate_w_replanning_distance.xml
+[50.962s] -- Symlinking: /home/terra/nav2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/behavior_trees/navigate_w_replanning_speed.xml
+[50.962s] -- Symlinking: /home/terra/nav2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/behavior_trees/navigate_w_replanning_time.xml
+[50.963s] -- Symlinking: /home/terra/nav2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/environment/library_path.sh
+[50.963s] -- Symlinking: /home/terra/nav2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/environment/library_path.dsv
+[50.963s] -- Symlinking: /home/terra/nav2_ws/install/nav2_bt_navigator/share/ament_index/resource_index/package_run_dependencies/nav2_bt_navigator
+[50.963s] -- Symlinking: /home/terra/nav2_ws/install/nav2_bt_navigator/share/ament_index/resource_index/parent_prefix_path/nav2_bt_navigator
+[50.963s] -- Symlinking: /home/terra/nav2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/environment/ament_prefix_path.sh
+[50.963s] -- Symlinking: /home/terra/nav2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/environment/ament_prefix_path.dsv
+[50.963s] -- Symlinking: /home/terra/nav2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/environment/path.sh
+[50.964s] -- Symlinking: /home/terra/nav2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/environment/path.dsv
+[50.964s] -- Symlinking: /home/terra/nav2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/local_setup.bash
+[50.964s] -- Symlinking: /home/terra/nav2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/local_setup.sh
+[50.964s] -- Symlinking: /home/terra/nav2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/local_setup.zsh
+[50.964s] -- Symlinking: /home/terra/nav2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/local_setup.dsv
+[50.964s] -- Symlinking: /home/terra/nav2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/package.dsv
+[50.964s] -- Symlinking: /home/terra/nav2_ws/install/nav2_bt_navigator/share/ament_index/resource_index/packages/nav2_bt_navigator
+[50.964s] -- Symlinking: /home/terra/nav2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/cmake/ament_cmake_export_include_directories-extras.cmake
+[50.965s] -- Symlinking: /home/terra/nav2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/cmake/ament_cmake_export_libraries-extras.cmake
+[50.965s] -- Symlinking: /home/terra/nav2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/cmake/ament_cmake_export_dependencies-extras.cmake
+[50.965s] -- Symlinking: /home/terra/nav2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/cmake/nav2_bt_navigatorConfig.cmake
+[50.965s] -- Symlinking: /home/terra/nav2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/cmake/nav2_bt_navigatorConfig-version.cmake
+[50.965s] -- Symlinking: /home/terra/nav2_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/package.xml
+[51.060s] Invoked command in '/home/terra/nav2_ws/build/nav2_bt_navigator' returned '0': AMENT_PREFIX_PATH=/home/terra/nav2_ws/install/nav2_behavior_tree:/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/terra/nav2_ws/install/nav2_behavior_tree:/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/terra/nav2_ws/install/nav2_behavior_tree/lib:/home/terra/nav2_ws/install/nav2_util/lib:/home/terra/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/terra/nav2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/terra/nav2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/terra/nav2_ws/build/nav2_bt_navigator

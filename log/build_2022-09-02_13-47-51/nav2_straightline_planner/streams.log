@@ -1,0 +1,33 @@
+[0.033s] Invoking command in '/home/terra/nav2_ws/build/nav2_straightline_planner': AMENT_PREFIX_PATH=/home/terra/nav2_ws/install/nav2_core:/home/terra/nav2_ws/install/nav2_costmap_2d:/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_voxel_grid:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/terra/nav2_ws/install/nav2_core:/home/terra/nav2_ws/install/nav2_costmap_2d:/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_voxel_grid:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/terra/nav2_ws/install/nav2_costmap_2d/lib:/home/terra/nav2_ws/install/nav2_util/lib:/home/terra/nav2_ws/install/nav2_voxel_grid/lib:/home/terra/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/terra/nav2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/terra/nav2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/terra/nav2_ws/build/nav2_straightline_planner -- -j8 -l8
+[0.090s] [35m[1mScanning dependencies of target nav2_straightline_planner_plugin[0m
+[0.151s] [ 50%] [32mBuilding CXX object CMakeFiles/nav2_straightline_planner_plugin.dir/src/straight_line_planner.cpp.o[0m
+[2.292s] In file included from [01m[K/home/terra/nav2_ws/src/navigation2_tutorials/nav2_straightline_planner/src/straight_line_planner.cpp:46[m[K:
+[2.292s] [01m[K/home/terra/nav2_ws/src/navigation2_tutorials/nav2_straightline_planner/include/nav2_straightline_planner/straight_line_planner.hpp:67:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid nav2_straightline_planner::StraightLine::configure(rclcpp_lifecycle::LifecycleNode::SharedPtr&, std::string, std::shared_ptr<tf2_ros::Buffer>, std::shared_ptr<nav2_costmap_2d::Costmap2DROS>)[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+[2.292s]    67 |   void [01;31m[Kconfigure[m[K(
+[2.292s]       |        [01;31m[K^~~~~~~~~[m[K
+[3.091s] In file included from [01m[K/opt/ros/foxy/include/class_loader/class_loader_core.hpp:57[m[K,
+[3.091s]                  from [01m[K/opt/ros/foxy/include/class_loader/class_loader.hpp:55[m[K,
+[3.092s]                  from [01m[K/opt/ros/foxy/include/class_loader/multi_library_class_loader.hpp:52[m[K,
+[3.092s]                  from [01m[K/opt/ros/foxy/include/pluginlib/class_loader.hpp:58[m[K,
+[3.092s]                  from [01m[K/home/terra/nav2_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/costmap_2d_ros.hpp:53[m[K,
+[3.092s]                  from [01m[K/home/terra/nav2_ws/install/nav2_core/include/nav2_core/global_planner.hpp:21[m[K,
+[3.092s]                  from [01m[K/home/terra/nav2_ws/src/navigation2_tutorials/nav2_straightline_planner/include/nav2_straightline_planner/straight_line_planner.hpp:51[m[K,
+[3.092s]                  from [01m[K/home/terra/nav2_ws/src/navigation2_tutorials/nav2_straightline_planner/src/straight_line_planner.cpp:46[m[K:
+[3.092s] /opt/ros/foxy/include/class_loader/meta_object.hpp: In instantiation of ‘[01m[KB* class_loader::impl::MetaObject<C, B>::create() const [with C = nav2_straightline_planner::StraightLine; B = nav2_core::GlobalPlanner][m[K’:
+[3.092s] [01m[K/opt/ros/foxy/include/class_loader/meta_object.hpp:216:7:[m[K   required from here
+[3.092s] [01m[K/opt/ros/foxy/include/class_loader/meta_object.hpp:218:12:[m[K [01;31m[Kerror: [m[Kinvalid new-expression of abstract class type ‘[01m[Knav2_straightline_planner::StraightLine[m[K’
+[3.092s]   218 |     return [01;31m[Knew C[m[K;
+[3.092s]       |            [01;31m[K^~~~~[m[K
+[3.092s] In file included from [01m[K/home/terra/nav2_ws/src/navigation2_tutorials/nav2_straightline_planner/src/straight_line_planner.cpp:46[m[K:
+[3.092s] [01m[K/home/terra/nav2_ws/src/navigation2_tutorials/nav2_straightline_planner/include/nav2_straightline_planner/straight_line_planner.hpp:60:7:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[Knav2_straightline_planner::StraightLine[m[K’:
+[3.092s]    60 | class [01;36m[KStraightLine[m[K : public nav2_core::GlobalPlanner
+[3.093s]       |       [01;36m[K^~~~~~~~~~~~[m[K
+[3.093s] In file included from [01m[K/home/terra/nav2_ws/src/navigation2_tutorials/nav2_straightline_planner/include/nav2_straightline_planner/straight_line_planner.hpp:51[m[K,
+[3.093s]                  from [01m[K/home/terra/nav2_ws/src/navigation2_tutorials/nav2_straightline_planner/src/straight_line_planner.cpp:46[m[K:
+[3.093s] [01m[K/home/terra/nav2_ws/install/nav2_core/include/nav2_core/global_planner.hpp:50:16:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual void nav2_core::GlobalPlanner::configure(rclcpp_lifecycle::LifecycleNode::SharedPtr, std::string, std::shared_ptr<tf2_ros::Buffer>, std::shared_ptr<nav2_costmap_2d::Costmap2DROS>)[m[K’
+[3.093s]    50 |   virtual void [01;36m[Kconfigure[m[K(
+[3.093s]       |                [01;36m[K^~~~~~~~~[m[K
+[3.229s] make[2]: *** [CMakeFiles/nav2_straightline_planner_plugin.dir/build.make:63: CMakeFiles/nav2_straightline_planner_plugin.dir/src/straight_line_planner.cpp.o] Error 1
+[3.229s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/nav2_straightline_planner_plugin.dir/all] Error 2
+[3.230s] make: *** [Makefile:141: all] Error 2
+[3.233s] Invoked command in '/home/terra/nav2_ws/build/nav2_straightline_planner' returned '2': AMENT_PREFIX_PATH=/home/terra/nav2_ws/install/nav2_core:/home/terra/nav2_ws/install/nav2_costmap_2d:/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_voxel_grid:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/terra/nav2_ws/install/nav2_core:/home/terra/nav2_ws/install/nav2_costmap_2d:/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_voxel_grid:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/terra/nav2_ws/install/nav2_costmap_2d/lib:/home/terra/nav2_ws/install/nav2_util/lib:/home/terra/nav2_ws/install/nav2_voxel_grid/lib:/home/terra/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/terra/nav2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/terra/nav2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/terra/nav2_ws/build/nav2_straightline_planner -- -j8 -l8

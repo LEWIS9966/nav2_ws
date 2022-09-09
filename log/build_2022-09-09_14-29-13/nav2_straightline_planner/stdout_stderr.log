@@ -1,0 +1,9 @@
+[35m[1mScanning dependencies of target nav2_straightline_planner_plugin[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/nav2_straightline_planner_plugin.dir/src/straight_line_planner.cpp.o[0m
+[01m[K/home/terra/nav2_ws/src/navigation2_tutorials/nav2_straightline_planner/src/straight_line_planner.cpp:[m[K In member function ‘[01m[Kvirtual nav_msgs::msg::Path nav2_straightline_planner::StraightLine::createPlan(const PoseStamped&, const PoseStamped&)[m[K’:
+[01m[K/home/terra/nav2_ws/src/navigation2_tutorials/nav2_straightline_planner/src/straight_line_planner.cpp:141:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kmake_plan[m[K’ was not declared in this scope
+  141 |   [01;31m[Kmake_plan[m[K()
+      |   [01;31m[K^~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/nav2_straightline_planner_plugin.dir/build.make:63: CMakeFiles/nav2_straightline_planner_plugin.dir/src/straight_line_planner.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/nav2_straightline_planner_plugin.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

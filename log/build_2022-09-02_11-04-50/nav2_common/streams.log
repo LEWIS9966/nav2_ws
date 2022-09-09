@@ -1,0 +1,47 @@
+[0.046s] Invoking command in '/home/terra/nav2_ws/build/nav2_common': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/terra/nav2_ws/src/nav2_common -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/terra/nav2_ws/install/nav2_common
+[0.062s] -- Found ament_cmake_core: 0.9.9 (/opt/ros/foxy/share/ament_cmake_core/cmake)
+[0.087s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.087s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.295s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.312s] -- Found ament_cmake_python: 0.9.9 (/opt/ros/foxy/share/ament_cmake_python/cmake)
+[0.425s] -- Configuring done
+[0.427s] -- Generating done
+[0.428s] -- Build files have been written to: /home/terra/nav2_ws/build/nav2_common
+[0.431s] Invoked command in '/home/terra/nav2_ws/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/terra/nav2_ws/src/nav2_common -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/terra/nav2_ws/install/nav2_common
+[0.436s] Invoking command in '/home/terra/nav2_ws/build/nav2_common': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/terra/nav2_ws/build/nav2_common -- -j8 -l8
+[0.486s] Invoked command in '/home/terra/nav2_ws/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/terra/nav2_ws/build/nav2_common -- -j8 -l8
+[0.527s] Invoking command in '/home/terra/nav2_ws/build/nav2_common': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/terra/nav2_ws/build/nav2_common
+[0.537s] -- Install configuration: ""
+[0.538s] -- Execute custom install script
+[0.538s] -- Symlinking: /home/terra/nav2_ws/install/nav2_common/share/nav2_common/environment/pythonpath.sh
+[0.551s] -- Symlinking: /home/terra/nav2_ws/install/nav2_common/share/nav2_common/environment/pythonpath.dsv
+[0.563s] -- Symlinking: /home/terra/nav2_ws/install/nav2_common/lib/python3.8/site-packages/nav2_common/__init__.py
+[0.574s] -- Symlinking: /home/terra/nav2_ws/install/nav2_common/lib/python3.8/site-packages/nav2_common/launch/__init__.py
+[0.586s] -- Symlinking: /home/terra/nav2_ws/install/nav2_common/lib/python3.8/site-packages/nav2_common/launch/has_node_params.py
+[0.599s] -- Symlinking: /home/terra/nav2_ws/install/nav2_common/lib/python3.8/site-packages/nav2_common/launch/replace_string.py
+[0.610s] -- Symlinking: /home/terra/nav2_ws/install/nav2_common/lib/python3.8/site-packages/nav2_common/launch/rewritten_yaml.py
+[0.621s] -- Symlinking: /home/terra/nav2_ws/install/nav2_common/share/ament_index/resource_index/package_run_dependencies/nav2_common
+[0.635s] -- Symlinking: /home/terra/nav2_ws/install/nav2_common/share/ament_index/resource_index/parent_prefix_path/nav2_common
+[0.647s] -- Symlinking: /home/terra/nav2_ws/install/nav2_common/share/nav2_common/environment/ament_prefix_path.sh
+[0.659s] -- Symlinking: /home/terra/nav2_ws/install/nav2_common/share/nav2_common/environment/ament_prefix_path.dsv
+[0.670s] -- Symlinking: /home/terra/nav2_ws/install/nav2_common/share/nav2_common/environment/path.sh
+[0.681s] -- Symlinking: /home/terra/nav2_ws/install/nav2_common/share/nav2_common/environment/path.dsv
+[0.692s] -- Symlinking: /home/terra/nav2_ws/install/nav2_common/share/nav2_common/local_setup.bash
+[0.703s] -- Symlinking: /home/terra/nav2_ws/install/nav2_common/share/nav2_common/local_setup.sh
+[0.715s] -- Symlinking: /home/terra/nav2_ws/install/nav2_common/share/nav2_common/local_setup.zsh
+[0.726s] -- Symlinking: /home/terra/nav2_ws/install/nav2_common/share/nav2_common/local_setup.dsv
+[0.739s] -- Symlinking: /home/terra/nav2_ws/install/nav2_common/share/nav2_common/package.dsv
+[0.751s] -- Symlinking: /home/terra/nav2_ws/install/nav2_common/share/ament_index/resource_index/packages/nav2_common
+[0.765s] -- Symlinking: /home/terra/nav2_ws/install/nav2_common/share/nav2_common/cmake/nav2_common-extras.cmake
+[0.776s] -- Symlinking: /home/terra/nav2_ws/install/nav2_common/share/nav2_common/cmake/nav2_commonConfig.cmake
+[0.786s] -- Symlinking: /home/terra/nav2_ws/install/nav2_common/share/nav2_common/cmake/nav2_commonConfig-version.cmake
+[0.797s] -- Symlinking: /home/terra/nav2_ws/install/nav2_common/share/nav2_common/package.xml
+[0.808s] -- Symlinking: /home/terra/nav2_ws/install/nav2_common/share/nav2_common/cmake/nav2_package.cmake
+[0.857s] Listing '/home/terra/nav2_ws/install/nav2_common/lib/python3.8/site-packages/nav2_common'...
+[0.857s] Compiling '/home/terra/nav2_ws/install/nav2_common/lib/python3.8/site-packages/nav2_common/__init__.py'...
+[0.857s] Listing '/home/terra/nav2_ws/install/nav2_common/lib/python3.8/site-packages/nav2_common/launch'...
+[0.857s] Compiling '/home/terra/nav2_ws/install/nav2_common/lib/python3.8/site-packages/nav2_common/launch/__init__.py'...
+[0.857s] Compiling '/home/terra/nav2_ws/install/nav2_common/lib/python3.8/site-packages/nav2_common/launch/has_node_params.py'...
+[0.857s] Compiling '/home/terra/nav2_ws/install/nav2_common/lib/python3.8/site-packages/nav2_common/launch/replace_string.py'...
+[0.858s] Compiling '/home/terra/nav2_ws/install/nav2_common/lib/python3.8/site-packages/nav2_common/launch/rewritten_yaml.py'...
+[0.865s] Invoked command in '/home/terra/nav2_ws/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/terra/nav2_ws/build/nav2_common

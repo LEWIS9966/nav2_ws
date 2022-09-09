@@ -1,0 +1,103 @@
+[0.078s] Invoking command in '/home/terra/nav2_ws/build/nav2_regulated_pure_pursuit_controller': AMENT_PREFIX_PATH=/home/terra/nav2_ws/install/nav2_core:/home/terra/nav2_ws/install/nav2_costmap_2d:/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_voxel_grid:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/terra/nav2_ws/install/nav2_core:/home/terra/nav2_ws/install/nav2_costmap_2d:/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_voxel_grid:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/terra/nav2_ws/install/nav2_costmap_2d/lib:/home/terra/nav2_ws/install/nav2_util/lib:/home/terra/nav2_ws/install/nav2_voxel_grid/lib:/home/terra/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/terra/nav2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/terra/nav2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/terra/nav2_ws/src/nav2_regulated_pure_pursuit_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/terra/nav2_ws/install/nav2_regulated_pure_pursuit_controller
+[16.760s] -- The C compiler identification is GNU 9.4.0
+[16.761s] -- The CXX compiler identification is GNU 9.4.0
+[16.761s] -- Check for working C compiler: /usr/bin/cc
+[16.761s] -- Check for working C compiler: /usr/bin/cc -- works
+[16.761s] -- Detecting C compiler ABI info
+[16.761s] -- Detecting C compiler ABI info - done
+[16.762s] -- Detecting C compile features
+[16.762s] -- Detecting C compile features - done
+[16.762s] -- Check for working CXX compiler: /usr/bin/c++
+[16.762s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[16.762s] -- Detecting CXX compiler ABI info
+[16.762s] -- Detecting CXX compiler ABI info - done
+[16.763s] -- Detecting CXX compile features
+[16.763s] -- Detecting CXX compile features - done
+[16.763s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[16.763s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[16.763s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[16.763s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[16.764s] -- Found nav2_common: 0.4.7 (/home/terra/nav2_ws/install/nav2_common/share/nav2_common/cmake)
+[16.768s] -- Found nav2_core: 0.4.7 (/home/terra/nav2_ws/install/nav2_core/share/nav2_core/cmake)
+[16.770s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[16.770s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[16.770s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[16.770s] -- Found FastRTPS: /opt/ros/foxy/include  
+[16.770s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[16.771s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[16.771s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[16.771s] -- Looking for pthread.h
+[16.771s] -- Looking for pthread.h - found
+[16.771s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[16.771s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[16.771s] -- Looking for pthread_create in pthreads
+[16.772s] -- Looking for pthread_create in pthreads - not found
+[16.772s] -- Looking for pthread_create in pthread
+[16.772s] -- Looking for pthread_create in pthread - found
+[16.772s] -- Found Threads: TRUE  
+[16.772s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[16.772s] -- Setting build type to Release as none was specified.
+[16.773s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[16.773s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[16.773s] -- Check if compiler accepts -pthread
+[16.773s] -- Check if compiler accepts -pthread - yes
+[22.937s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[22.937s] -- Configured cppcheck include dirs: /home/terra/nav2_ws/src/nav2_regulated_pure_pursuit_controller/include
+[22.937s] -- Configured cppcheck exclude dirs and/or files: 
+[22.948s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[22.948s] -- Configured cpplint exclude dirs and/or files: 
+[22.950s] -- Added test 'lint_cmake' to check CMake code style
+[22.953s] -- Added test 'uncrustify' to check C / C++ code style
+[22.953s] -- Configured uncrustify additional arguments: 
+[22.954s] -- Added test 'xmllint' to check XML markup files
+[22.995s] -- Configuring done
+[23.506s] -- Generating done
+[23.524s] -- Build files have been written to: /home/terra/nav2_ws/build/nav2_regulated_pure_pursuit_controller
+[23.571s] Invoked command in '/home/terra/nav2_ws/build/nav2_regulated_pure_pursuit_controller' returned '0': AMENT_PREFIX_PATH=/home/terra/nav2_ws/install/nav2_core:/home/terra/nav2_ws/install/nav2_costmap_2d:/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_voxel_grid:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/terra/nav2_ws/install/nav2_core:/home/terra/nav2_ws/install/nav2_costmap_2d:/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_voxel_grid:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/terra/nav2_ws/install/nav2_costmap_2d/lib:/home/terra/nav2_ws/install/nav2_util/lib:/home/terra/nav2_ws/install/nav2_voxel_grid/lib:/home/terra/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/terra/nav2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/terra/nav2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/terra/nav2_ws/src/nav2_regulated_pure_pursuit_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/terra/nav2_ws/install/nav2_regulated_pure_pursuit_controller
+[23.573s] Invoking command in '/home/terra/nav2_ws/build/nav2_regulated_pure_pursuit_controller': AMENT_PREFIX_PATH=/home/terra/nav2_ws/install/nav2_core:/home/terra/nav2_ws/install/nav2_costmap_2d:/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_voxel_grid:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/terra/nav2_ws/install/nav2_core:/home/terra/nav2_ws/install/nav2_costmap_2d:/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_voxel_grid:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/terra/nav2_ws/install/nav2_costmap_2d/lib:/home/terra/nav2_ws/install/nav2_util/lib:/home/terra/nav2_ws/install/nav2_voxel_grid/lib:/home/terra/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/terra/nav2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/terra/nav2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/terra/nav2_ws/build/nav2_regulated_pure_pursuit_controller -- -j8 -l8
+[30.578s] [35m[1mScanning dependencies of target nav2_regulated_pure_pursuit_controller[0m
+[30.578s] [ 12%] [32mBuilding CXX object CMakeFiles/nav2_regulated_pure_pursuit_controller.dir/src/regulated_pure_pursuit_controller.cpp.o[0m
+[40.438s] [ 25%] [32m[1mLinking CXX shared library libnav2_regulated_pure_pursuit_controller.so[0m
+[41.351s] [ 25%] Built target nav2_regulated_pure_pursuit_controller
+[41.408s] [35m[1mScanning dependencies of target gtest_main[0m
+[41.519s] [ 37%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[42.960s] [ 50%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[43.019s] [ 50%] Built target gtest_main
+[43.038s] [35m[1mScanning dependencies of target gtest[0m
+[43.072s] [ 62%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[56.032s] [ 75%] [32m[1mLinking CXX static library libgtest.a[0m
+[56.118s] [ 75%] Built target gtest
+[56.141s] [35m[1mScanning dependencies of target test_regulated_pp[0m
+[56.296s] [ 87%] [32mBuilding CXX object test/CMakeFiles/test_regulated_pp.dir/test_regulated_pp.cpp.o[0m
+[65.227s] [100%] [32m[1mLinking CXX executable test_regulated_pp[0m
+[65.757s] [100%] Built target test_regulated_pp
+[65.775s] Invoked command in '/home/terra/nav2_ws/build/nav2_regulated_pure_pursuit_controller' returned '0': AMENT_PREFIX_PATH=/home/terra/nav2_ws/install/nav2_core:/home/terra/nav2_ws/install/nav2_costmap_2d:/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_voxel_grid:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/terra/nav2_ws/install/nav2_core:/home/terra/nav2_ws/install/nav2_costmap_2d:/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_voxel_grid:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/terra/nav2_ws/install/nav2_costmap_2d/lib:/home/terra/nav2_ws/install/nav2_util/lib:/home/terra/nav2_ws/install/nav2_voxel_grid/lib:/home/terra/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/terra/nav2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/terra/nav2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/terra/nav2_ws/build/nav2_regulated_pure_pursuit_controller -- -j8 -l8
+[65.815s] Invoking command in '/home/terra/nav2_ws/build/nav2_regulated_pure_pursuit_controller': AMENT_PREFIX_PATH=/home/terra/nav2_ws/install/nav2_core:/home/terra/nav2_ws/install/nav2_costmap_2d:/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_voxel_grid:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/terra/nav2_ws/install/nav2_core:/home/terra/nav2_ws/install/nav2_costmap_2d:/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_voxel_grid:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/terra/nav2_ws/install/nav2_costmap_2d/lib:/home/terra/nav2_ws/install/nav2_util/lib:/home/terra/nav2_ws/install/nav2_voxel_grid/lib:/home/terra/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/terra/nav2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/terra/nav2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/terra/nav2_ws/build/nav2_regulated_pure_pursuit_controller
+[65.827s] -- Install configuration: "Release"
+[65.827s] -- Execute custom install script
+[65.828s] -- Symlinking: /home/terra/nav2_ws/install/nav2_regulated_pure_pursuit_controller/lib/libnav2_regulated_pure_pursuit_controller.so
+[65.841s] -- Symlinking: /home/terra/nav2_ws/install/nav2_regulated_pure_pursuit_controller/include//nav2_regulated_pure_pursuit_controller/regulated_pure_pursuit_controller.hpp
+[65.854s] -- Symlinking: /home/terra/nav2_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/environment/library_path.sh
+[65.866s] -- Symlinking: /home/terra/nav2_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/environment/library_path.dsv
+[65.879s] -- Symlinking: /home/terra/nav2_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller//nav2_regulated_pure_pursuit_controller.xml
+[65.891s] -- Symlinking: /home/terra/nav2_ws/install/nav2_regulated_pure_pursuit_controller/share/ament_index/resource_index/package_run_dependencies/nav2_regulated_pure_pursuit_controller
+[65.912s] -- Symlinking: /home/terra/nav2_ws/install/nav2_regulated_pure_pursuit_controller/share/ament_index/resource_index/parent_prefix_path/nav2_regulated_pure_pursuit_controller
+[65.920s] -- Symlinking: /home/terra/nav2_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/environment/ament_prefix_path.sh
+[65.932s] -- Symlinking: /home/terra/nav2_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/environment/ament_prefix_path.dsv
+[65.945s] -- Symlinking: /home/terra/nav2_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/environment/path.sh
+[65.957s] -- Symlinking: /home/terra/nav2_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/environment/path.dsv
+[65.970s] -- Symlinking: /home/terra/nav2_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/local_setup.bash
+[65.983s] -- Symlinking: /home/terra/nav2_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/local_setup.sh
+[65.995s] -- Symlinking: /home/terra/nav2_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/local_setup.zsh
+[66.012s] -- Symlinking: /home/terra/nav2_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/local_setup.dsv
+[66.024s] -- Symlinking: /home/terra/nav2_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/package.dsv
+[66.037s] -- Symlinking: /home/terra/nav2_ws/install/nav2_regulated_pure_pursuit_controller/share/ament_index/resource_index/packages/nav2_regulated_pure_pursuit_controller
+[66.050s] -- Symlinking: /home/terra/nav2_ws/install/nav2_regulated_pure_pursuit_controller/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_regulated_pure_pursuit_controller
+[66.064s] -- Symlinking: /home/terra/nav2_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+[66.077s] -- Symlinking: /home/terra/nav2_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/cmake/ament_cmake_export_libraries-extras.cmake
+[66.092s] -- Symlinking: /home/terra/nav2_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[66.112s] -- Symlinking: /home/terra/nav2_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/cmake/ament_cmake_export_definitions-extras.cmake
+[66.125s] -- Symlinking: /home/terra/nav2_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/cmake/nav2_regulated_pure_pursuit_controllerConfig.cmake
+[66.139s] -- Symlinking: /home/terra/nav2_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/cmake/nav2_regulated_pure_pursuit_controllerConfig-version.cmake
+[66.154s] -- Symlinking: /home/terra/nav2_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/package.xml
+[66.177s] Invoked command in '/home/terra/nav2_ws/build/nav2_regulated_pure_pursuit_controller' returned '0': AMENT_PREFIX_PATH=/home/terra/nav2_ws/install/nav2_core:/home/terra/nav2_ws/install/nav2_costmap_2d:/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_voxel_grid:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/terra/nav2_ws/install/nav2_core:/home/terra/nav2_ws/install/nav2_costmap_2d:/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_voxel_grid:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/terra/nav2_ws/install/nav2_costmap_2d/lib:/home/terra/nav2_ws/install/nav2_util/lib:/home/terra/nav2_ws/install/nav2_voxel_grid/lib:/home/terra/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/terra/nav2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/terra/nav2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/terra/nav2_ws/build/nav2_regulated_pure_pursuit_controller

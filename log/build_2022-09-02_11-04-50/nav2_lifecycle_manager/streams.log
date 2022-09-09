@@ -1,0 +1,117 @@
+[0.066s] Invoking command in '/home/terra/nav2_ws/build/nav2_lifecycle_manager': AMENT_PREFIX_PATH=/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/terra/nav2_ws/install/nav2_util/lib:/home/terra/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/terra/nav2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/terra/nav2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/terra/nav2_ws/src/nav2_lifecycle_manager -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/terra/nav2_ws/install/nav2_lifecycle_manager
+[0.151s] -- The C compiler identification is GNU 9.4.0
+[0.239s] -- The CXX compiler identification is GNU 9.4.0
+[0.246s] -- Check for working C compiler: /usr/bin/cc
+[0.348s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.350s] -- Detecting C compiler ABI info
+[0.467s] -- Detecting C compiler ABI info - done
+[0.486s] -- Detecting C compile features
+[0.487s] -- Detecting C compile features - done
+[0.489s] -- Check for working CXX compiler: /usr/bin/c++
+[0.634s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.636s] -- Detecting CXX compiler ABI info
+[0.758s] -- Detecting CXX compiler ABI info - done
+[0.784s] -- Detecting CXX compile features
+[0.785s] -- Detecting CXX compile features - done
+[0.789s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.834s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.834s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.074s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.118s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[1.164s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.181s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.316s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.362s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.519s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.704s] -- Found lifecycle_msgs: 1.0.0 (/opt/ros/foxy/share/lifecycle_msgs/cmake)
+[1.716s] -- Found nav2_common: 0.4.7 (/home/terra/nav2_ws/install/nav2_common/share/nav2_common/cmake)
+[1.716s] -- Found nav2_msgs: 0.4.7 (/home/terra/nav2_ws/install/nav2_msgs/share/nav2_msgs/cmake)
+[2.298s] -- Found nav2_util: 0.4.7 (/home/terra/nav2_ws/install/nav2_util/share/nav2_util/cmake)
+[2.471s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.474s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.476s] -- Looking for pthread.h
+[2.597s] -- Looking for pthread.h - found
+[2.597s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.719s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.720s] -- Looking for pthread_create in pthreads
+[2.834s] -- Looking for pthread_create in pthreads - not found
+[2.834s] -- Looking for pthread_create in pthread
+[2.954s] -- Looking for pthread_create in pthread - found
+[2.954s] -- Found Threads: TRUE  
+[3.911s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[3.917s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[4.261s] -- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)
+[4.279s] -- Setting build type to Release as none was specified.
+[4.877s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[5.001s] -- Found ament_cmake_gtest: 0.9.9 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[5.002s] -- Found ament_cmake_pytest: 0.9.9 (/opt/ros/foxy/share/ament_cmake_pytest/cmake)
+[5.010s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[5.014s] -- Check if compiler accepts -pthread
+[5.170s] -- Check if compiler accepts -pthread - yes
+[5.433s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.435s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.436s] -- Configured cppcheck include dirs: /home/terra/nav2_ws/src/nav2_lifecycle_manager/include
+[5.436s] -- Configured cppcheck exclude dirs and/or files: 
+[5.451s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[5.451s] -- Configured cpplint exclude dirs and/or files: 
+[5.452s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.452s] -- Added test 'lint_cmake' to check CMake code style
+[5.452s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[5.452s] -- Added test 'uncrustify' to check C / C++ code style
+[5.452s] -- Configured uncrustify additional arguments: 
+[5.452s] -- Added test 'xmllint' to check XML markup files
+[5.458s] -- Configuring done
+[5.673s] -- Generating done
+[5.677s] -- Build files have been written to: /home/terra/nav2_ws/build/nav2_lifecycle_manager
+[5.696s] Invoked command in '/home/terra/nav2_ws/build/nav2_lifecycle_manager' returned '0': AMENT_PREFIX_PATH=/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/terra/nav2_ws/install/nav2_util/lib:/home/terra/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/terra/nav2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/terra/nav2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/terra/nav2_ws/src/nav2_lifecycle_manager -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/terra/nav2_ws/install/nav2_lifecycle_manager
+[5.698s] Invoking command in '/home/terra/nav2_ws/build/nav2_lifecycle_manager': AMENT_PREFIX_PATH=/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/terra/nav2_ws/install/nav2_util/lib:/home/terra/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/terra/nav2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/terra/nav2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/terra/nav2_ws/build/nav2_lifecycle_manager -- -j8 -l8
+[5.775s] [35m[1mScanning dependencies of target gtest[0m
+[5.778s] [35m[1mScanning dependencies of target gtest_main[0m
+[5.807s] [  9%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[5.808s] [35m[1mScanning dependencies of target nav2_lifecycle_manager_core[0m
+[5.824s] [ 18%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[5.970s] [ 27%] [32mBuilding CXX object CMakeFiles/nav2_lifecycle_manager_core.dir/src/lifecycle_manager.cpp.o[0m
+[5.980s] [ 36%] [32mBuilding CXX object CMakeFiles/nav2_lifecycle_manager_core.dir/src/lifecycle_manager_client.cpp.o[0m
+[7.641s] [ 45%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[7.799s] [ 45%] Built target gtest_main
+[15.653s] [ 54%] [32m[1mLinking CXX shared library libnav2_lifecycle_manager_core.so[0m
+[16.017s] [ 54%] Built target nav2_lifecycle_manager_core
+[16.037s] [35m[1mScanning dependencies of target lifecycle_manager[0m
+[16.109s] [ 63%] [32mBuilding CXX object CMakeFiles/lifecycle_manager.dir/src/main.cpp.o[0m
+[19.830s] [ 72%] [32m[1mLinking CXX executable lifecycle_manager[0m
+[20.248s] [ 72%] Built target lifecycle_manager
+[21.488s] [ 81%] [32m[1mLinking CXX static library libgtest.a[0m
+[21.590s] [ 81%] Built target gtest
+[21.624s] [35m[1mScanning dependencies of target test_lifecycle_gtest[0m
+[21.764s] [ 90%] [32mBuilding CXX object test/CMakeFiles/test_lifecycle_gtest.dir/test_lifecycle_manager.cpp.o[0m
+[27.863s] [100%] [32m[1mLinking CXX executable test_lifecycle_gtest[0m
+[28.346s] [100%] Built target test_lifecycle_gtest
+[28.370s] Invoked command in '/home/terra/nav2_ws/build/nav2_lifecycle_manager' returned '0': AMENT_PREFIX_PATH=/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/terra/nav2_ws/install/nav2_util/lib:/home/terra/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/terra/nav2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/terra/nav2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/terra/nav2_ws/build/nav2_lifecycle_manager -- -j8 -l8
+[28.434s] Invoking command in '/home/terra/nav2_ws/build/nav2_lifecycle_manager': AMENT_PREFIX_PATH=/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/terra/nav2_ws/install/nav2_util/lib:/home/terra/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/terra/nav2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/terra/nav2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/terra/nav2_ws/build/nav2_lifecycle_manager
+[28.456s] -- Install configuration: "Release"
+[28.457s] -- Execute custom install script
+[28.458s] -- Symlinking: /home/terra/nav2_ws/install/nav2_lifecycle_manager/lib/libnav2_lifecycle_manager_core.so
+[28.478s] -- Symlinking: /home/terra/nav2_ws/install/nav2_lifecycle_manager/lib/nav2_lifecycle_manager/lifecycle_manager
+[28.499s] -- Symlinking: /home/terra/nav2_ws/install/nav2_lifecycle_manager/include//nav2_lifecycle_manager/lifecycle_manager.hpp
+[28.518s] -- Symlinking: /home/terra/nav2_ws/install/nav2_lifecycle_manager/include//nav2_lifecycle_manager/lifecycle_manager_client.hpp
+[28.539s] -- Symlinking: /home/terra/nav2_ws/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/environment/library_path.sh
+[28.559s] -- Symlinking: /home/terra/nav2_ws/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/environment/library_path.dsv
+[28.580s] -- Symlinking: /home/terra/nav2_ws/install/nav2_lifecycle_manager/share/ament_index/resource_index/package_run_dependencies/nav2_lifecycle_manager
+[28.601s] -- Symlinking: /home/terra/nav2_ws/install/nav2_lifecycle_manager/share/ament_index/resource_index/parent_prefix_path/nav2_lifecycle_manager
+[28.623s] -- Symlinking: /home/terra/nav2_ws/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/environment/ament_prefix_path.sh
+[28.644s] -- Symlinking: /home/terra/nav2_ws/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/environment/ament_prefix_path.dsv
+[28.664s] -- Symlinking: /home/terra/nav2_ws/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/environment/path.sh
+[28.684s] -- Symlinking: /home/terra/nav2_ws/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/environment/path.dsv
+[28.703s] -- Symlinking: /home/terra/nav2_ws/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/local_setup.bash
+[28.724s] -- Symlinking: /home/terra/nav2_ws/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/local_setup.sh
+[28.755s] -- Symlinking: /home/terra/nav2_ws/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/local_setup.zsh
+[28.776s] -- Symlinking: /home/terra/nav2_ws/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/local_setup.dsv
+[28.826s] -- Symlinking: /home/terra/nav2_ws/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/package.dsv
+[28.875s] -- Symlinking: /home/terra/nav2_ws/install/nav2_lifecycle_manager/share/ament_index/resource_index/packages/nav2_lifecycle_manager
+[28.934s] -- Symlinking: /home/terra/nav2_ws/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/cmake/ament_cmake_export_include_directories-extras.cmake
+[28.993s] -- Symlinking: /home/terra/nav2_ws/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/cmake/ament_cmake_export_libraries-extras.cmake
+[29.044s] -- Symlinking: /home/terra/nav2_ws/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/cmake/ament_cmake_export_dependencies-extras.cmake
+[29.095s] -- Symlinking: /home/terra/nav2_ws/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/cmake/nav2_lifecycle_managerConfig.cmake
+[29.137s] -- Symlinking: /home/terra/nav2_ws/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/cmake/nav2_lifecycle_managerConfig-version.cmake
+[29.189s] -- Symlinking: /home/terra/nav2_ws/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/package.xml
+[29.246s] Invoked command in '/home/terra/nav2_ws/build/nav2_lifecycle_manager' returned '0': AMENT_PREFIX_PATH=/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/terra/nav2_ws/install/nav2_util/lib:/home/terra/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/terra/nav2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/terra/nav2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/terra/nav2_ws/build/nav2_lifecycle_manager

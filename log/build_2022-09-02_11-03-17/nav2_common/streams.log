@@ -1,0 +1,21 @@
+[0.034s] Invoking command in '/home/terra/nav2_ws/build/nav2_common': /usr/bin/cmake /home/terra/nav2_ws/src/nav2_common -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/terra/nav2_ws/install/nav2_common
+[0.286s] -- Configuring incomplete, errors occurred!
+[0.286s] See also "/home/terra/nav2_ws/build/nav2_common/CMakeFiles/CMakeOutput.log".
+[0.287s] CMake Error at CMakeLists.txt:5 (find_package):
+[0.288s]   By not providing "Findament_cmake_core.cmake" in CMAKE_MODULE_PATH this
+[0.288s]   project has asked CMake to find a package configuration file provided by
+[0.288s]   "ament_cmake_core", but CMake did not find one.
+[0.289s] 
+[0.289s]   Could not find a package configuration file provided by "ament_cmake_core"
+[0.289s]   with any of the following names:
+[0.289s] 
+[0.291s]     ament_cmake_coreConfig.cmake
+[0.292s]     ament_cmake_core-config.cmake
+[0.293s] 
+[0.294s]   Add the installation prefix of "ament_cmake_core" to CMAKE_PREFIX_PATH or
+[0.294s]   set "ament_cmake_core_DIR" to a directory containing one of the above
+[0.295s]   files.  If "ament_cmake_core" provides a separate development package or
+[0.296s]   SDK, be sure it has been installed.
+[0.296s] 
+[0.297s] 
+[0.299s] Invoked command in '/home/terra/nav2_ws/build/nav2_common' returned '1': /usr/bin/cmake /home/terra/nav2_ws/src/nav2_common -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/terra/nav2_ws/install/nav2_common

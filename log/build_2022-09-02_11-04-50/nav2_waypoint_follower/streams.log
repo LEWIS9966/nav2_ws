@@ -1,0 +1,93 @@
+[0.055s] Invoking command in '/home/terra/nav2_ws/build/nav2_waypoint_follower': AMENT_PREFIX_PATH=/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/terra/nav2_ws/install/nav2_util/lib:/home/terra/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/terra/nav2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/terra/nav2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/terra/nav2_ws/src/nav2_waypoint_follower -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/terra/nav2_ws/install/nav2_waypoint_follower
+[0.151s] -- The C compiler identification is GNU 9.4.0
+[0.250s] -- The CXX compiler identification is GNU 9.4.0
+[0.259s] -- Check for working C compiler: /usr/bin/cc
+[0.381s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.383s] -- Detecting C compiler ABI info
+[0.483s] -- Detecting C compiler ABI info - done
+[0.510s] -- Detecting C compile features
+[0.511s] -- Detecting C compile features - done
+[0.516s] -- Check for working CXX compiler: /usr/bin/c++
+[0.645s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.647s] -- Detecting CXX compiler ABI info
+[0.766s] -- Detecting CXX compiler ABI info - done
+[0.781s] -- Detecting CXX compile features
+[0.781s] -- Detecting CXX compile features - done
+[0.785s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.825s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.825s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.066s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.111s] -- Found nav2_common: 0.4.7 (/home/terra/nav2_ws/install/nav2_common/share/nav2_common/cmake)
+[1.115s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.182s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.197s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.316s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.375s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.526s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.643s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.646s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.647s] -- Looking for pthread.h
+[1.758s] -- Looking for pthread.h - found
+[1.758s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.881s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.881s] -- Looking for pthread_create in pthreads
+[1.984s] -- Looking for pthread_create in pthreads - not found
+[1.984s] -- Looking for pthread_create in pthread
+[2.105s] -- Looking for pthread_create in pthread - found
+[2.107s] -- Found Threads: TRUE  
+[2.333s] -- Found rclcpp_action: 2.4.1 (/opt/ros/foxy/share/rclcpp_action/cmake)
+[2.455s] -- Found rclcpp_lifecycle: 2.4.1 (/opt/ros/foxy/share/rclcpp_lifecycle/cmake)
+[2.509s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[2.715s] -- Found nav2_msgs: 0.4.7 (/home/terra/nav2_ws/install/nav2_msgs/share/nav2_msgs/cmake)
+[3.113s] -- Found nav2_util: 0.4.7 (/home/terra/nav2_ws/install/nav2_util/share/nav2_util/cmake)
+[3.799s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[3.804s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[4.116s] -- Setting build type to Release as none was specified.
+[4.797s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[4.937s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.940s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.941s] -- Configured cppcheck include dirs: /home/terra/nav2_ws/src/nav2_waypoint_follower/include
+[4.941s] -- Configured cppcheck exclude dirs and/or files: 
+[4.943s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.943s] -- Configured cpplint exclude dirs and/or files: 
+[4.945s] -- Added test 'lint_cmake' to check CMake code style
+[4.947s] -- Added test 'uncrustify' to check C / C++ code style
+[4.947s] -- Configured uncrustify additional arguments: 
+[4.948s] -- Added test 'xmllint' to check XML markup files
+[4.965s] -- Configuring done
+[5.126s] -- Generating done
+[5.129s] -- Build files have been written to: /home/terra/nav2_ws/build/nav2_waypoint_follower
+[5.145s] Invoked command in '/home/terra/nav2_ws/build/nav2_waypoint_follower' returned '0': AMENT_PREFIX_PATH=/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/terra/nav2_ws/install/nav2_util/lib:/home/terra/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/terra/nav2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/terra/nav2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/terra/nav2_ws/src/nav2_waypoint_follower -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/terra/nav2_ws/install/nav2_waypoint_follower
+[5.149s] Invoking command in '/home/terra/nav2_ws/build/nav2_waypoint_follower': AMENT_PREFIX_PATH=/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/terra/nav2_ws/install/nav2_util/lib:/home/terra/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/terra/nav2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/terra/nav2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/terra/nav2_ws/build/nav2_waypoint_follower -- -j8 -l8
+[5.224s] [35m[1mScanning dependencies of target waypoint_follower_core[0m
+[5.317s] [ 25%] [32mBuilding CXX object CMakeFiles/waypoint_follower_core.dir/src/waypoint_follower.cpp.o[0m
+[19.484s] [ 50%] [32m[1mLinking CXX shared library libwaypoint_follower_core.so[0m
+[19.987s] [ 50%] Built target waypoint_follower_core
+[20.062s] [35m[1mScanning dependencies of target waypoint_follower[0m
+[20.239s] [ 75%] [32mBuilding CXX object CMakeFiles/waypoint_follower.dir/src/main.cpp.o[0m
+[23.994s] [100%] [32m[1mLinking CXX executable waypoint_follower[0m
+[24.729s] [100%] Built target waypoint_follower
+[24.787s] Invoked command in '/home/terra/nav2_ws/build/nav2_waypoint_follower' returned '0': AMENT_PREFIX_PATH=/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/terra/nav2_ws/install/nav2_util/lib:/home/terra/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/terra/nav2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/terra/nav2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/terra/nav2_ws/build/nav2_waypoint_follower -- -j8 -l8
+[25.138s] Invoking command in '/home/terra/nav2_ws/build/nav2_waypoint_follower': AMENT_PREFIX_PATH=/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/terra/nav2_ws/install/nav2_util/lib:/home/terra/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/terra/nav2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/terra/nav2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/terra/nav2_ws/build/nav2_waypoint_follower
+[25.179s] -- Install configuration: "Release"
+[25.180s] -- Execute custom install script
+[25.180s] -- Symlinking: /home/terra/nav2_ws/install/nav2_waypoint_follower/lib/libwaypoint_follower_core.so
+[25.228s] -- Symlinking: /home/terra/nav2_ws/install/nav2_waypoint_follower/lib/nav2_waypoint_follower/waypoint_follower
+[25.281s] -- Symlinking: /home/terra/nav2_ws/install/nav2_waypoint_follower/include//nav2_waypoint_follower/waypoint_follower.hpp
+[25.317s] -- Symlinking: /home/terra/nav2_ws/install/nav2_waypoint_follower/share/ament_index/resource_index/package_run_dependencies/nav2_waypoint_follower
+[25.338s] -- Symlinking: /home/terra/nav2_ws/install/nav2_waypoint_follower/share/ament_index/resource_index/parent_prefix_path/nav2_waypoint_follower
+[25.380s] -- Symlinking: /home/terra/nav2_ws/install/nav2_waypoint_follower/share/nav2_waypoint_follower/environment/ament_prefix_path.sh
+[25.402s] -- Symlinking: /home/terra/nav2_ws/install/nav2_waypoint_follower/share/nav2_waypoint_follower/environment/ament_prefix_path.dsv
+[25.424s] -- Symlinking: /home/terra/nav2_ws/install/nav2_waypoint_follower/share/nav2_waypoint_follower/environment/path.sh
+[25.446s] -- Symlinking: /home/terra/nav2_ws/install/nav2_waypoint_follower/share/nav2_waypoint_follower/environment/path.dsv
+[25.481s] -- Symlinking: /home/terra/nav2_ws/install/nav2_waypoint_follower/share/nav2_waypoint_follower/local_setup.bash
+[25.502s] -- Symlinking: /home/terra/nav2_ws/install/nav2_waypoint_follower/share/nav2_waypoint_follower/local_setup.sh
+[25.524s] -- Symlinking: /home/terra/nav2_ws/install/nav2_waypoint_follower/share/nav2_waypoint_follower/local_setup.zsh
+[25.548s] -- Symlinking: /home/terra/nav2_ws/install/nav2_waypoint_follower/share/nav2_waypoint_follower/local_setup.dsv
+[25.582s] -- Symlinking: /home/terra/nav2_ws/install/nav2_waypoint_follower/share/nav2_waypoint_follower/package.dsv
+[25.604s] -- Symlinking: /home/terra/nav2_ws/install/nav2_waypoint_follower/share/ament_index/resource_index/packages/nav2_waypoint_follower
+[25.627s] -- Symlinking: /home/terra/nav2_ws/install/nav2_waypoint_follower/share/nav2_waypoint_follower/cmake/ament_cmake_export_include_directories-extras.cmake
+[25.649s] -- Symlinking: /home/terra/nav2_ws/install/nav2_waypoint_follower/share/nav2_waypoint_follower/cmake/nav2_waypoint_followerConfig.cmake
+[25.684s] -- Symlinking: /home/terra/nav2_ws/install/nav2_waypoint_follower/share/nav2_waypoint_follower/cmake/nav2_waypoint_followerConfig-version.cmake
+[25.718s] -- Symlinking: /home/terra/nav2_ws/install/nav2_waypoint_follower/share/nav2_waypoint_follower/package.xml
+[25.751s] Invoked command in '/home/terra/nav2_ws/build/nav2_waypoint_follower' returned '0': AMENT_PREFIX_PATH=/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/terra/nav2_ws/install/nav2_util:/home/terra/nav2_ws/install/nav2_msgs:/home/terra/nav2_ws/install/nav2_common:/opt/ros/foxy LD_LIBRARY_PATH=/home/terra/nav2_ws/install/nav2_util/lib:/home/terra/nav2_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/terra/nav2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/terra/nav2_ws/install/nav2_common/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/terra/nav2_ws/build/nav2_waypoint_follower
