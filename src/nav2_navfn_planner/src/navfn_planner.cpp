@@ -139,8 +139,8 @@ nav_msgs::msg::Path NavfnPlanner::createPlan(
       costmap_->getSizeInCellsY());
   }
   nav_msgs::msg::Path path;
-  RCLCPP_INFO(node_ -> get_logger(), "-----------------------CREATE PLAN---------------------------");
-  RCLCPP_INFO(node_ -> get_logger(), "cost of cell from costmap is %6d",(int)(planner_->costarr[180]));
+  //RCLCPP_INFO(node_ -> get_logger(), "-----------------------CREATE PLAN---------------------------");
+  //RCLCPP_INFO(node_ -> get_logger(), "cost of cell from costmap is %6d",(int)(planner_->costarr[1800]));
   if (!makePlan(start.pose, goal.pose, tolerance_, path)) {
     RCLCPP_WARN(
       node_->get_logger(), "%s: failed to create plan with "
@@ -214,7 +214,7 @@ NavfnPlanner::makePlan(
   
 
   RCLCPP_INFO(node_ -> get_logger(), "cost cell from costmap is %6d", (int)(planner_->costarr[1750]));
-
+  RCLCPP_INFO(node_ -> get_logger(), "cost cell from costmap is %6d", (int)(costmap_->getCost(1750)));
 
   int map_start[2];
   map_start[0] = mx;
